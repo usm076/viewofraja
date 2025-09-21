@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Finance with Raja</title>
+    <link>http://localhost:1314/categories/</link>
+    <description>Recent content in Categories on Finance with Raja</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 22 Sep 2025 01:04:39 +0500</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Investing</title>
+      <link>http://localhost:1314/categories/investing/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:39 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Retirement Planning</title>
+      <link>http://localhost:1314/categories/retirement-planning/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:39 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/retirement-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Budgeting</title>
+      <link>http://localhost:1314/categories/budgeting/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:34 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/budgeting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1314/categories/technology/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:34 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/technology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Debt Management</title>
+      <link>http://localhost:1314/categories/debt-management/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:22 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/debt-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Planning</title>
+      <link>http://localhost:1314/categories/financial-planning/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:22 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/financial-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wealth Building</title>
+      <link>http://localhost:1314/categories/wealth-building/</link>
+      <pubDate>Mon, 22 Sep 2025 01:04:16 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/wealth-building/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Banking</title>
+      <link>http://localhost:1314/categories/banking/</link>
+      <pubDate>Mon, 22 Sep 2025 01:03:59 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/banking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Savings</title>
+      <link>http://localhost:1314/categories/savings/</link>
+      <pubDate>Mon, 22 Sep 2025 01:03:59 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/savings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Credit Cards</title>
+      <link>http://localhost:1314/categories/credit-cards/</link>
+      <pubDate>Mon, 22 Sep 2025 00:41:43 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/credit-cards/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reviews</title>
+      <link>http://localhost:1314/categories/reviews/</link>
+      <pubDate>Mon, 22 Sep 2025 00:41:43 +0500</pubDate>
+      
+      <guid>http://localhost:1314/categories/reviews/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

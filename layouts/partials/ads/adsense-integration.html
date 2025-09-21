@@ -1,0 +1,40 @@
+<!-- AdSense Integration Helper for Hugo Theme -->
+<!-- Add this to your theme's head section -->
+
+<!-- Step 1: Add AdSense Auto Ads Code (Replace with your actual code after approval) -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXX"
+    crossorigin="anonymous"></script>
+
+<!-- Step 2: Auto Ads Configuration (Easiest for beginners) -->
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-XXXXXXXXX",
+        enable_page_level_ads: true
+    });
+</script>
+
+<!-- Step 3: Manual Ad Placement (For more control) -->
+<!-- Use these in your templates where you want ads -->
+
+<!-- Header Ad Example -->
+<!-- Add: partial "ads/header-banner.html" . -->
+
+<!-- In-Content Ad Example (use in posts) -->
+<!-- Add: ad-break shortcode -->
+
+<!-- Sidebar Ad Example -->
+<!-- Add: partial "ads/sidebar.html" . -->
+
+<!-- Footer Ad Example -->
+<!-- Add: partial "ads/footer-banner.html" . -->
+
+<!-- Performance Optimization -->
+<script>
+    // Lazy load ads for better performance
+    document.addEventListener('DOMContentLoaded', function () {
+        // Only load ads after content is ready
+        if (typeof adsbygoogle !== 'undefined') {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+    });
+</script>

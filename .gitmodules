@@ -1,0 +1,7 @@
+[submodule "personal-finance-blog/themes/PaperMod"]
+	path = personal-finance-blog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "personal-finance-blog/themes/blowfish"]
+	path = personal-finance-blog/themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
+	branch = main

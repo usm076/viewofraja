@@ -1,0 +1,54 @@
+/* Custom styles for Smart Finance Hub */
+
+/* Custom color scheme for finance theme */
+:root {
+  --color-primary: #2563eb;
+  --color-secondary: #059669;
+  --color-accent: #dc2626;
+}
+
+/* Custom header styling */
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Custom card styling for blog posts */
+.article-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom button styling */
+.btn-primary {
+  background: linear-gradient(45deg, #2563eb, #059669);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+/* Finance-specific styling */
+.finance-highlight {
+  background: #f0f9ff;
+  border-left: 4px solid #2563eb;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+/* Custom typography for readability */
+.article-content {
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .article-card {
+    margin-bottom: 1rem;
+  }
+}

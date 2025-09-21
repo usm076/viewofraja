@@ -1,0 +1,62 @@
+<!-- Google AdSense Configuration for Finance with Raja -->
+<!-- Replace YOUR_ADSENSE_CLIENT_ID with your actual AdSense client ID -->
+
+{{ $adsenseClientId := "ca-pub-XXXXXXXXX" }}
+{{ $adsenseEnabled := true }}
+
+<!-- AdSense Auto Ads (Recommended for beginners) -->
+{{ if $adsenseEnabled }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsenseClientId }}"
+     crossorigin="anonymous"></script>
+
+<!-- Auto Ads Configuration -->
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "{{ $adsenseClientId }}",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+{{ end }}
+
+<!-- AdSense Performance Optimization -->
+<script>
+  // Lazy load ads for better performance
+  window.addEventListener('load', function() {
+    // Initialize AdSense after page load
+    if (typeof adsbygoogle !== 'undefined') {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  });
+</script>
+
+<!-- AdSense Responsive Configuration -->
+<style>
+/* Responsive AdSense styling */
+.adsbygoogle {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .adsbygoogle[data-ad-format="auto"] {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Desktop optimization */
+@media (min-width: 769px) {
+  .adsbygoogle[data-ad-format="rectangle"] {
+    width: 300px !important;
+    height: 250px !important;
+  }
+  
+  .adsbygoogle[data-ad-format="leaderboard"] {
+    width: 728px !important;
+    height: 90px !important;
+  }
+}
+</style>

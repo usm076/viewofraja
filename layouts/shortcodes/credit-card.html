@@ -1,0 +1,59 @@
+<!-- Custom shortcode for credit card reviews -->
+<div class="credit-card-review">
+  <div class="card-header">
+    <h3>{{ .Get "name" }}</h3>
+    <div class="rating">
+      {{ range seq (int (.Get "rating")) }}⭐{{ end }}
+    </div>
+  </div>
+  <div class="card-details">
+    <div class="detail-item">
+      <strong>Annual Fee:</strong> {{ .Get "fee" }}
+    </div>
+    <div class="detail-item">
+      <strong>Rewards:</strong> {{ .Get "rewards" }}
+    </div>
+    <div class="detail-item">
+      <strong>Sign-up Bonus:</strong> {{ .Get "bonus" }}
+    </div>
+  </div>
+  <div class="card-content">
+    {{ .Inner }}
+  </div>
+</div>
+
+<style>
+.credit-card-review {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  background: #f9fafb;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-header h3 {
+  margin: 0;
+  color: #1f2937;
+}
+
+.rating {
+  font-size: 1.2em;
+}
+
+.detail-item {
+  margin: 8px 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+</style>

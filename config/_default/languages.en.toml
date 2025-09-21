@@ -1,0 +1,26 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Finance with Raja"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/logo.png"
+  secondaryLogo = "img/secondary-logo.png"
+  description = "Your trusted source for personal finance tips, credit card reviews, and investment strategies"
+  copyright = "© 2025 Finance with Raja. All rights reserved."
+
+[author]
+  name = "Raja"
+  image = "img/author.jpg"
+  headline = "Personal Finance Expert"
+  bio = "Helping you make smarter financial decisions through expert reviews, guides, and strategies."
+  links = [
+    { email = "mailto:hello@financewithraja.com" },
+    { link = "https://financewithraja.com" },
+    { twitter = "https://twitter.com/financewithraja" },
+    { linkedin = "https://linkedin.com/in/financewithraja" },
+  ]
