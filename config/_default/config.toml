@@ -1,4 +1,6 @@
 baseURL = "https://financewithraja.com"
+canonifyURLs = true
+relativeURLs = false
 languageCode = "en"
 title = "Finance with Raja"
 theme = "blowfish"
