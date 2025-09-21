@@ -1,259 +1,260 @@
-<!-- Ad Break Shortcode for inserting ads within content -->
-<!-- Usage: {{< ad-break >}} or {{< ad-break product="Product Name" description="Description" link="URL" cta="Button Text" >}} -->
+{{/* Ad Break Shortcode for inserting ads within content */}}
+{{/* Usage: {{< ad-break>}} or {{< ad-break product="Product Name" description="Description" link="URL"
+    cta="Button Text">}} */}}
 
-<div class="content-ad-break">
-  <!-- Standard in-content ad -->
-  {{ partial "ads/in-content.html" . }}
-  
-  <!-- Optional: Product recommendation with affiliate link -->
-  {{ if .Get "product" }}
-  <div class="product-recommendation">
-    <div class="recommendation-header">
-      <span class="recommendation-badge">Recommended</span>
-      <h4 class="recommendation-title">💡 {{ .Get "product" }}</h4>
-    </div>
-    
-    <div class="product-details">
-      <p class="product-description">{{ .Get "description" }}</p>
-      
-      {{ if .Get "features" }}
-      <div class="product-features">
-        {{ range split (.Get "features") "," }}
-        <span class="feature">✓ {{ trim . " " }}</span>
-        {{ end }}
+    <div class="content-ad-break">
+      <!-- Standard in-content ad -->
+      {{ partial "ads/in-content.html" . }}
+
+      <!-- Optional: Product recommendation with affiliate link -->
+      {{ if .Get "product" }}
+      <div class="product-recommendation">
+        <div class="recommendation-header">
+          <span class="recommendation-badge">Recommended</span>
+          <h4 class="recommendation-title">💡 {{ .Get "product" }}</h4>
+        </div>
+
+        <div class="product-details">
+          <p class="product-description">{{ .Get "description" }}</p>
+
+          {{ if .Get "features" }}
+          <div class="product-features">
+            {{ range split (.Get "features") "," }}
+            <span class="feature">✓ {{ trim . " " }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <div class="product-actions">
+            <a href="{{ .Get " link" }}" class="product-cta primary" target="_blank" rel="nofollow sponsored">
+              {{ .Get "cta" | default "Learn More" }}
+            </a>
+
+            {{ if .Get "secondary-link" }}
+            <a href="{{ .Get " secondary-link" }}" class="product-cta secondary" target="_blank" rel="nofollow">
+              {{ .Get "secondary-cta" | default "Compare Options" }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
       </div>
       {{ end }}
-      
-      <div class="product-actions">
-        <a href="{{ .Get "link" }}" class="product-cta primary" target="_blank" rel="nofollow sponsored">
-          {{ .Get "cta" | default "Learn More" }}
-        </a>
-        
-        {{ if .Get "secondary-link" }}
-        <a href="{{ .Get "secondary-link" }}" class="product-cta secondary" target="_blank" rel="nofollow">
-          {{ .Get "secondary-cta" | default "Compare Options" }}
-        </a>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-  {{ end }}
-  
-  <!-- Optional: Quick comparison table -->
-  {{ if .Get "compare" }}
-  <div class="quick-comparison">
-    <h4 class="comparison-title">📊 Quick Comparison</h4>
-    <div class="comparison-grid">
-      {{ range split (.Get "compare") "|" }}
-      {{ $item := split . ":" }}
-      <div class="comparison-item">
-        <span class="comparison-label">{{ index $item 0 }}</span>
-        <span class="comparison-value">{{ index $item 1 }}</span>
+
+      <!-- Optional: Quick comparison table -->
+      {{ if .Get "compare" }}
+      <div class="quick-comparison">
+        <h4 class="comparison-title">📊 Quick Comparison</h4>
+        <div class="comparison-grid">
+          {{ range split (.Get "compare") "|" }}
+          {{ $item := split . ":" }}
+          <div class="comparison-item">
+            <span class="comparison-label">{{ index $item 0 }}</span>
+            <span class="comparison-value">{{ index $item 1 }}</span>
+          </div>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
     </div>
-  </div>
-  {{ end }}
-</div>
 
-<style>
-.content-ad-break {
-  margin: 50px 0;
-  clear: both;
-}
+    <style>
+      .content-ad-break {
+        margin: 50px 0;
+        clear: both;
+      }
 
-/* Product Recommendation Styling */
-.product-recommendation {
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
-  border: 2px solid #22c55e;
-  border-radius: 16px;
-  padding: 25px;
-  margin-top: 30px;
-  position: relative;
-  overflow: hidden;
-}
+      /* Product Recommendation Styling */
+      .product-recommendation {
+        background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+        border: 2px solid #22c55e;
+        border-radius: 16px;
+        padding: 25px;
+        margin-top: 30px;
+        position: relative;
+        overflow: hidden;
+      }
 
-.product-recommendation::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #22c55e 0%, #16a34a 100%);
-}
+      .product-recommendation::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #22c55e 0%, #16a34a 100%);
+      }
 
-.recommendation-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 15px;
-}
+      .recommendation-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 15px;
+      }
 
-.recommendation-badge {
-  background: #22c55e;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
+      .recommendation-badge {
+        background: #22c55e;
+        color: white;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
 
-.recommendation-title {
-  color: #15803d;
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-}
+      .recommendation-title {
+        color: #15803d;
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+      }
 
-.product-details {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
+      .product-details {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
 
-.product-description {
-  color: #374151;
-  margin-bottom: 15px;
-  line-height: 1.6;
-  font-size: 15px;
-}
+      .product-description {
+        color: #374151;
+        margin-bottom: 15px;
+        line-height: 1.6;
+        font-size: 15px;
+      }
 
-.product-features {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 20px;
-}
+      .product-features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
 
-.feature {
-  background: #f0fdf4;
-  color: #15803d;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 500;
-  border: 1px solid #bbf7d0;
-}
+      .feature {
+        background: #f0fdf4;
+        color: #15803d;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        border: 1px solid #bbf7d0;
+      }
 
-.product-actions {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
+      .product-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
 
-.product-cta {
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  transition: all 0.2s ease;
-  text-align: center;
-  flex: 1;
-  min-width: 120px;
-}
+      .product-cta {
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        transition: all 0.2s ease;
+        text-align: center;
+        flex: 1;
+        min-width: 120px;
+      }
 
-.product-cta.primary {
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-  color: white;
-}
+      .product-cta.primary {
+        background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+        color: white;
+      }
 
-.product-cta.secondary {
-  background: white;
-  color: #15803d;
-  border: 2px solid #22c55e;
-}
+      .product-cta.secondary {
+        background: white;
+        color: #15803d;
+        border: 2px solid #22c55e;
+      }
 
-.product-cta:hover {
-  transform: translateY(-2px);
-  text-decoration: none;
-}
+      .product-cta:hover {
+        transform: translateY(-2px);
+        text-decoration: none;
+      }
 
-.product-cta.primary:hover {
-  color: white;
-  box-shadow: 0 6px 16px rgba(34, 197, 94, 0.4);
-}
+      .product-cta.primary:hover {
+        color: white;
+        box-shadow: 0 6px 16px rgba(34, 197, 94, 0.4);
+      }
 
-.product-cta.secondary:hover {
-  color: #15803d;
-  background: #f0fdf4;
-}
+      .product-cta.secondary:hover {
+        color: #15803d;
+        background: #f0fdf4;
+      }
 
-/* Quick Comparison Styling */
-.quick-comparison {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-  border: 2px solid #f59e0b;
-  border-radius: 16px;
-  padding: 25px;
-  margin-top: 20px;
-}
+      /* Quick Comparison Styling */
+      .quick-comparison {
+        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        border: 2px solid #f59e0b;
+        border-radius: 16px;
+        padding: 25px;
+        margin-top: 20px;
+      }
 
-.comparison-title {
-  color: #92400e;
-  margin: 0 0 20px 0;
-  font-size: 18px;
-  font-weight: 700;
-}
+      .comparison-title {
+        color: #92400e;
+        margin: 0 0 20px 0;
+        font-size: 18px;
+        font-weight: 700;
+      }
 
-.comparison-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
+      .comparison-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+      }
 
-.comparison-item {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
+      .comparison-item {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
 
-.comparison-label {
-  color: #374151;
-  font-weight: 500;
-  font-size: 14px;
-}
+      .comparison-label {
+        color: #374151;
+        font-weight: 500;
+        font-size: 14px;
+      }
 
-.comparison-value {
-  color: #92400e;
-  font-weight: 700;
-  font-size: 14px;
-}
+      .comparison-value {
+        color: #92400e;
+        font-weight: 700;
+        font-size: 14px;
+      }
 
-/* Mobile responsive */
-@media (max-width: 768px) {
-  .content-ad-break {
-    margin: 40px 0;
-  }
-  
-  .product-recommendation,
-  .quick-comparison {
-    padding: 20px;
-  }
-  
-  .recommendation-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  
-  .product-actions {
-    flex-direction: column;
-  }
-  
-  .product-cta {
-    flex: none;
-  }
-  
-  .comparison-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+      /* Mobile responsive */
+      @media (max-width: 768px) {
+        .content-ad-break {
+          margin: 40px 0;
+        }
+
+        .product-recommendation,
+        .quick-comparison {
+          padding: 20px;
+        }
+
+        .recommendation-header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+        }
+
+        .product-actions {
+          flex-direction: column;
+        }
+
+        .product-cta {
+          flex: none;
+        }
+
+        .comparison-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
