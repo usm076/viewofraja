@@ -1,0 +1,56 @@
+baseURL = "https://financewithraja.com"
+languageCode = "en"
+title = "Finance with Raja"
+theme = "blowfish"
+canonifyURLs = true
+relativeURLs = false
+
+# Exclude theme example content that causes Jekyll conflicts
+ignoreFiles = [
+  "themes/blowfish/exampleSite/.*",
+  "themes/blowfish/.*\\.md$"
+]
+
+[pagination]
+  pagerSize = 20
+
+summaryLength = 30
+
+enableRobotsTXT = true
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  anchor = "Smart"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[related]
+  threshold = 0
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+    name = "tags"
+    weight = 100
+    [[related.indices]]
+    name = "categories"
+    weight = 100
+    [[related.indices]]
+    name = "series"
+    weight = 50
+    [[related.indices]]
+    name = "authors"
+    weight = 20
+    [[related.indices]]
+    name = "date"
+    weight = 10
+    pattern = "2006"
