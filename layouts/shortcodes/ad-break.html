@@ -20,7 +20,7 @@
           {{ if .Get "features" }}
           <div class="product-features">
             {{ range split (.Get "features") "," }}
-            <span class="feature">✓ {{ trim . " " }}</span>
+             <span class="feature">✓ {{ trim . " " }}</span>
             {{ end }}
           </div>
           {{ end }}
