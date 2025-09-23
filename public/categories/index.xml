@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Sep 2025 10:45:14 +0500</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jun 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Education Finance</title>
       <link>http://localhost:1314/categories/education-finance/</link>
-      <pubDate>Mon, 22 Sep 2025 10:45:14 +0500</pubDate>
+      <pubDate>Tue, 03 Jun 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/education-finance/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>Student Loans</title>
       <link>http://localhost:1314/categories/student-loans/</link>
-      <pubDate>Mon, 22 Sep 2025 10:45:14 +0500</pubDate>
+      <pubDate>Tue, 03 Jun 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/student-loans/</guid>
       <description></description>
@@ -30,9 +30,49 @@
     </item>
     
     <item>
+      <title>Investing</title>
+      <link>http://localhost:1314/categories/investing/</link>
+      <pubDate>Sat, 19 Apr 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wealth Building</title>
+      <link>http://localhost:1314/categories/wealth-building/</link>
+      <pubDate>Sat, 19 Apr 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/wealth-building/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Budgeting</title>
+      <link>http://localhost:1314/categories/budgeting/</link>
+      <pubDate>Sat, 12 Apr 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/budgeting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial-Planning</title>
+      <link>http://localhost:1314/categories/financial-planning/</link>
+      <pubDate>Sat, 12 Apr 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/financial-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Cryptocurrency</title>
       <link>http://localhost:1314/categories/cryptocurrency/</link>
-      <pubDate>Mon, 22 Sep 2025 01:35:00 +0500</pubDate>
+      <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/cryptocurrency/</guid>
       <description></description>
@@ -42,7 +82,7 @@
     <item>
       <title>Scam Prevention</title>
       <link>http://localhost:1314/categories/scam-prevention/</link>
-      <pubDate>Mon, 22 Sep 2025 01:35:00 +0500</pubDate>
+      <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/scam-prevention/</guid>
       <description></description>
@@ -50,19 +90,9 @@
     </item>
     
     <item>
-      <title>Investing</title>
-      <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:39 +0500</pubDate>
-      
-      <guid>http://localhost:1314/categories/investing/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Retirement Planning</title>
       <link>http://localhost:1314/categories/retirement-planning/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:39 +0500</pubDate>
+      <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/retirement-planning/</guid>
       <description></description>
@@ -70,29 +100,9 @@
     </item>
     
     <item>
-      <title>Budgeting</title>
-      <link>http://localhost:1314/categories/budgeting/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:34 +0500</pubDate>
-      
-      <guid>http://localhost:1314/categories/budgeting/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Technology</title>
-      <link>http://localhost:1314/categories/technology/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:34 +0500</pubDate>
-      
-      <guid>http://localhost:1314/categories/technology/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Debt Management</title>
       <link>http://localhost:1314/categories/debt-management/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:22 +0500</pubDate>
+      <pubDate>Sat, 08 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/debt-management/</guid>
       <description></description>
@@ -100,21 +110,11 @@
     </item>
     
     <item>
-      <title>Financial Planning</title>
-      <link>http://localhost:1314/categories/financial-planning/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:22 +0500</pubDate>
+      <title>Technology</title>
+      <link>http://localhost:1314/categories/technology/</link>
+      <pubDate>Sat, 01 Mar 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/financial-planning/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Wealth Building</title>
-      <link>http://localhost:1314/categories/wealth-building/</link>
-      <pubDate>Mon, 22 Sep 2025 01:04:16 +0500</pubDate>
-      
-      <guid>http://localhost:1314/categories/wealth-building/</guid>
+      <guid>http://localhost:1314/categories/technology/</guid>
       <description></description>
       
     </item>
@@ -122,7 +122,7 @@
     <item>
       <title>Banking</title>
       <link>http://localhost:1314/categories/banking/</link>
-      <pubDate>Mon, 22 Sep 2025 01:03:59 +0500</pubDate>
+      <pubDate>Sat, 15 Feb 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/banking/</guid>
       <description></description>
@@ -132,7 +132,7 @@
     <item>
       <title>Savings</title>
       <link>http://localhost:1314/categories/savings/</link>
-      <pubDate>Mon, 22 Sep 2025 01:03:59 +0500</pubDate>
+      <pubDate>Sat, 15 Feb 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/savings/</guid>
       <description></description>
@@ -142,7 +142,7 @@
     <item>
       <title>Credit Cards</title>
       <link>http://localhost:1314/categories/credit-cards/</link>
-      <pubDate>Mon, 22 Sep 2025 00:41:43 +0500</pubDate>
+      <pubDate>Sat, 01 Feb 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/credit-cards/</guid>
       <description></description>
@@ -152,7 +152,7 @@
     <item>
       <title>Reviews</title>
       <link>http://localhost:1314/categories/reviews/</link>
-      <pubDate>Mon, 22 Sep 2025 00:41:43 +0500</pubDate>
+      <pubDate>Sat, 01 Feb 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/reviews/</guid>
       <description></description>
@@ -160,9 +160,29 @@
     </item>
     
     <item>
+      <title>Insurance</title>
+      <link>http://localhost:1314/categories/insurance/</link>
+      <pubDate>Sat, 25 Jan 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/insurance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Real-Estate</title>
+      <link>http://localhost:1314/categories/real-estate/</link>
+      <pubDate>Sat, 18 Jan 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/real-estate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Taxes</title>
       <link>http://localhost:1314/categories/taxes/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/taxes/</guid>
       <description></description>
@@ -172,7 +192,7 @@
     <item>
       <title>Credit</title>
       <link>http://localhost:1314/categories/credit/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/credit/</guid>
       <description></description>

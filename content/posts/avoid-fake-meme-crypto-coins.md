@@ -1,5 +1,5 @@
 +++
-date = '2025-09-22T01:35:00+05:00'
+date = '2025-03-29T10:00:00Z'
 draft = false
 title = 'How to Avoid Fake Meme Crypto Coins: Complete Scam Prevention Guide 2025'
 description = 'Learn how to identify and avoid fake meme cryptocurrency scams. Protect your money from rug pulls, pump and dumps, and fraudulent crypto projects in 2025.'

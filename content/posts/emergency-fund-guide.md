@@ -1,5 +1,5 @@
 +++
-date = '2025-09-22T00:41:47+05:00'
+date = '2025-02-08T10:00:00Z'
 draft = false
 title = 'Emergency Fund Guide: How Much You Need & Where to Keep It'
 description = 'Learn how to build an emergency fund, how much to save, and the best high-yield savings accounts to maximize your emergency savings in 2024.'

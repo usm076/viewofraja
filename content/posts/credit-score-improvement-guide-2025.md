@@ -1,6 +1,6 @@
 ---
 title: "Complete Credit Score Improvement Guide: Boost Your Score in 2025"
-date: 2025-01-15
+date: 2025-01-05T10:00:00Z
 draft: false
 description: "Learn proven strategies to improve your credit score fast. Discover what affects your credit, common myths, and actionable steps to boost your score by 100+ points."
 tags: ["credit score", "personal finance", "credit repair", "financial health"]

@@ -1,5 +1,5 @@
 +++
-date = '2025-09-22T01:04:16+05:00'
+date = '2025-02-22T10:00:00Z'
 draft = false
 title = 'Investing for Beginners in 2025: Complete Guide to Building Wealth'
 description = 'Learn how to start investing in 2025 with this comprehensive guide covering brokerages, investment strategies, and portfolio building for beginners.'

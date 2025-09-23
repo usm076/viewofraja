@@ -1,6 +1,6 @@
 ---
 title: "Tax Optimization Strategies for 2025: Save Thousands on Your Tax Bill"
-date: 2025-01-20
+date: 2025-01-12T10:00:00Z
 draft: false
 description: "Discover proven tax optimization strategies for 2025. Learn about deductions, tax-advantaged accounts, and legal ways to minimize your tax burden and keep more money."
 tags: ["taxes", "tax optimization", "tax deductions", "tax planning", "personal finance"]
