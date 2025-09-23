@@ -72,7 +72,7 @@ We implement appropriate security measures to protect your personal information 
 
 If you have questions about this Privacy Policy, please contact us:
 
-**Email:** privacy@financewithraja.com  
+**Email:** info@financewithraja.com  
 **Website:** https://financewithraja.com  
 
 ---

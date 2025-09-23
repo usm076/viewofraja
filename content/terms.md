@@ -152,7 +152,7 @@ These Terms are governed by the laws of [Your State/Country], without regard to 
 
 If you have questions about these Terms of Service, please contact us:
 
-**Email:** legal@financewithraja.com  
+**Email:** info@financewithraja.com  
 **Website:** https://financewithraja.com
 
 For legal inquiries, please include "Legal - Terms of Service" in your email subject line.

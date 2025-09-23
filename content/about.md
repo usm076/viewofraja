@@ -59,7 +59,7 @@ We believe everyone deserves access to clear, actionable financial advice. Our m
 
 Have questions or suggestions? We'd love to hear from you.
 
-**Email:** hello@financewithraja.com  
+**Email:** info@financewithraja.com  
 **Website:** https://financewithraja.com  
 
 ---
