@@ -13,10 +13,10 @@ Get expert reviews, practical strategies, and actionable advice to make smarter 
 Research-driven content to help you maximize rewards, build wealth, and achieve financial freedom.
 {{< /lead >}}
 
-- 🏆 **Best Credit Card Reviews** - Find cards that maximize your rewards
-- 💰 **Investment Strategies** - Build long-term wealth with proven methods  
-- 🛡️ **Financial Planning** - Emergency funds, budgeting, and goal setting
-- 📊 **Market Analysis** - Stay updated with the latest financial trends
+- **Best Credit Card Reviews** - Find cards that maximize your rewards
+- **Investment Strategies** - Build long-term wealth with proven methods  
+- **Financial Planning** - Emergency funds, budgeting, and goal setting
+- **Market Analysis** - Stay updated with the latest financial trends
 
 ---
 
