@@ -61,7 +61,6 @@ Have questions or suggestions? We'd love to hear from you.
 
 **Email:** hello@financewithraja.com  
 **Website:** https://financewithraja.com  
-**Follow us:** [Social media links]
 
 ---
 

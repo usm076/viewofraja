@@ -92,4 +92,16 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>http://localhost:1314/posts/tax-optimization-strategies-2025/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/credit-score-improvement-guide-2025/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

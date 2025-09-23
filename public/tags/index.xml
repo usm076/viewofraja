@@ -459,5 +459,85 @@
       
     </item>
     
+    <item>
+      <title>Personal Finance</title>
+      <link>http://localhost:1314/tags/personal-finance/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/personal-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tax Deductions</title>
+      <link>http://localhost:1314/tags/tax-deductions/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/tax-deductions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tax Optimization</title>
+      <link>http://localhost:1314/tags/tax-optimization/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/tax-optimization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tax Planning</title>
+      <link>http://localhost:1314/tags/tax-planning/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/tax-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Taxes</title>
+      <link>http://localhost:1314/tags/taxes/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/taxes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Credit Repair</title>
+      <link>http://localhost:1314/tags/credit-repair/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/credit-repair/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Credit Score</title>
+      <link>http://localhost:1314/tags/credit-score/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/credit-score/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Health</title>
+      <link>http://localhost:1314/tags/financial-health/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/financial-health/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

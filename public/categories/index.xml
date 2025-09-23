@@ -159,5 +159,25 @@
       
     </item>
     
+    <item>
+      <title>Taxes</title>
+      <link>http://localhost:1314/categories/taxes/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/taxes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Credit</title>
+      <link>http://localhost:1314/categories/credit/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/credit/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
