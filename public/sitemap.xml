@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1314/contact/</loc>
-    <lastmod>2025-09-22T01:10:00+05:00</lastmod>
+    <loc>http://localhost:1314/posts/establish-emergency-fund-guide-2025/</loc>
+    <lastmod>2025-09-22T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1314/</loc>
+    <lastmod>2025-09-22T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/</loc>
+    <lastmod>2025-09-22T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/contact/</loc>
     <lastmod>2025-09-22T01:10:00+05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -33,13 +45,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1314/posts/fafsa-guide-2025/</loc>
-    <lastmod>2025-06-03T10:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/posts/fintech-automation-guide-2025/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1314/posts/</loc>
+    <loc>http://localhost:1314/posts/how-interest-works-guide-2025/</loc>
+    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/fafsa-guide-2025/</loc>
     <lastmod>2025-06-03T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -137,6 +155,11 @@
   <url>
     <loc>http://localhost:1314/posts/credit-score-improvement-guide-2025/</loc>
     <lastmod>2025-01-05T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/money-psychology-behavioral-finance-guide-2025/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -7,7 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 03 Jun 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Financial-Planning</title>
+      <link>http://localhost:1314/categories/financial-planning/</link>
+      <pubDate>Mon, 22 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/financial-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Savings</title>
+      <link>http://localhost:1314/categories/savings/</link>
+      <pubDate>Mon, 22 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/savings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Tools</title>
+      <link>http://localhost:1314/categories/financial-tools/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/financial-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1314/categories/technology/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/technology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Education</title>
+      <link>http://localhost:1314/categories/financial-education/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/financial-education/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Education Finance</title>
@@ -60,16 +110,6 @@
     </item>
     
     <item>
-      <title>Financial-Planning</title>
-      <link>http://localhost:1314/categories/financial-planning/</link>
-      <pubDate>Sat, 12 Apr 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/financial-planning/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Cryptocurrency</title>
       <link>http://localhost:1314/categories/cryptocurrency/</link>
       <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
@@ -110,31 +150,11 @@
     </item>
     
     <item>
-      <title>Technology</title>
-      <link>http://localhost:1314/categories/technology/</link>
-      <pubDate>Sat, 01 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/technology/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Banking</title>
       <link>http://localhost:1314/categories/banking/</link>
       <pubDate>Sat, 15 Feb 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/banking/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Savings</title>
-      <link>http://localhost:1314/categories/savings/</link>
-      <pubDate>Sat, 15 Feb 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/savings/</guid>
       <description></description>
       
     </item>
