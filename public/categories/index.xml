@@ -30,6 +30,56 @@
     </item>
     
     <item>
+      <title>Cryptocurrency</title>
+      <link>http://localhost:1314/categories/cryptocurrency/</link>
+      <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/cryptocurrency/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Taxes</title>
+      <link>http://localhost:1314/categories/taxes/</link>
+      <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/taxes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Investing</title>
+      <link>http://localhost:1314/categories/investing/</link>
+      <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Psychology</title>
+      <link>http://localhost:1314/categories/financial-psychology/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/financial-psychology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Personal Development</title>
+      <link>http://localhost:1314/categories/personal-development/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/personal-development/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Financial Tools</title>
       <link>http://localhost:1314/categories/financial-tools/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
@@ -80,16 +130,6 @@
     </item>
     
     <item>
-      <title>Investing</title>
-      <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Sat, 19 Apr 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/investing/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Wealth Building</title>
       <link>http://localhost:1314/categories/wealth-building/</link>
       <pubDate>Sat, 19 Apr 2025 10:00:00 +0000</pubDate>
@@ -105,16 +145,6 @@
       <pubDate>Sat, 12 Apr 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/budgeting/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cryptocurrency</title>
-      <link>http://localhost:1314/categories/cryptocurrency/</link>
-      <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/cryptocurrency/</guid>
       <description></description>
       
     </item>
@@ -195,16 +225,6 @@
       <pubDate>Sat, 18 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/real-estate/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Taxes</title>
-      <link>http://localhost:1314/categories/taxes/</link>
-      <pubDate>Sun, 12 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/taxes/</guid>
       <description></description>
       
     </item>

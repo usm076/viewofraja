@@ -45,6 +45,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1314/posts/crypto-tax-guide-2025/</loc>
+    <lastmod>2025-08-05T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/cryptocurrency-guide-beginners-2025/</loc>
+    <lastmod>2025-07-29T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/money-psychology-behavioral-finance-guide-2025/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1314/posts/fintech-automation-guide-2025/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -155,11 +173,6 @@
   <url>
     <loc>http://localhost:1314/posts/credit-score-improvement-guide-2025/</loc>
     <lastmod>2025-01-05T10:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1314/posts/money-psychology-behavioral-finance-guide-2025/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
