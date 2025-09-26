@@ -135,21 +135,6 @@ Connect with us on social media for daily financial tips and updates:
 - **Facebook:** Finance with Raja
 - **Instagram:** @FinanceWithRaja
 
-## Newsletter
-
-Stay updated with our latest content and financial tips:
-
-{{< button href="/newsletter/" target="_self" >}}
-Subscribe to Our Newsletter
-{{< /button >}}
-
-**What you'll get:**
-- Weekly financial tips and strategies
-- New article notifications
-- Exclusive content and resources
-- Product updates and recommendations
-
----
 
 ## Thank You
 

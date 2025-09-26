@@ -15,8 +15,6 @@ At Finance with Raja, we are committed to protecting your privacy and ensuring t
 ## Information We Collect
 
 ### Information You Provide Directly
-- **Contact Information:** Name, email address when you subscribe to our newsletter or contact us
-- **Comments:** Any comments you leave on our blog posts
 - **Survey Responses:** Feedback you provide through surveys or forms
 - **Communication:** Messages you send us through contact forms or email
 
