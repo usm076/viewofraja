@@ -60,6 +60,46 @@
     </item>
     
     <item>
+      <title>2025</title>
+      <link>http://localhost:1314/tags/2025/</link>
+      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/2025/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>H1B Visa</title>
+      <link>http://localhost:1314/tags/h1b-visa/</link>
+      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/h1b-visa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Immigration Costs</title>
+      <link>http://localhost:1314/tags/immigration-costs/</link>
+      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/immigration-costs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Visa Fees</title>
+      <link>http://localhost:1314/tags/visa-fees/</link>
+      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/visa-fees/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Bitcoin Taxes</title>
       <link>http://localhost:1314/tags/bitcoin-taxes/</link>
       <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
@@ -535,16 +575,6 @@
       <pubDate>Sat, 05 Apr 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/spending-analysis/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>2025</title>
-      <link>http://localhost:1314/tags/2025/</link>
-      <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/2025/</guid>
       <description></description>
       
     </item>
