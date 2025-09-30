@@ -40,6 +40,26 @@
     </item>
     
     <item>
+      <title>Investing</title>
+      <link>http://localhost:1314/categories/investing/</link>
+      <pubDate>Mon, 11 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Stocks</title>
+      <link>http://localhost:1314/categories/stocks/</link>
+      <pubDate>Mon, 11 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/stocks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Cryptocurrency</title>
       <link>http://localhost:1314/categories/cryptocurrency/</link>
       <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
@@ -55,16 +75,6 @@
       <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/taxes/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Investing</title>
-      <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/investing/</guid>
       <description></description>
       
     </item>
@@ -220,11 +230,21 @@
     </item>
     
     <item>
-      <title>Stocks</title>
-      <link>http://localhost:1314/categories/stocks/</link>
-      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
+      <title>Interest Rates</title>
+      <link>http://localhost:1314/categories/interest-rates/</link>
+      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/stocks/</guid>
+      <guid>http://localhost:1314/categories/interest-rates/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Finance</title>
+      <link>http://localhost:1314/categories/international-finance/</link>
+      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/international-finance/</guid>
       <description></description>
       
     </item>
