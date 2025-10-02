@@ -100,6 +100,56 @@
     </item>
     
     <item>
+      <title>Central Banks</title>
+      <link>http://localhost:1314/tags/central-banks/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/central-banks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Currency</title>
+      <link>http://localhost:1314/tags/currency/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/currency/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Global Interest Rates</title>
+      <link>http://localhost:1314/tags/global-interest-rates/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/global-interest-rates/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Investing</title>
+      <link>http://localhost:1314/tags/international-investing/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/international-investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Savings Rates</title>
+      <link>http://localhost:1314/tags/savings-rates/</link>
+      <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/savings-rates/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Beginners</title>
       <link>http://localhost:1314/tags/beginners/</link>
       <pubDate>Mon, 11 Aug 2025 10:00:00 +0000</pubDate>
@@ -940,51 +990,71 @@
     </item>
     
     <item>
-      <title>Central Banks</title>
-      <link>http://localhost:1314/tags/central-banks/</link>
-      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
+      <title>Credit Card Calculator</title>
+      <link>http://localhost:1314/tags/credit-card-calculator/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/central-banks/</guid>
+      <guid>http://localhost:1314/tags/credit-card-calculator/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Currency</title>
-      <link>http://localhost:1314/tags/currency/</link>
-      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
+      <title>Crypto Tax Calculator</title>
+      <link>http://localhost:1314/tags/crypto-tax-calculator/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/currency/</guid>
+      <guid>http://localhost:1314/tags/crypto-tax-calculator/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Global Interest Rates</title>
-      <link>http://localhost:1314/tags/global-interest-rates/</link>
-      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
+      <title>EMI Calculator</title>
+      <link>http://localhost:1314/tags/emi-calculator/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/global-interest-rates/</guid>
+      <guid>http://localhost:1314/tags/emi-calculator/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>International Investing</title>
-      <link>http://localhost:1314/tags/international-investing/</link>
-      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
+      <title>Financial Tools</title>
+      <link>http://localhost:1314/tags/financial-tools/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/international-investing/</guid>
+      <guid>http://localhost:1314/tags/financial-tools/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Savings Rates</title>
-      <link>http://localhost:1314/tags/savings-rates/</link>
-      <pubDate>Tue, 28 Jan 2025 12:00:00 +0000</pubDate>
+      <title>Loan Calculator</title>
+      <link>http://localhost:1314/tags/loan-calculator/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/savings-rates/</guid>
+      <guid>http://localhost:1314/tags/loan-calculator/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Retirement Calculator</title>
+      <link>http://localhost:1314/tags/retirement-calculator/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/retirement-calculator/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Savings Calculator</title>
+      <link>http://localhost:1314/tags/savings-calculator/</link>
+      <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/savings-calculator/</guid>
       <description></description>
       
     </item>

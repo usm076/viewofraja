@@ -116,6 +116,12 @@ If held >1 year: Long-term capital gain (15% tax for most people)
 If held ≤1 year: Short-term capital gain (taxed as ordinary income)
 ```
 
+### **Calculate Your Crypto Tax**
+
+Use this calculator to estimate your crypto tax liability:
+
+{{< crypto-tax-calculator >}}
+
 ### **Cost Basis Methods:**
 
 **FIFO (First In, First Out):** Default method

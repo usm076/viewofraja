@@ -148,7 +148,7 @@
     "keywords": ["real estate","investment","rental property","REITs","passive income"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "827"
+    "wordCount": "872"
   }]
   </script>
 
@@ -303,6 +303,20 @@
       
         
   <a
+  href="http://localhost:1314/calculators/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+  
+  <p class="text-base font-medium" title="Free Financial Calculators 2025: Loan, Savings, Credit Card &amp; Crypto Tax">
+    Calculators
+  </p>
+</a>
+
+
+
+      
+        
+  <a
   href="http://localhost:1314/categories/"
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
@@ -449,6 +463,22 @@
     
     <p class="text-bg font-bg" title="Posts">
       Blog
+    </p>
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="http://localhost:1314/calculators/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-bg font-bg" title="Free Financial Calculators 2025: Loan, Savings, Credit Card &amp; Crypto Tax">
+      Calculators
     </p>
   </a>
 </li>
@@ -624,7 +654,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-01-18T10:00:00&#43;00:00">18 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>827 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+      <time datetime="2025-01-18T10:00:00&#43;00:00">18 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>872 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     
@@ -805,6 +835,7 @@
         <li><a href="#step-3-market-research">Step 3: Market Research</a></li>
       </ul>
     </li>
+    <li><a href="#calculate-your-investment-property-financing">Calculate Your Investment Property Financing</a></li>
     <li><a href="#financial-calculations-you-need-to-know">Financial Calculations You Need to Know</a>
       <ul>
         <li><a href="#cash-on-cash-return">Cash-on-Cash Return</a></li>
@@ -871,6 +902,7 @@
         <li><a href="#step-3-market-research">Step 3: Market Research</a></li>
       </ul>
     </li>
+    <li><a href="#calculate-your-investment-property-financing">Calculate Your Investment Property Financing</a></li>
     <li><a href="#financial-calculations-you-need-to-know">Financial Calculations You Need to Know</a>
       <ul>
         <li><a href="#cash-on-cash-return">Cash-on-Cash Return</a></li>
@@ -1692,6 +1724,84 @@
 <li>Calculate potential cash flow and ROI</li>
 <li>Consider property taxes and insurance costs</li>
 </ul>
+
+<h2 class="relative group">Calculate Your Investment Property Financing 
+    <div id="calculate-your-investment-property-financing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#calculate-your-investment-property-financing" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Before making an offer, understand your mortgage payments and cash flow:</p>
+<div class="calculator-container loan-calculator" itemscope itemtype="https://schema.org/WebApplication" style="background: var(--bg-secondary, #f8f9fa); padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid var(--border-color, #e9ecef); color: var(--text-primary, #333);">
+  <h3 style="margin-top: 0; color: var(--text-primary, #2c3e50);" itemprop="name">💰 Loan & EMI Calculator</h3>
+  <meta itemprop="description" content="Calculate monthly loan payments, total interest, and amortization schedule for mortgages, auto loans, and personal loans">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  
+  <div class="calculator-inputs" style="display: grid; gap: 15px; margin-bottom: 20px;">
+    <div>
+      <label for="loanAmount" style="display: block; font-weight: bold; margin-bottom: 5px;">Loan Amount ($)</label>
+      <input type="number" id="loanAmount" placeholder="250000" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="interestRate" style="display: block; font-weight: bold; margin-bottom: 5px;">Annual Interest Rate (%)</label>
+      <input type="number" id="interestRate" placeholder="6.5" step="0.1" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="loanTerm" style="display: block; font-weight: bold; margin-bottom: 5px;">Loan Term (Years)</label>
+      <input type="number" id="loanTerm" placeholder="30" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <button onclick="calculateLoan()" style="background: #3498db; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Calculate EMI</button>
+  </div>
+  
+  <div id="loanResults" style="display: none;">
+    <div style="background: var(--bg-primary, white); padding: 15px; border-radius: 6px; border-left: 4px solid #27ae60;">
+      <h4 style="margin-top: 0; color: #27ae60;">📊 Calculation Results</h4>
+      <div style="display: grid; gap: 10px; color: var(--text-primary, #333);">
+        <div><strong style="color: var(--text-primary, #333);">Monthly EMI:</strong> <span id="monthlyEMI" style="color: #e74c3c; font-size: 1.2em;"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Total Amount Payable:</strong> <span id="totalAmount" style="color: var(--text-primary, #333);"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Total Interest:</strong> <span id="totalInterest" style="color: var(--text-primary, #333);"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Principal:</strong> <span id="principalAmount" style="color: var(--text-primary, #333);"></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function calculateLoan() {
+  const principal = parseFloat(document.getElementById('loanAmount').value);
+  const annualRate = parseFloat(document.getElementById('interestRate').value);
+  const years = parseFloat(document.getElementById('loanTerm').value);
+  
+  if (!principal || !annualRate || !years) {
+    alert('Please fill in all fields');
+    return;
+  }
+  
+  const monthlyRate = annualRate / 100 / 12;
+  const numPayments = years * 12;
+  
+  
+  const emi = principal * monthlyRate * Math.pow(1 + monthlyRate, numPayments) / (Math.pow(1 + monthlyRate, numPayments) - 1);
+  
+  const totalAmount = emi * numPayments;
+  const totalInterest = totalAmount - principal;
+  
+  
+  document.getElementById('monthlyEMI').textContent = '$' + emi.toFixed(2);
+  document.getElementById('totalAmount').textContent = '$' + totalAmount.toFixed(2);
+  document.getElementById('totalInterest').textContent = '$' + totalInterest.toFixed(2);
+  document.getElementById('principalAmount').textContent = '$' + principal.toFixed(2);
+  
+  document.getElementById('loanResults').style.display = 'block';
+}
+</script>
+
 
 <h2 class="relative group">Financial Calculations You Need to Know 
     <div id="financial-calculations-you-need-to-know" class="anchor"></div>

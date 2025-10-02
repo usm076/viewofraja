@@ -4,6 +4,11 @@
   weight = 10
 
 [[main]]
+  name = "Calculators"
+  pageRef = "calculators"
+  weight = 15
+
+[[main]]
   name = "Categories"
   pageRef = "categories"
   weight = 20

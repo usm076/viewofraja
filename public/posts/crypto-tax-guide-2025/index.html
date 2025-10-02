@@ -149,7 +149,7 @@
     "keywords": ["cryptocurrency","crypto taxes","tax planning","IRS","bitcoin taxes","tax guide"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1941"
+    "wordCount": "2051"
   }]
   </script>
 
@@ -304,6 +304,20 @@
       
         
   <a
+  href="http://localhost:1314/calculators/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+  
+  <p class="text-base font-medium" title="Free Financial Calculators 2025: Loan, Savings, Credit Card &amp; Crypto Tax">
+    Calculators
+  </p>
+</a>
+
+
+
+      
+        
+  <a
   href="http://localhost:1314/categories/"
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
@@ -450,6 +464,22 @@
     
     <p class="text-bg font-bg" title="Posts">
       Blog
+    </p>
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="http://localhost:1314/calculators/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-bg font-bg" title="Free Financial Calculators 2025: Loan, Savings, Credit Card &amp; Crypto Tax">
+      Calculators
     </p>
   </a>
 </li>
@@ -625,7 +655,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-08-05T10:00:00&#43;00:00">5 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1941 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span>
+      <time datetime="2025-08-05T10:00:00&#43;00:00">5 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>2051 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span>
     
 
     
@@ -818,6 +848,7 @@
       <ul>
         <li><a href="#step-by-step-calculation"><strong>Step-by-Step Calculation:</strong></a></li>
         <li><a href="#example-calculation"><strong>Example Calculation:</strong></a></li>
+        <li><a href="#calculate-your-crypto-tax"><strong>Calculate Your Crypto Tax</strong></a></li>
         <li><a href="#cost-basis-methods"><strong>Cost Basis Methods:</strong></a></li>
       </ul>
     </li>
@@ -927,6 +958,7 @@
       <ul>
         <li><a href="#step-by-step-calculation"><strong>Step-by-Step Calculation:</strong></a></li>
         <li><a href="#example-calculation"><strong>Example Calculation:</strong></a></li>
+        <li><a href="#calculate-your-crypto-tax"><strong>Calculate Your Crypto Tax</strong></a></li>
         <li><a href="#cost-basis-methods"><strong>Cost Basis Methods:</strong></a></li>
       </ul>
     </li>
@@ -1836,6 +1868,137 @@ Capital Gain: $44,925 - $30,050 = $14,875
 If held &gt;1 year: Long-term capital gain (15% tax for most people)
 If held ≤1 year: Short-term capital gain (taxed as ordinary income)
 </code></pre>
+<h3 class="relative group"><strong>Calculate Your Crypto Tax</strong> 
+    <div id="calculate-your-crypto-tax" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#calculate-your-crypto-tax" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Use this calculator to estimate your crypto tax liability:</p>
+<div class="calculator-container crypto-tax-calculator" itemscope itemtype="https://schema.org/WebApplication" style="background: var(--bg-secondary, #f8f9fa); padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid var(--border-color, #e9ecef); color: var(--text-primary, #333);">
+  <h3 style="margin-top: 0; color: var(--text-primary, #2c3e50);" itemprop="name">₿ Crypto Tax Calculator</h3>
+  <meta itemprop="description" content="Calculate cryptocurrency capital gains tax, short-term vs long-term rates, and tax liability for Bitcoin and crypto trading">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  
+  <div class="calculator-inputs" style="display: grid; gap: 15px; margin-bottom: 20px;">
+    <div>
+      <label for="purchasePrice" style="display: block; font-weight: bold; margin-bottom: 5px;">Purchase Price ($)</label>
+      <input type="number" id="purchasePrice" placeholder="30000" step="0.01" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="salePrice" style="display: block; font-weight: bold; margin-bottom: 5px;">Sale Price ($)</label>
+      <input type="number" id="salePrice" placeholder="45000" step="0.01" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="holdingPeriod" style="display: block; font-weight: bold; margin-bottom: 5px;">Holding Period</label>
+      <select id="holdingPeriod" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+        <option value="short">Short-term (≤ 1 year)</option>
+        <option value="long">Long-term (> 1 year)</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="taxBracket" style="display: block; font-weight: bold; margin-bottom: 5px;">Income Tax Bracket (%)</label>
+      <select id="taxBracket" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+        <option value="10">10% ($0 - $11,000)</option>
+        <option value="12">12% ($11,001 - $44,725)</option>
+        <option value="22" selected>22% ($44,726 - $95,375)</option>
+        <option value="24">24% ($95,376 - $182,050)</option>
+        <option value="32">32% ($182,051 - $231,250)</option>
+        <option value="35">35% ($231,251 - $578,125)</option>
+        <option value="37">37% ($578,126+)</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="filingStatus" style="display: block; font-weight: bold; margin-bottom: 5px;">Filing Status</label>
+      <select id="filingStatus" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+        <option value="single" selected>Single</option>
+        <option value="married">Married Filing Jointly</option>
+        <option value="head">Head of Household</option>
+      </select>
+    </div>
+    
+    <button onclick="calculateCryptoTax()" style="background: #f39c12; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Calculate Tax</button>
+  </div>
+  
+  <div id="cryptoResults" style="display: none;">
+    <div style="background: var(--bg-primary, white); padding: 15px; border-radius: 6px; border-left: 4px solid #f39c12;">
+      <h4 style="margin-top: 0; color: #f39c12;">📊 Tax Calculation Results</h4>
+      <div style="display: grid; gap: 10px; color: var(--text-primary, #333);">
+        <div><strong style="color: var(--text-primary, #333);">Capital Gain/Loss:</strong> <span id="capitalGain"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Tax Rate Applied:</strong> <span id="taxRate" style="color: var(--text-primary, #333);"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Tax Owed:</strong> <span id="taxOwed" style="color: #e74c3c; font-size: 1.2em;"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">After-Tax Proceeds:</strong> <span id="afterTaxProceeds" style="color: var(--text-primary, #333);"></span></div>
+      </div>
+      
+      <div style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px; border-left: 3px solid #ffc107;">
+        <small><strong>Note:</strong> This is a simplified calculation. Consult a tax professional for complex situations involving multiple transactions, staking, DeFi, or other crypto activities.</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function calculateCryptoTax() {
+  const purchasePrice = parseFloat(document.getElementById('purchasePrice').value);
+  const salePrice = parseFloat(document.getElementById('salePrice').value);
+  const holdingPeriod = document.getElementById('holdingPeriod').value;
+  const taxBracket = parseFloat(document.getElementById('taxBracket').value);
+  const filingStatus = document.getElementById('filingStatus').value;
+  
+  if (!purchasePrice || !salePrice) {
+    alert('Please enter both purchase and sale prices');
+    return;
+  }
+  
+  const capitalGain = salePrice - purchasePrice;
+  let taxRate = 0;
+  let taxOwed = 0;
+  
+  if (capitalGain <= 0) {
+    
+    taxRate = 0;
+    taxOwed = 0;
+  } else {
+    
+    if (holdingPeriod === 'short') {
+      
+      taxRate = taxBracket;
+    } else {
+      
+      if (taxBracket <= 12) {
+        taxRate = 0; 
+      } else if (taxBracket <= 35) {
+        taxRate = 15; 
+      } else {
+        taxRate = 20; 
+      }
+    }
+    
+    taxOwed = capitalGain * (taxRate / 100);
+  }
+  
+  const afterTaxProceeds = salePrice - taxOwed;
+  
+  
+  const gainColor = capitalGain >= 0 ? '#27ae60' : '#e74c3c';
+  const gainText = capitalGain >= 0 ? 'Gain' : 'Loss';
+  
+  document.getElementById('capitalGain').innerHTML = `<span style="color: ${gainColor};">$${Math.abs(capitalGain).toFixed(2)} ${gainText}</span>`;
+  document.getElementById('taxRate').textContent = taxRate + '%';
+  document.getElementById('taxOwed').textContent = '$' + taxOwed.toFixed(2);
+  document.getElementById('afterTaxProceeds').textContent = '$' + afterTaxProceeds.toFixed(2);
+  
+  document.getElementById('cryptoResults').style.display = 'block';
+}
+</script>
+
 <h3 class="relative group"><strong>Cost Basis Methods:</strong> 
     <div id="cost-basis-methods" class="anchor"></div>
     

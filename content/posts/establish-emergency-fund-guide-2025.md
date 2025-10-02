@@ -64,6 +64,12 @@ The traditional "3-6 months of expenses" rule needs updating for 2025 realities.
 - Major health issues in family
 - Economic uncertainty or recession fears
 
+### Calculate Your Emergency Fund Goal
+
+Use this calculator to determine how much you should save and how long it will take:
+
+{{< savings-calculator >}}
+
 ### Calculating Your Target Amount
 
 **Step 1: Track Monthly Expenses**

@@ -161,6 +161,12 @@ Starting your investment journey in 2025? You're in the right place. This compre
 - **Infrastructure** - Government spending on modernization
 - **Real Estate** - REITs for property exposure
 
+## See Your Investment Growth Potential
+
+Use this calculator to see how your investments could grow over time:
+
+{{< savings-calculator >}}
+
 ## Getting Started This Week
 
 ### Your Action Plan
@@ -176,3 +182,5 @@ Starting your investment journey in 2025? You're in the right place. This compre
 - **Amount to start** - Even $25/month makes a difference
 
 *Remember: The best time to start investing was yesterday. The second-best time is today. Start small, stay consistent, and let compound growth work its magic over the decades ahead.*
+
+**Need more financial tools?** Check out our [free financial calculators](/calculators/) for loan payments, retirement planning, and more.

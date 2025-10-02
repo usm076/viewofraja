@@ -77,6 +77,12 @@ Platforms allowing smaller investments in real estate projects.
 - Calculate potential cash flow and ROI
 - Consider property taxes and insurance costs
 
+## Calculate Your Investment Property Financing
+
+Before making an offer, understand your mortgage payments and cash flow:
+
+{{< loan-calculator >}}
+
 ## Financial Calculations You Need to Know
 
 ### Cash-on-Cash Return

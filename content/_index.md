@@ -13,6 +13,7 @@ Get expert reviews, practical strategies, and actionable advice to make smarter 
 Research-driven content to help you maximize rewards, build wealth, and achieve financial freedom.
 {{< /lead >}}
 
+- **Free Financial Calculators** - Calculate loans, savings, and investment returns
 - **Best Credit Card Reviews** - Find cards that maximize your rewards
 - **Investment Strategies** - Build long-term wealth with proven methods  
 - **Financial Planning** - Emergency funds, budgeting, and goal setting
@@ -21,6 +22,10 @@ Research-driven content to help you maximize rewards, build wealth, and achieve 
 ---
 
 ### Featured Categories
+
+{{< button href="/calculators/" target="_self" >}}
+Calculators
+{{< /button >}}
 
 {{< button href="/categories/credit-cards/" target="_self" >}}
 Credit Cards

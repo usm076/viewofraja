@@ -49,6 +49,12 @@ Finding the right credit card can significantly impact your financial health and
 - **Cashback:** 5% rotating categories (up to $1,500/quarter), 1% elsewhere
 - **Unique Perk:** Cashback match for first year
 
+## Calculate Your Rewards Potential
+
+Before choosing a card, see which one works best for your spending patterns:
+
+{{< credit-card-rewards >}}
+
 ## How to Choose the Right Card
 
 1. **Assess your spending habits** - Where do you spend the most?
@@ -64,3 +70,5 @@ Finding the right credit card can significantly impact your financial health and
 - Set up automatic payments to avoid interest
 
 *Disclaimer: Credit card offers change frequently. Always verify current terms on issuer websites before applying.*
+
+**Want to compare more cards?** Use our [credit card rewards calculator](/calculators/) to find the best card for your spending patterns.

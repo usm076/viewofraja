@@ -1,0 +1,120 @@
+<div class="calculator-container crypto-tax-calculator" itemscope itemtype="https://schema.org/WebApplication" style="background: var(--bg-secondary, #f8f9fa); padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid var(--border-color, #e9ecef); color: var(--text-primary, #333);">
+  <h3 style="margin-top: 0; color: var(--text-primary, #2c3e50);" itemprop="name">₿ Crypto Tax Calculator</h3>
+  <meta itemprop="description" content="Calculate cryptocurrency capital gains tax, short-term vs long-term rates, and tax liability for Bitcoin and crypto trading">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  
+  <div class="calculator-inputs" style="display: grid; gap: 15px; margin-bottom: 20px;">
+    <div>
+      <label for="purchasePrice" style="display: block; font-weight: bold; margin-bottom: 5px;">Purchase Price ($)</label>
+      <input type="number" id="purchasePrice" placeholder="30000" step="0.01" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="salePrice" style="display: block; font-weight: bold; margin-bottom: 5px;">Sale Price ($)</label>
+      <input type="number" id="salePrice" placeholder="45000" step="0.01" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="holdingPeriod" style="display: block; font-weight: bold; margin-bottom: 5px;">Holding Period</label>
+      <select id="holdingPeriod" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+        <option value="short">Short-term (≤ 1 year)</option>
+        <option value="long">Long-term (> 1 year)</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="taxBracket" style="display: block; font-weight: bold; margin-bottom: 5px;">Income Tax Bracket (%)</label>
+      <select id="taxBracket" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+        <option value="10">10% ($0 - $11,000)</option>
+        <option value="12">12% ($11,001 - $44,725)</option>
+        <option value="22" selected>22% ($44,726 - $95,375)</option>
+        <option value="24">24% ($95,376 - $182,050)</option>
+        <option value="32">32% ($182,051 - $231,250)</option>
+        <option value="35">35% ($231,251 - $578,125)</option>
+        <option value="37">37% ($578,126+)</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="filingStatus" style="display: block; font-weight: bold; margin-bottom: 5px;">Filing Status</label>
+      <select id="filingStatus" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+        <option value="single" selected>Single</option>
+        <option value="married">Married Filing Jointly</option>
+        <option value="head">Head of Household</option>
+      </select>
+    </div>
+    
+    <button onclick="calculateCryptoTax()" style="background: #f39c12; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Calculate Tax</button>
+  </div>
+  
+  <div id="cryptoResults" style="display: none;">
+    <div style="background: var(--bg-primary, white); padding: 15px; border-radius: 6px; border-left: 4px solid #f39c12;">
+      <h4 style="margin-top: 0; color: #f39c12;">📊 Tax Calculation Results</h4>
+      <div style="display: grid; gap: 10px; color: var(--text-primary, #333);">
+        <div><strong style="color: var(--text-primary, #333);">Capital Gain/Loss:</strong> <span id="capitalGain"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Tax Rate Applied:</strong> <span id="taxRate" style="color: var(--text-primary, #333);"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">Tax Owed:</strong> <span id="taxOwed" style="color: #e74c3c; font-size: 1.2em;"></span></div>
+        <div><strong style="color: var(--text-primary, #333);">After-Tax Proceeds:</strong> <span id="afterTaxProceeds" style="color: var(--text-primary, #333);"></span></div>
+      </div>
+      
+      <div style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 4px; border-left: 3px solid #ffc107;">
+        <small><strong>Note:</strong> This is a simplified calculation. Consult a tax professional for complex situations involving multiple transactions, staking, DeFi, or other crypto activities.</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function calculateCryptoTax() {
+  const purchasePrice = parseFloat(document.getElementById('purchasePrice').value);
+  const salePrice = parseFloat(document.getElementById('salePrice').value);
+  const holdingPeriod = document.getElementById('holdingPeriod').value;
+  const taxBracket = parseFloat(document.getElementById('taxBracket').value);
+  const filingStatus = document.getElementById('filingStatus').value;
+  
+  if (!purchasePrice || !salePrice) {
+    alert('Please enter both purchase and sale prices');
+    return;
+  }
+  
+  const capitalGain = salePrice - purchasePrice;
+  let taxRate = 0;
+  let taxOwed = 0;
+  
+  if (capitalGain <= 0) {
+    // Capital loss - no tax owed, potential deduction
+    taxRate = 0;
+    taxOwed = 0;
+  } else {
+    // Capital gain - calculate tax
+    if (holdingPeriod === 'short') {
+      // Short-term gains taxed as ordinary income
+      taxRate = taxBracket;
+    } else {
+      // Long-term capital gains rates
+      if (taxBracket <= 12) {
+        taxRate = 0; // 0% long-term rate
+      } else if (taxBracket <= 35) {
+        taxRate = 15; // 15% long-term rate
+      } else {
+        taxRate = 20; // 20% long-term rate
+      }
+    }
+    
+    taxOwed = capitalGain * (taxRate / 100);
+  }
+  
+  const afterTaxProceeds = salePrice - taxOwed;
+  
+  // Display results
+  const gainColor = capitalGain >= 0 ? '#27ae60' : '#e74c3c';
+  const gainText = capitalGain >= 0 ? 'Gain' : 'Loss';
+  
+  document.getElementById('capitalGain').innerHTML = `<span style="color: ${gainColor};">$${Math.abs(capitalGain).toFixed(2)} ${gainText}</span>`;
+  document.getElementById('taxRate').textContent = taxRate + '%';
+  document.getElementById('taxOwed').textContent = '$' + taxOwed.toFixed(2);
+  document.getElementById('afterTaxProceeds').textContent = '$' + afterTaxProceeds.toFixed(2);
+  
+  document.getElementById('cryptoResults').style.display = 'block';
+}
+</script>

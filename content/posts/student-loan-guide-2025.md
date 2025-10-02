@@ -139,6 +139,12 @@ Navigating student loans can feel overwhelming, but understanding your options i
 
 {{< ad-break compare="Federal Loans:5.50-8.05%|Private Loans:3.99-15.49%|PSLF:10 years|IDR Forgiveness:20-25 years" >}}
 
+## Calculate Your Student Loan Payments
+
+Before taking on debt, understand what your monthly payments will look like:
+
+{{< loan-calculator >}}
+
 ## Managing Student Loan Debt
 
 ### During School

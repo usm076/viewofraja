@@ -1,0 +1,157 @@
+<div class="calculator-container credit-card-calculator" itemscope itemtype="https://schema.org/WebApplication" style="background: var(--bg-secondary, #f8f9fa); padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid var(--border-color, #e9ecef); color: var(--text-primary, #333);">
+  <h3 style="margin-top: 0; color: var(--text-primary, #2c3e50);" itemprop="name">💳 Credit Card Rewards Calculator</h3>
+  <meta itemprop="description" content="Compare credit card rewards and cashback based on your spending patterns. Find the best credit card for maximum rewards">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  
+  <div class="calculator-inputs" style="display: grid; gap: 15px; margin-bottom: 20px;">
+    <div>
+      <label for="diningSpend" style="display: block; font-weight: bold; margin-bottom: 5px;">Monthly Dining ($)</label>
+      <input type="number" id="diningSpend" placeholder="300" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="travelSpend" style="display: block; font-weight: bold; margin-bottom: 5px;">Monthly Travel ($)</label>
+      <input type="number" id="travelSpend" placeholder="200" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="grocerySpend" style="display: block; font-weight: bold; margin-bottom: 5px;">Monthly Groceries ($)</label>
+      <input type="number" id="grocerySpend" placeholder="400" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="gasSpend" style="display: block; font-weight: bold; margin-bottom: 5px;">Monthly Gas ($)</label>
+      <input type="number" id="gasSpend" placeholder="150" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <div>
+      <label for="otherSpend" style="display: block; font-weight: bold; margin-bottom: 5px;">Other Monthly Spending ($)</label>
+      <input type="number" id="otherSpend" placeholder="500" style="width: 100%; padding: 10px; border: 1px solid var(--border-color, #ddd); border-radius: 4px; background: var(--bg-primary, white); color: var(--text-primary, #333);">
+    </div>
+    
+    <button onclick="calculateRewards()" style="background: #9b59b6; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Compare Cards</button>
+  </div>
+  
+  <div id="rewardsResults" style="display: none;">
+    <div style="background: var(--bg-primary, white); padding: 15px; border-radius: 6px; border-left: 4px solid #9b59b6;">
+      <h4 style="margin-top: 0; color: #9b59b6;">🏆 Annual Rewards Comparison</h4>
+      <div id="cardComparison" style="display: grid; gap: 15px;"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+function calculateRewards() {
+  const dining = parseFloat(document.getElementById('diningSpend').value) || 0;
+  const travel = parseFloat(document.getElementById('travelSpend').value) || 0;
+  const grocery = parseFloat(document.getElementById('grocerySpend').value) || 0;
+  const gas = parseFloat(document.getElementById('gasSpend').value) || 0;
+  const other = parseFloat(document.getElementById('otherSpend').value) || 0;
+  
+  const annualSpending = {
+    dining: dining * 12,
+    travel: travel * 12,
+    grocery: grocery * 12,
+    gas: gas * 12,
+    other: other * 12,
+    total: (dining + travel + grocery + gas + other) * 12
+  };
+  
+  // Define popular credit cards with their reward structures
+  const cards = [
+    {
+      name: "Chase Sapphire Preferred",
+      annualFee: 95,
+      rewards: {
+        dining: 0.02,
+        travel: 0.02,
+        grocery: 0.01,
+        gas: 0.01,
+        other: 0.01
+      }
+    },
+    {
+      name: "Capital One Venture X",
+      annualFee: 395,
+      rewards: {
+        dining: 0.02,
+        travel: 0.05, // 5x on hotels/rental cars
+        grocery: 0.02,
+        gas: 0.02,
+        other: 0.02
+      },
+      credit: 300 // Annual travel credit
+    },
+    {
+      name: "Citi Double Cash",
+      annualFee: 0,
+      rewards: {
+        dining: 0.02,
+        travel: 0.02,
+        grocery: 0.02,
+        gas: 0.02,
+        other: 0.02
+      }
+    },
+    {
+      name: "Chase Freedom Unlimited",
+      annualFee: 0,
+      rewards: {
+        dining: 0.03,
+        travel: 0.015,
+        grocery: 0.015,
+        gas: 0.015,
+        other: 0.015
+      }
+    }
+  ];
+  
+  let results = [];
+  
+  cards.forEach(card => {
+    const rewards = 
+      (annualSpending.dining * card.rewards.dining) +
+      (annualSpending.travel * card.rewards.travel) +
+      (annualSpending.grocery * card.rewards.grocery) +
+      (annualSpending.gas * card.rewards.gas) +
+      (annualSpending.other * card.rewards.other);
+    
+    const credit = card.credit || 0;
+    const netValue = rewards + credit - card.annualFee;
+    
+    results.push({
+      name: card.name,
+      rewards: rewards,
+      annualFee: card.annualFee,
+      credit: credit,
+      netValue: netValue
+    });
+  });
+  
+  // Sort by net value
+  results.sort((a, b) => b.netValue - a.netValue);
+  
+  // Display results
+  let html = '';
+  results.forEach((card, index) => {
+    // Use CSS custom properties for theme-aware colors
+    const bgColor = index === 0 ? 'var(--bg-success, #e8f5e8)' : 'var(--bg-secondary, #f9f9f9)';
+    const badge = index === 0 ? '<span style="background: #27ae60; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; margin-left: 10px;">BEST</span>' : '';
+    
+    html += `
+      <div style="background: ${bgColor}; padding: 12px; border-radius: 6px; border: 1px solid var(--border-color, #ddd); color: var(--text-primary, #333);">
+        <div style="font-weight: bold; margin-bottom: 8px; color: var(--text-primary, #333);">${card.name}${badge}</div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.9em; color: var(--text-primary, #333);">
+          <div>Annual Rewards: $${card.rewards.toFixed(0)}</div>
+          <div>Annual Fee: $${card.annualFee}</div>
+          <div>Credits: $${card.credit}</div>
+          <div style="font-weight: bold; color: ${card.netValue >= 0 ? '#27ae60' : '#e74c3c'};">Net Value: $${card.netValue.toFixed(0)}</div>
+        </div>
+      </div>
+    `;
+  });
+  
+  document.getElementById('cardComparison').innerHTML = html;
+  document.getElementById('rewardsResults').style.display = 'block';
+}
+</script>
