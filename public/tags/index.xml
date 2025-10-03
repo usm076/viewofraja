@@ -100,6 +100,56 @@
     </item>
     
     <item>
+      <title>Debt Strategy</title>
+      <link>http://localhost:1314/tags/debt-strategy/</link>
+      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/debt-strategy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Debt-to-Income</title>
+      <link>http://localhost:1314/tags/debt-to-income/</link>
+      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/debt-to-income/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Health</title>
+      <link>http://localhost:1314/tags/financial-health/</link>
+      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/financial-health/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Liability Management</title>
+      <link>http://localhost:1314/tags/liability-management/</link>
+      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/liability-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Net Worth</title>
+      <link>http://localhost:1314/tags/net-worth/</link>
+      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/net-worth/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Central Banks</title>
       <link>http://localhost:1314/tags/central-banks/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
@@ -1205,16 +1255,6 @@
       <pubDate>Sun, 05 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/credit-score/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Financial Health</title>
-      <link>http://localhost:1314/tags/financial-health/</link>
-      <pubDate>Sun, 05 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/financial-health/</guid>
       <description></description>
       
     </item>

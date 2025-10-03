@@ -40,6 +40,16 @@
     </item>
     
     <item>
+      <title>Debt Management</title>
+      <link>http://localhost:1314/categories/debt-management/</link>
+      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/debt-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Interest Rates</title>
       <link>http://localhost:1314/categories/interest-rates/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
@@ -205,16 +215,6 @@
       <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/retirement-planning/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Debt Management</title>
-      <link>http://localhost:1314/categories/debt-management/</link>
-      <pubDate>Sat, 08 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/debt-management/</guid>
       <description></description>
       
     </item>
