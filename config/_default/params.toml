@@ -112,6 +112,10 @@ fingerprintAlgorithm = "sha256"
   # globalWidgetColor = "#FFDD00"
   # globalWidgetPosition = "Right"
 
+[footer]
+  showThemeAttribution = false
+  showCopyright = true
+
 [verification]
   # google = ""
   # bing = ""
