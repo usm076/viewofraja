@@ -40,6 +40,26 @@
     </item>
     
     <item>
+      <title>Investing</title>
+      <link>http://localhost:1314/categories/investing/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Retirement Planning</title>
+      <link>http://localhost:1314/categories/retirement-planning/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/retirement-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Debt Management</title>
       <link>http://localhost:1314/categories/debt-management/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
@@ -65,16 +85,6 @@
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/international-finance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Investing</title>
-      <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Mon, 11 Aug 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/investing/</guid>
       <description></description>
       
     </item>
@@ -205,16 +215,6 @@
       <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/scam-prevention/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Retirement Planning</title>
-      <link>http://localhost:1314/categories/retirement-planning/</link>
-      <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/retirement-planning/</guid>
       <description></description>
       
     </item>

@@ -100,6 +100,66 @@
     </item>
     
     <item>
+      <title>401k</title>
+      <link>http://localhost:1314/tags/401k/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/401k/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Employer Match</title>
+      <link>http://localhost:1314/tags/employer-match/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/employer-match/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Investment Funds</title>
+      <link>http://localhost:1314/tags/investment-funds/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/investment-funds/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Retirement Planning</title>
+      <link>http://localhost:1314/tags/retirement-planning/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/retirement-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Retirement Savings</title>
+      <link>http://localhost:1314/tags/retirement-savings/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/retirement-savings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tax Optimization</title>
+      <link>http://localhost:1314/tags/tax-optimization/</link>
+      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/tax-optimization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Debt Strategy</title>
       <link>http://localhost:1314/tags/debt-strategy/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
@@ -800,16 +860,6 @@
     </item>
     
     <item>
-      <title>401k</title>
-      <link>http://localhost:1314/tags/401k/</link>
-      <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/401k/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Financial Independence</title>
       <link>http://localhost:1314/tags/financial-independence/</link>
       <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
@@ -835,16 +885,6 @@
       <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/retirement/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Retirement Planning</title>
-      <link>http://localhost:1314/tags/retirement-planning/</link>
-      <pubDate>Sat, 15 Mar 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/retirement-planning/</guid>
       <description></description>
       
     </item>
@@ -1215,16 +1255,6 @@
       <pubDate>Sun, 12 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/tax-deductions/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tax Optimization</title>
-      <link>http://localhost:1314/tags/tax-optimization/</link>
-      <pubDate>Sun, 12 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/tax-optimization/</guid>
       <description></description>
       
     </item>
