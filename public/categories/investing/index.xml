@@ -755,33 +755,7 @@
 &lt;li&gt;&lt;strong&gt;Inflation hedge&lt;/strong&gt; as property values typically rise with inflation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Leverage&lt;/strong&gt; opportunities with mortgages&lt;/li&gt;
 &lt;/ul&gt;
-
-
-
-    &lt;div class=&#34;content-ad-break&#34;&gt;
-      
-      
-&lt;div class=&#34;ad-container in-content-ad&#34;&gt;
-  &lt;div class=&#34;ad-label&#34;&gt;Sponsored Content&lt;/div&gt;
-  
-  
-  &lt;div class=&#34;ad-content&#34;&gt;
-    &lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6151244736221984&#34;
-         crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-    
-    &lt;ins class=&#34;adsbygoogle in-content-rectangle&#34;
-         style=&#34;display:block&#34;
-         data-ad-client=&#34;ca-pub-6151244736221984&#34;
-         data-ad-slot=&#34;IN_CONTENT_SLOT_ID&#34;
-         data-ad-format=&#34;rectangle&#34;&gt;&lt;/ins&gt;
-    &lt;script&gt;
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    &lt;/script&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;div class=&#34;finance-cta&#34;&gt;
-    &lt;p class=&#34;cta-text&#34;&gt;💡 Looking for the best financial products? Check our expert reviews above!&lt;/p&gt;</description>
+&lt;p&gt;{{/* &amp;lt; ad-break &amp;gt; */}}&lt;/p&gt;</description>
       
     </item>
     

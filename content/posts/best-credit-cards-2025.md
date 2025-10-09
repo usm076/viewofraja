@@ -11,7 +11,7 @@ tags = ['credit cards', 'rewards', 'cashback', 'travel cards', '2025']
 
 Finding the right credit card can significantly impact your financial health and rewards earnings. After analyzing dozens of cards, here are our top picks for 2025.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Top Overall Credit Cards
 
@@ -35,7 +35,7 @@ Finding the right credit card can significantly impact your financial health and
 - **Cashback:** 2% on everything (1% when you buy, 1% when you pay)
 - **Why we love it:** No categories to track, straightforward rewards
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Best Cashback Cards
 

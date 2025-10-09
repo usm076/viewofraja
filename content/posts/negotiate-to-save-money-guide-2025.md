@@ -26,7 +26,7 @@ Negotiation isn't about being aggressive or demanding - it's about creating win-
 - You can walk away (ultimate leverage)
 - Companies have quotas and targets to meet
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## The Foundation: Preparation and Mindset
 
@@ -60,7 +60,7 @@ Negotiation isn't about being aggressive or demanding - it's about creating win-
 - You have alternatives and aren't desperate
 - You're willing to walk away if necessary
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## What You Can Negotiate (Almost Everything)
 
@@ -115,7 +115,7 @@ Negotiation isn't about being aggressive or demanding - it's about creating win-
 - Late fee waivers
 - Loan modification terms
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Major Purchases
 
@@ -175,7 +175,7 @@ Negotiation isn't about being aggressive or demanding - it's about creating win-
 **Example Opening:**
 "Hi Sarah, I hope you're having a good day. I've been a customer for [X years] and really value the service, but I'm looking at my budget and wondering if there are any options to reduce my monthly costs."
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Step 4: Present Your Case
 **The Three-Part Formula:**
@@ -206,7 +206,7 @@ Negotiation isn't about being aggressive or demanding - it's about creating win-
 **Escalation Script:**
 "I appreciate your help, but this gap is still pretty significant. Is there a supervisor or someone in retention who might have additional authority to help me find a solution?"
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Proven Scripts That Work
 
@@ -240,7 +240,7 @@ Negotiation isn't about being aggressive or demanding - it's about creating win-
 **For Reduction:**
 "This amount is really challenging for my budget. Is there any way to reduce the total amount owed?"
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Advanced Negotiation Tactics
 
@@ -276,7 +276,7 @@ Instead of negotiating individual services, negotiate the entire relationship.
 **Contract Renewal:**
 "My contract is up next month, and I'm evaluating all my options. Before I make any decisions, what retention offers do you have available?"
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Industry-Specific Strategies
 
@@ -319,7 +319,7 @@ Instead of negotiating individual services, negotiate the entire relationship.
 - Bonus points or statement credits
 - Upgraded card benefits
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## What to Do When They Say No
 
@@ -364,7 +364,7 @@ If you're frustrated, wait until you're calm. Emotion hurts your negotiating pos
 ### 5. Not Getting It in Writing
 Always ask for email confirmation of any changes to your account.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Building Long-Term Negotiation Success
 
@@ -427,7 +427,7 @@ Most successful negotiators save $1,200-$3,000 annually through consistent effor
 - Social media for special offers
 - Customer forums for insider tips
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Negotiation Success Stories
 
@@ -478,7 +478,7 @@ Most successful negotiators save $1,200-$3,000 annually through consistent effor
 - Multiple services to negotiate
 - Time is more valuable than money
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Creating Your Negotiation Action Plan
 
@@ -540,7 +540,7 @@ Most successful negotiators save $1,200-$3,000 annually through consistent effor
 - $1,000 in annual savings
 - Mastering difficult negotiations
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Conclusion
 

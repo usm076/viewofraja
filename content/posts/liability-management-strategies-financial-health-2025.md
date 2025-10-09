@@ -33,7 +33,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 - **Car loans**
 - **Business loans**
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Good Debt vs Bad Debt: The Strategic Framework
 
@@ -78,7 +78,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 3. **Business loans** (5-10% interest)
 4. **Investment property loans** (7-9% interest)
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Debt-to-Income Ratios: Your Financial Health Metrics
 
@@ -129,7 +129,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 - **SBA loans** - Lower rates for qualified businesses
 - **ROI requirement** - Debt should generate 2-3x its cost
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Advanced Liability Optimization
 
@@ -194,7 +194,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 - **General liability** - Bodily injury, property damage
 - **Umbrella policies** - Additional coverage layers
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Emergency Liability Management
 
@@ -252,7 +252,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 - **What-if scenarios** - Test different approaches
 - **Motivation tools** - Celebrate milestones
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Credit Monitoring Services
 **Credit Karma (Free):**
@@ -323,7 +323,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 - **Conservative leverage** - Minimize investment debt
 - **Estate planning** - Liability transfer strategies
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Measuring Liability Management Success
 
@@ -370,7 +370,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 **Problem:** Panic-driven choices during financial stress
 **Solution:** Systematic approach with professional guidance
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Building Your Liability Management Plan
 
@@ -439,7 +439,7 @@ Liabilities are financial obligations - money you owe to others. They represent 
 - **Reporting requirements** - FBAR, Form 8938
 - **Professional guidance** - International tax specialists
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Future-Proofing Your Liability Strategy
 

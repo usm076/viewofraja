@@ -24,7 +24,7 @@ Cryptocurrency is **digital money** that exists only electronically. Unlike trad
 
 **Think of it this way:** If traditional money is like cash in your wallet controlled by your bank and government, cryptocurrency is like digital cash that you control directly, with no middleman needed.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## How Does Cryptocurrency Work?
 
@@ -71,7 +71,7 @@ When you send Bitcoin to someone:
 
 **For beginners:** Start with Bitcoin or Ethereum - they're the most established and safest options.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Why Do People Use Cryptocurrency?
 
@@ -126,7 +126,7 @@ When you send Bitcoin to someone:
 - ❌ More complex interface
 - **Best for:** Beginners who want low fees
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### **Step 2: Create and Verify Your Account**
 
@@ -216,7 +216,7 @@ When you send Bitcoin to someone:
 2. **Small amounts:** Mobile wallet like Trust Wallet
 3. **Larger investments:** Hardware wallet like Ledger
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Common Cryptocurrency Terms You Should Know
 
@@ -306,7 +306,7 @@ When you send Bitcoin to someone:
 - Take profits from winners
 - Add to underperforming assets
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Security Best Practices
 
@@ -386,7 +386,7 @@ When you send Bitcoin to someone:
 
 **Protection:** If it sounds too good to be true, it probably is
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Understanding Cryptocurrency Risks
 
@@ -470,7 +470,7 @@ When you send Bitcoin to someone:
 - [ ] Join crypto communities for learning
 - [ ] Consider hardware wallet for larger amounts
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Resources for Continued Learning
 

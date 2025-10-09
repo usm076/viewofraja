@@ -20,7 +20,7 @@ A credit score is a three-digit number (typically 300-850) that represents your 
 - Fair: 580-669
 - Poor: 300-579
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## How Credit Scores Are Calculated
 
@@ -65,7 +65,7 @@ Call your credit card companies and request higher limits. This instantly improv
 ### 3. Become an Authorized User
 Ask a family member with excellent credit to add you as an authorized user. Their positive payment history can boost your score within 30-60 days.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### 4. Pay Bills Twice a Month
 Credit card companies report your balance on different dates. Paying twice monthly ensures lower balances get reported.
@@ -111,7 +111,7 @@ Contact the credit bureau online, by phone, or mail. Include:
 ### Step 4: Follow Up
 Bureaus have 30 days to investigate. If they don't respond or rule against you, escalate to the Consumer Financial Protection Bureau.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Advanced Credit Building Strategies
 

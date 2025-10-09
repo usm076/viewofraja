@@ -21,7 +21,7 @@ Insurance serves as your financial safety net, protecting you and your family fr
 
 Think of insurance as buying peace of mind and protecting the wealth you're building through your other financial strategies.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Essential Types of Insurance Coverage
 
@@ -60,7 +60,7 @@ Medical bankruptcies account for 66% of personal bankruptcies in the US. Even wi
 - **Ladder** - Flexible term life with easy adjustments
 - **Ethos** - No medical exam required for many applicants
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### 3. Disability Insurance
 
@@ -92,7 +92,7 @@ You're 3x more likely to become disabled than die during your working years, yet
 - **Uninsured motorist** - Protection from uninsured drivers
 - **Gap insurance** - For leased/financed vehicles
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Advanced Insurance Strategies
 
@@ -120,7 +120,7 @@ You're 3x more likely to become disabled than die during your working years, yet
 - **Hybrid life/LTC policies** - Death benefit if care not needed
 - **Annuity/LTC combinations** - Investment growth potential
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Insurance Planning by Life Stage
 
@@ -162,7 +162,7 @@ You're 3x more likely to become disabled than die during your working years, yet
 3. Reduce life insurance to estate planning needs only
 4. Maintain adequate property coverage
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Money-Saving Insurance Strategies
 
@@ -204,7 +204,7 @@ You're 3x more likely to become disabled than die during your working years, yet
 - Knowing claim procedures and requirements
 - Being aware of coverage gaps
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## 2025 Insurance Technology Trends
 
@@ -241,7 +241,7 @@ You're 3x more likely to become disabled than die during your working years, yet
 - Update coverage for life changes
 - Reassess needs every 3-5 years
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Working with Insurance Professionals
 

@@ -15,7 +15,7 @@ The IRS treats cryptocurrency as **property, not currency**. This means every cr
 
 **Key takeaway:** Ignorance isn't a defense. The IRS expects you to report all crypto transactions, even if you didn't receive a tax form.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## How Cryptocurrency Is Taxed
 
@@ -75,7 +75,7 @@ Crypto taxation depends on how you acquired and used your cryptocurrency:
 - Employer payments: Taxable as wages
 - Freelance payments: Taxable as self-employment income
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 **5. DeFi Activities**
 - **Liquidity mining rewards:** Taxable income when received
@@ -136,7 +136,7 @@ Use this calculator to estimate your crypto tax liability:
 - Choose which specific coins to sell
 - Most tax-efficient if tracked properly
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Crypto Tax Forms You Need to Know
 
@@ -216,7 +216,7 @@ Unlike traditional securities, crypto isn't subject to wash sale rules:
 - Offset up to $3,000 of ordinary income per year
 - Carry forward excess losses indefinitely
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Record Keeping Requirements
 
@@ -286,7 +286,7 @@ Unlike traditional securities, crypto isn't subject to wash sale rules:
 ### **General Rule:**
 Most states follow federal tax treatment of cryptocurrency.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## IRS Enforcement and Penalties
 
@@ -373,7 +373,7 @@ Most states follow federal tax treatment of cryptocurrency.
 - Best for complex legal issues
 - Most expensive option
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## 2025 Tax Season Preparation
 

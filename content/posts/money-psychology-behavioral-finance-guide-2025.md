@@ -39,7 +39,7 @@ Behavioral finance combines psychology and economics to explain why people make 
 - Mindless online browsing leading to purchases
 - Filling time with consumption
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### The Neuroscience of Spending
 
@@ -93,7 +93,7 @@ Making too many choices exhausts your mental energy, leading to poor financial d
 - Get multiple quotes or opinions
 - Question your initial assumptions
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Confirmation Bias
 **What It Is:** Seeking information that confirms existing beliefs while ignoring contradictory evidence.
@@ -157,7 +157,7 @@ Making too many choices exhausts your mental energy, leading to poor financial d
 - Seeing mistakes as learning opportunities
 - Believing financial skills can be developed
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## The Psychology of Financial Habits
 
@@ -236,7 +236,7 @@ Link new financial habits to existing routines:
 - Break financial tasks into small steps
 - Consider working with a financial advisor
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### The Money Worrier
 **Characteristics:**
@@ -302,7 +302,7 @@ For one week, note:
 - Treat windfalls as opportunities to boost savings
 - Use mental categories to prioritize spending
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Building a Healthy Money Mindset
 
@@ -368,7 +368,7 @@ For one week, note:
 - Create new, positive money affirmations
 - Seek therapy if money trauma is severe
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Practical Strategies for Better Financial Decisions
 
@@ -433,7 +433,7 @@ Instead of vague goals like "I'll save more," create specific if-then plans:
 - Focus on time in market, not timing the market
 - Regularly rebalance your portfolio
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Building Financial Resilience
 

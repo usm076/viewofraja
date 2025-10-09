@@ -39,7 +39,7 @@ Simple interest is rare in modern finance but sometimes used for:
 - Car loans (occasionally)
 - Short-term investments
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Compound Interest
 
@@ -80,7 +80,7 @@ How often interest compounds makes a significant difference:
 
 The more frequent the compounding, the more you earn (or owe).
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## APR vs. APY: Understanding the Difference
 
@@ -134,7 +134,7 @@ Mortgages use **monthly compounding** with lower rates (6-8% in 2025).
 
 The early payments go mostly to interest, later payments mostly to principal.
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ### Savings Accounts
 
@@ -185,7 +185,7 @@ The longer the time period, the more dramatic the difference becomes.
 - Credit cards: 15-25%
 - Federal student loans: 5.5-7%
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Strategies to Make Interest Work for You
 
@@ -249,7 +249,7 @@ M = P[r(1+r)^n]/[(1+r)^n-1]
 - Savings goal calculators
 - Credit card payoff calculators
 
-{{< ad-break >}}
+{{/* < ad-break > */}}
 
 ## Real-World Interest Examples
 
