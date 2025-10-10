@@ -13,7 +13,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 
 **Important note:** Start with index funds first, then allocate 5-10% of your portfolio to individual stocks as you learn.
 
-{{/* < ad-break > */}}
 
 ## Before You Start Stock Picking
 
@@ -65,7 +64,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 - **Lower volatility** - Generally more stable stock prices
 - **Compound growth** - Reinvest dividends for long-term wealth
 
-{{/* < ad-break > */}}
 
 ## Key Financial Metrics to Understand
 
@@ -114,7 +112,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 - **Industry varies:** Utilities can handle more debt than tech
 - **Red flag:** Rapidly increasing debt levels
 
-{{/* < ad-break > */}}
 
 ## Step-by-Step Stock Analysis Process
 
@@ -174,7 +171,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 - Free cash flow generation
 - Dividend sustainability
 
-{{/* < ad-break > */}}
 
 ### Step 4: Competitive Analysis
 **Industry research:**
@@ -237,7 +233,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 **Problems:** Holding losers too long, selling winners too early
 **Solution:** Set target prices and stop-losses before buying
 
-{{/* < ad-break > */}}
 
 ## Building Your First Stock Portfolio
 
@@ -309,7 +304,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 - Educational content and community
 - Long-term investing focus
 
-{{/* < ad-break > */}}
 
 ## When to Buy and Sell
 
@@ -370,7 +364,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 - **Governance:** Board independence, executive compensation
 - **Performance:** ESG leaders often outperform long-term
 
-{{/* < ad-break > */}}
 
 ## Tax Considerations for Stock Picking
 
@@ -413,7 +406,6 @@ Ready to move beyond index funds and try picking individual stocks? While index 
 **Quarterly:** Deep dive into earnings reports and guidance
 **Annually:** Reassess investment thesis and competitive position
 
-{{/* < ad-break > */}}
 
 ## Bottom Line
 

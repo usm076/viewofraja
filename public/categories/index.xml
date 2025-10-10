@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dubai</title>
+      <link>http://localhost:1314/categories/dubai/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/dubai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Investment</title>
+      <link>http://localhost:1314/categories/international-investment/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/international-investment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Middle East</title>
+      <link>http://localhost:1314/categories/middle-east/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/middle-east/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Real-Estate</title>
+      <link>http://localhost:1314/categories/real-estate/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/real-estate/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Financial-Planning</title>
@@ -315,46 +355,6 @@
       <pubDate>Sat, 25 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/insurance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Real-Estate</title>
-      <link>http://localhost:1314/categories/real-estate/</link>
-      <pubDate>Sat, 18 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/real-estate/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Dubai</title>
-      <link>http://localhost:1314/categories/dubai/</link>
-      <pubDate>Fri, 10 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/dubai/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>International Investment</title>
-      <link>http://localhost:1314/categories/international-investment/</link>
-      <pubDate>Fri, 10 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/international-investment/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Middle East</title>
-      <link>http://localhost:1314/categories/middle-east/</link>
-      <pubDate>Fri, 10 Jan 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/middle-east/</guid>
       <description></description>
       
     </item>

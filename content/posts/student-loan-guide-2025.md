@@ -26,7 +26,6 @@ Navigating student loans can feel overwhelming, but understanding your options i
 - **Interest rate adjustments** - Based on 10-year Treasury rates
 - **Pell Grant increases** - Maximum award now $7,395
 
-{{/* < ad-break > */}}
 
 ## Types of Student Loans
 
@@ -92,7 +91,6 @@ Navigating student loans can feel overwhelming, but understanding your options i
 - **Forgiveness:** After 20-25 years
 - **Eligibility:** Partial financial hardship required
 
-{{/* < ad-break > */}}
 
 ## Loan Forgiveness Programs
 

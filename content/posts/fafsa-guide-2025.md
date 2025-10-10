@@ -22,7 +22,6 @@ FAFSA is the form that determines your eligibility for federal, state, and insti
 
 The form calculates your Student Aid Index (SAI), formerly called Expected Family Contribution (EFC), which determines your aid eligibility.
 
-{{/* < ad-break > */}}
 
 ## 2025 FAFSA Changes You Need to Know
 
@@ -61,7 +60,6 @@ Go to studentaid.gov (the official site) and select "Complete the FAFSA Form."
 - School choices (list up to 10 schools)
 - Dependency status determination
 
-{{/* < ad-break > */}}
 
 ### Step 4: Financial Information
 **For Dependent Students:**
@@ -101,7 +99,6 @@ Double-check all information before submitting. You'll receive a confirmation em
 - Consider 529 plans owned by grandparents (not reported until distributions)
 - Understand which assets count and which don't
 
-{{/* < ad-break > */}}
 
 ## Understanding Your Student Aid Report (SAR)
 
@@ -140,7 +137,6 @@ Your SAR shows your calculated SAI and any issues with your application. Key thi
 - Forgetting to include all potential schools
 - Using wrong school codes
 
-{{/* < ad-break > */}}
 
 ## Special Circumstances and Appeals
 
@@ -185,7 +181,6 @@ In rare cases, students can be declared independent:
 - Understand residency requirements
 - Know renewal criteria
 
-{{/* < ad-break > */}}
 
 ## FAFSA for Different Student Types
 
@@ -226,7 +221,6 @@ In rare cases, students can be declared independent:
 - Automatic calculations
 - Real-time error checking
 
-{{/* < ad-break > */}}
 
 ## After Filing FAFSA: Next Steps
 
@@ -270,7 +264,6 @@ In rare cases, students can be declared independent:
 - Plan for potential income increases
 - Consider impact of siblings in college
 
-{{/* < ad-break > */}}
 
 ## FAFSA Myths Debunked
 

@@ -19,7 +19,6 @@ Real estate provides several unique advantages:
 - **Inflation hedge** as property values typically rise with inflation
 - **Leverage** opportunities with mortgages
 
-{{/* < ad-break > */}}
 
 ## Types of Real Estate Investments
 
@@ -55,7 +54,6 @@ Platforms allowing smaller investments in real estate projects.
 - **RealtyMogul** - Accredited investor focus
 - **YieldStreet** - Alternative investments including real estate
 
-{{/* < ad-break > */}}
 
 ## Getting Started: Step-by-Step Guide
 
@@ -98,7 +96,6 @@ Monthly rent should equal at least 1% of purchase price for positive cash flow.
 Net Operating Income ÷ Property Value = Capitalization Rate
 ```
 
-{{/* < ad-break > */}}
 
 ## 2025 Market Trends and Opportunities
 
@@ -128,7 +125,6 @@ Net Operating Income ÷ Property Value = Capitalization Rate
 - **Depreciation Recapture** - Plan for tax implications
 - **Cost Segregation** - Accelerate depreciation deductions
 
-{{/* < ad-break > */}}
 
 ## Common Mistakes to Avoid
 
@@ -160,7 +156,6 @@ Net Operating Income ÷ Property Value = Capitalization Rate
 - Use equity from appreciated properties for new purchases
 - Consider partnerships for larger deals
 
-{{/* < ad-break > */}}
 
 ## Technology and Real Estate in 2025
 

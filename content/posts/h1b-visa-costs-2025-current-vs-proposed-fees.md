@@ -11,7 +11,6 @@ tags = ['H1B visa', 'immigration costs', 'visa fees', 'financial planning', '202
 
 The proposed $100,000 H1B visa fee represents a seismic shift in immigration policy that would fundamentally change the economics of skilled worker visas. Let's break down exactly what this means financially.
 
-{{/* < ad-break > */}}
 
 ## Current H1B Visa Costs (2025)
 
@@ -31,7 +30,6 @@ The proposed $100,000 H1B visa fee represents a seismic shift in immigration pol
 - **Large Company (25+ employees):** $4,460-$10,265
 - **With Premium Processing:** $7,265-$13,070
 
-{{/* < ad-break > */}}
 
 ## Proposed $100K Fee: The Numbers
 
@@ -66,7 +64,6 @@ H1B visas are typically valid for 3 years, renewable once:
 | $150,000 | 67% | 8 months |
 | $200,000 | 50% | 6 months |
 
-{{/* < ad-break > */}}
 
 ## Regional Impact Analysis
 
@@ -107,7 +104,6 @@ H1B visas are typically valid for 3 years, renewable once:
 | L-1 (Intracompany Transfer) | $2,000-$5,000 | 2-6 months | Foreign office experience |
 | EB-2/EB-3 Green Card | $5,000-$15,000 | 2-10 years | Permanent residency |
 
-{{/* < ad-break > */}}
 
 ## Financial Planning Strategies
 
@@ -142,7 +138,6 @@ H1B visas are typically valid for 3 years, renewable once:
 - **Phased rollout:** Gradual fee increases over 2-3 years
 - **Renewal impact:** Existing H1B holders face new fees at renewal
 
-{{/* < ad-break > */}}
 
 ## Bottom Line
 

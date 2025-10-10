@@ -29,7 +29,6 @@ Tax optimization (or tax planning) involves using legal strategies to minimize y
 - 35%: $250,526 - $626,350
 - 37%: $626,351+
 
-{{/* < ad-break > */}}
 
 ## Maximize Tax-Advantaged Accounts
 
@@ -70,7 +69,6 @@ Often called the "triple tax advantage" account:
 - Tax-free withdrawals for qualified medical expenses
 - After age 65, can withdraw for any purpose (taxed as ordinary income)
 
-{{/* < ad-break > */}}
 
 ## Commonly Missed Tax Deductions
 
@@ -118,7 +116,6 @@ If you work from home, you may qualify for this deduction:
 - Includes insurance premiums, prescriptions, medical equipment
 - Mileage to medical appointments (22 cents per mile in 2025)
 
-{{/* < ad-break > */}}
 
 ## Tax-Loss Harvesting
 
@@ -166,7 +163,6 @@ Can't buy the same or "substantially identical" security within 30 days before o
 - Employer contribution: Up to 25% of income
 - Total limit: $70,000 ($77,500 if 50+)
 
-{{/* < ad-break > */}}
 
 ## Advanced Tax Strategies
 
@@ -237,7 +233,6 @@ Consider professional help if you:
 - Significant deductions
 - Tax planning advice
 
-{{/* < ad-break > */}}
 
 ## 2025 Tax Calendar
 
