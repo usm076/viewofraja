@@ -7,7 +7,87 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Sep 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 14:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DCA</title>
+      <link>http://localhost:1314/tags/dca/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/dca/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dollar Cost Averaging</title>
+      <link>http://localhost:1314/tags/dollar-cost-averaging/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/dollar-cost-averaging/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ETFs</title>
+      <link>http://localhost:1314/tags/etfs/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/etfs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Index Funds</title>
+      <link>http://localhost:1314/tags/index-funds/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/index-funds/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Investment Strategy</title>
+      <link>http://localhost:1314/tags/investment-strategy/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/investment-strategy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Risk Management</title>
+      <link>http://localhost:1314/tags/risk-management/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/risk-management/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Systematic Investing</title>
+      <link>http://localhost:1314/tags/systematic-investing/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/systematic-investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wealth Building</title>
+      <link>http://localhost:1314/tags/wealth-building/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/wealth-building/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Dubai Property Market</title>
@@ -910,16 +990,6 @@
     </item>
     
     <item>
-      <title>Wealth Building</title>
-      <link>http://localhost:1314/tags/wealth-building/</link>
-      <pubDate>Sat, 19 Apr 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/wealth-building/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Bill Reduction</title>
       <link>http://localhost:1314/tags/bill-reduction/</link>
       <pubDate>Sat, 12 Apr 2025 10:00:00 +0000</pubDate>
@@ -1185,16 +1255,6 @@
       <pubDate>Sat, 01 Mar 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/ynab/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>ETFs</title>
-      <link>http://localhost:1314/tags/etfs/</link>
-      <pubDate>Sat, 22 Feb 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/etfs/</guid>
       <description></description>
       
     </item>
@@ -1490,61 +1550,71 @@
     </item>
     
     <item>
-      <title>DCA</title>
-      <link>http://localhost:1314/tags/dca/</link>
-      <pubDate>Fri, 10 Jan 2025 14:00:00 +0000</pubDate>
+      <title>Bitcoin Politics</title>
+      <link>http://localhost:1314/tags/bitcoin-politics/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/dca/</guid>
+      <guid>http://localhost:1314/tags/bitcoin-politics/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Dollar Cost Averaging</title>
-      <link>http://localhost:1314/tags/dollar-cost-averaging/</link>
-      <pubDate>Fri, 10 Jan 2025 14:00:00 +0000</pubDate>
+      <title>Crypto News Trading</title>
+      <link>http://localhost:1314/tags/crypto-news-trading/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/dollar-cost-averaging/</guid>
+      <guid>http://localhost:1314/tags/crypto-news-trading/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Index Funds</title>
-      <link>http://localhost:1314/tags/index-funds/</link>
-      <pubDate>Fri, 10 Jan 2025 14:00:00 +0000</pubDate>
+      <title>Market Psychology</title>
+      <link>http://localhost:1314/tags/market-psychology/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/index-funds/</guid>
+      <guid>http://localhost:1314/tags/market-psychology/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Investment Strategy</title>
-      <link>http://localhost:1314/tags/investment-strategy/</link>
-      <pubDate>Fri, 10 Jan 2025 14:00:00 +0000</pubDate>
+      <title>Market Volatility</title>
+      <link>http://localhost:1314/tags/market-volatility/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/investment-strategy/</guid>
+      <guid>http://localhost:1314/tags/market-volatility/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Risk Management</title>
-      <link>http://localhost:1314/tags/risk-management/</link>
-      <pubDate>Fri, 10 Jan 2025 14:00:00 +0000</pubDate>
+      <title>Political Tweets</title>
+      <link>http://localhost:1314/tags/political-tweets/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/risk-management/</guid>
+      <guid>http://localhost:1314/tags/political-tweets/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Systematic Investing</title>
-      <link>http://localhost:1314/tags/systematic-investing/</link>
-      <pubDate>Fri, 10 Jan 2025 14:00:00 +0000</pubDate>
+      <title>Social Media Trading</title>
+      <link>http://localhost:1314/tags/social-media-trading/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/tags/systematic-investing/</guid>
+      <guid>http://localhost:1314/tags/social-media-trading/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Trump Crypto</title>
+      <link>http://localhost:1314/tags/trump-crypto/</link>
+      <pubDate>Fri, 10 Jan 2025 16:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/trump-crypto/</guid>
       <description></description>
       
     </item>
