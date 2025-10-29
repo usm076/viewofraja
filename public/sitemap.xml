@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1314/posts/dollar-cost-averaging-strategy-guide-2025/</loc>
-    <lastmod>2025-09-27T14:00:00+00:00</lastmod>
+    <loc>http://localhost:1314/posts/trump-tweets-crypto-market-volatility-guide-2025/</loc>
+    <lastmod>2025-10-13T16:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1314/</loc>
-    <lastmod>2025-09-27T14:00:00+00:00</lastmod>
+    <lastmod>2025-10-13T16:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1314/posts/</loc>
+    <lastmod>2025-10-13T16:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1314/posts/dollar-cost-averaging-strategy-guide-2025/</loc>
     <lastmod>2025-09-27T14:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -219,6 +225,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1314/posts/qatar-investment-climate-business-setup-guide-2025/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1314/posts/real-estate-investment-guide-2025/</loc>
     <lastmod>2025-01-18T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -227,12 +239,6 @@
   <url>
     <loc>http://localhost:1314/posts/tax-optimization-strategies-2025/</loc>
     <lastmod>2025-01-12T10:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1314/posts/trump-tweets-crypto-market-volatility-guide-2025/</loc>
-    <lastmod>2025-01-10T16:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
