@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 13 Oct 2025 16:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Oct 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Business Setup</title>
+      <link>http://localhost:1314/categories/business-setup/</link>
+      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/business-setup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Investment</title>
+      <link>http://localhost:1314/categories/international-investment/</link>
+      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/international-investment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Middle East Finance</title>
+      <link>http://localhost:1314/categories/middle-east-finance/</link>
+      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/middle-east-finance/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cryptocurrency</title>
@@ -80,16 +110,6 @@
     </item>
     
     <item>
-      <title>International Investment</title>
-      <link>http://localhost:1314/categories/international-investment/</link>
-      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/international-investment/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Middle East</title>
       <link>http://localhost:1314/categories/middle-east/</link>
       <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
@@ -155,16 +175,6 @@
       <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/international-investing/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Middle East Finance</title>
-      <link>http://localhost:1314/categories/middle-east-finance/</link>
-      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/middle-east-finance/</guid>
       <description></description>
       
     </item>
@@ -400,11 +410,11 @@
     </item>
     
     <item>
-      <title>Business Setup</title>
-      <link>http://localhost:1314/categories/business-setup/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Economic Policy</title>
+      <link>http://localhost:1314/categories/economic-policy/</link>
+      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/business-setup/</guid>
+      <guid>http://localhost:1314/categories/economic-policy/</guid>
       <description></description>
       
     </item>
