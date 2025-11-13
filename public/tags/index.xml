@@ -7,7 +7,87 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 19 Oct 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 14:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>http://localhost:1314/tags/bitcoin/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/bitcoin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CFTC</title>
+      <link>http://localhost:1314/tags/cftc/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/cftc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Crypto Regulation</title>
+      <link>http://localhost:1314/tags/crypto-regulation/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/crypto-regulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial Markets</title>
+      <link>http://localhost:1314/tags/financial-markets/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/financial-markets/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Government Shutdown</title>
+      <link>http://localhost:1314/tags/government-shutdown/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/government-shutdown/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Market Volatility</title>
+      <link>http://localhost:1314/tags/market-volatility/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/market-volatility/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Political Risk</title>
+      <link>http://localhost:1314/tags/political-risk/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/political-risk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SEC</title>
+      <link>http://localhost:1314/tags/sec/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/sec/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Business Formation</title>
@@ -115,16 +195,6 @@
       <pubDate>Mon, 13 Oct 2025 16:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/market-psychology/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Market Volatility</title>
-      <link>http://localhost:1314/tags/market-volatility/</link>
-      <pubDate>Mon, 13 Oct 2025 16:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/market-volatility/</guid>
       <description></description>
       
     </item>
@@ -795,16 +865,6 @@
       <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/tax-guide/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Bitcoin</title>
-      <link>http://localhost:1314/tags/bitcoin/</link>
-      <pubDate>Tue, 29 Jul 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/bitcoin/</guid>
       <description></description>
       
     </item>
@@ -1605,66 +1665,6 @@
       <pubDate>Sat, 25 Jan 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/life-insurance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>CFTC</title>
-      <link>http://localhost:1314/tags/cftc/</link>
-      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/cftc/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Crypto Regulation</title>
-      <link>http://localhost:1314/tags/crypto-regulation/</link>
-      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/crypto-regulation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Financial Markets</title>
-      <link>http://localhost:1314/tags/financial-markets/</link>
-      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/financial-markets/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Government Shutdown</title>
-      <link>http://localhost:1314/tags/government-shutdown/</link>
-      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/government-shutdown/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Political Risk</title>
-      <link>http://localhost:1314/tags/political-risk/</link>
-      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/political-risk/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>SEC</title>
-      <link>http://localhost:1314/tags/sec/</link>
-      <pubDate>Wed, 22 Jan 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/sec/</guid>
       <description></description>
       
     </item>
