@@ -1,0 +1,56 @@
+{{- $date := . -}}
+{{- $now := now -}}
+{{- $diff := $now.Sub $date -}}
+{{- $hours := div $diff.Hours 1 -}}
+{{- $days := div $diff.Hours 24 -}}
+{{- $weeks := div $days 7 -}}
+{{- $months := div $days 30 -}}
+
+<time datetime="{{ $date | time.Format "2006-01-02T15:04:05-07:00" }}" title="{{ $date | time.Format "January 2, 2006 at 3:04 PM MST" }}">
+  {{- if lt $hours 1 -}}
+    {{- $minutes := div $diff.Minutes 1 | int -}}
+    {{- if eq $minutes 0 -}}
+      just now
+    {{- else if eq $minutes 1 -}}
+      1 minute ago
+    {{- else -}}
+      {{ $minutes }} minutes ago
+    {{- end -}}
+  {{- else if lt $hours 24 -}}
+    {{- $hoursInt := int $hours -}}
+    {{- if eq $hoursInt 1 -}}
+      1 hour ago
+    {{- else -}}
+      {{ $hoursInt }} hours ago
+    {{- end -}}
+  {{- else if lt $days 7 -}}
+    {{- $daysInt := int $days -}}
+    {{- if eq $daysInt 1 -}}
+      1 day ago
+    {{- else -}}
+      {{ $daysInt }} days ago
+    {{- end -}}
+  {{- else if lt $days 30 -}}
+    {{- $weeksInt := int $weeks -}}
+    {{- if eq $weeksInt 1 -}}
+      1 week ago
+    {{- else -}}
+      {{ $weeksInt }} weeks ago
+    {{- end -}}
+  {{- else if lt $days 365 -}}
+    {{- $monthsInt := int $months -}}
+    {{- if eq $monthsInt 1 -}}
+      1 month ago
+    {{- else -}}
+      {{ $monthsInt }} months ago
+    {{- end -}}
+  {{- else -}}
+    {{- $years := div $days 365 | int -}}
+    {{- if eq $years 1 -}}
+      1 year ago
+    {{- else -}}
+      {{ $years }} years ago
+    {{- end -}}
+  {{- end -}}
+</time>
+{{- /* Trim EOF */ -}}
