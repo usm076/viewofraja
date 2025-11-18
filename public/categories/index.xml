@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 22 Oct 2025 14:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Nov 2025 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Market Analysis</title>
+      <link>http://localhost:1314/categories/market-analysis/</link>
+      <pubDate>Thu, 13 Nov 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/market-analysis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Personal Finance</title>
+      <link>http://localhost:1314/categories/personal-finance/</link>
+      <pubDate>Thu, 13 Nov 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/personal-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Political Finance</title>
+      <link>http://localhost:1314/categories/political-finance/</link>
+      <pubDate>Thu, 13 Nov 2025 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/political-finance/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cryptocurrency</title>
@@ -25,26 +55,6 @@
       <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/economic-policy/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Market Analysis</title>
-      <link>http://localhost:1314/categories/market-analysis/</link>
-      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/market-analysis/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Political Finance</title>
-      <link>http://localhost:1314/categories/political-finance/</link>
-      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/political-finance/</guid>
       <description></description>
       
     </item>
@@ -85,16 +95,6 @@
       <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/investment-strategies/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Personal Finance</title>
-      <link>http://localhost:1314/categories/personal-finance/</link>
-      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/personal-finance/</guid>
       <description></description>
       
     </item>
