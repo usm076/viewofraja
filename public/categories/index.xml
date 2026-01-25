@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 18 Nov 2025 01:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jan 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Emerging Markets</title>
+      <link>http://localhost:1314/categories/emerging-markets/</link>
+      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/emerging-markets/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Investment</title>
+      <link>http://localhost:1314/categories/international-investment/</link>
+      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/international-investment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Market Analysis</title>
+      <link>http://localhost:1314/categories/market-analysis/</link>
+      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/market-analysis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Political Finance</title>
+      <link>http://localhost:1314/categories/political-finance/</link>
+      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/political-finance/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Bitcoin</title>
@@ -30,31 +70,11 @@
     </item>
     
     <item>
-      <title>Market Analysis</title>
-      <link>http://localhost:1314/categories/market-analysis/</link>
-      <pubDate>Tue, 18 Nov 2025 01:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/market-analysis/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Personal Finance</title>
       <link>http://localhost:1314/categories/personal-finance/</link>
       <pubDate>Thu, 13 Nov 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/personal-finance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Political Finance</title>
-      <link>http://localhost:1314/categories/political-finance/</link>
-      <pubDate>Thu, 13 Nov 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/political-finance/</guid>
       <description></description>
       
     </item>
@@ -75,16 +95,6 @@
       <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/business-setup/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>International Investment</title>
-      <link>http://localhost:1314/categories/international-investment/</link>
-      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/international-investment/</guid>
       <description></description>
       
     </item>
@@ -175,16 +185,6 @@
       <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/immigration/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Emerging Markets</title>
-      <link>http://localhost:1314/categories/emerging-markets/</link>
-      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/emerging-markets/</guid>
       <description></description>
       
     </item>
