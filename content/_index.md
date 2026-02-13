@@ -1,6 +1,6 @@
 ---
 title: "Master Your Money, Secure Your Future"
-description: "Expert financial guidance for credit cards, investing, and wealth building with Raja"
+description: "Expert financial guidance for credit cards, investing, wealth building, and retirement planning. Free calculators, in-depth reviews, and actionable strategies."
 ---
 
 ## Your Trusted Financial Partner

@@ -130,19 +130,19 @@ While we don't have a physical office, our team is available:
 
 Connect with us on social media for daily financial tips and updates:
 
-- **Twitter:** @FinanceWithRaja
-- **LinkedIn:** Finance with Raja
-- **Facebook:** Finance with Raja
-- **Instagram:** @FinanceWithRaja
+- **Twitter:** @SmartPersonalFin
+- **LinkedIn:** Smart Personal Finance
+- **Facebook:** Smart Personal Finance
+- **Instagram:** @SmartPersonalFin
 
 
 ## Thank You
 
-Thank you for being part of the Finance with Raja community. Your questions, feedback, and engagement help us create better content and serve our readers more effectively.
+Thank you for being part of the Smart Personal Finance community. Your questions, feedback, and engagement help us create better content and serve our readers more effectively.
 
 We're committed to helping you make smarter financial decisions, and we appreciate the opportunity to be part of your financial journey.
 
-**Raja & The Finance with Raja Team**
+**The Smart Personal Finance Team**
 
 ---
 

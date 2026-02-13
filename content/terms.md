@@ -10,15 +10,15 @@ description = 'Terms of Service for Smart Finance Hub outlining the rules and gu
 **Effective Date:** September 22, 2025  
 **Last Updated:** September 22, 2025
 
-Welcome to Finance with Raja. These Terms of Service ("Terms") govern your use of our website and services. By accessing or using our website, you agree to be bound by these Terms.
+Welcome to Smart Personal Finance. These Terms of Service ("Terms") govern your use of our website and services. By accessing or using our website, you agree to be bound by these Terms.
 
 ## Acceptance of Terms
 
-By accessing and using Finance with Raja, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+By accessing and using Smart Personal Finance, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
 
 ## Description of Service
 
-Finance with Raja provides:
+Smart Personal Finance provides:
 - **Educational Content:** Articles, guides, and resources about personal finance
 - **Product Reviews:** Unbiased reviews of financial products and services
 - **Comparison Tools:** Information to help compare financial products
@@ -163,7 +163,7 @@ If any provision of these Terms is found to be unenforceable, the remaining prov
 
 ## Entire Agreement
 
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and Finance with Raja regarding your use of the website.
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and Smart Personal Finance regarding your use of the website.
 
 ---
 

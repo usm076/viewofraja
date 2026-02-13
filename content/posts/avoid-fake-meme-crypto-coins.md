@@ -1,8 +1,8 @@
 +++
 date = '2025-03-29T10:00:00Z'
 draft = false
-title = 'How to Avoid Fake Meme Crypto Coins: Complete Scam Prevention Guide 2025'
-description = 'Learn how to identify and avoid fake meme cryptocurrency scams. Protect your money from rug pulls, pump and dumps, and fraudulent crypto projects in 2025.'
+title = 'How to Spot Fake Meme Coins: 10 Red Flags That Scream Crypto Scam'
+description = 'Protect your money from crypto scams. Learn the 10 biggest red flags of fake meme coins, how rug pulls work, and the tools to verify any token before you invest.'
 categories = ['Cryptocurrency', 'Scam Prevention']
 tags = ['cryptocurrency', 'meme coins', 'crypto scams', 'investment safety', 'blockchain', '2025']
 +++

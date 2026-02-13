@@ -5,7 +5,7 @@ date: 2025-04-19T10:00:00Z
 draft: false
 categories: ["investing", "wealth-building"]
 tags: ["assets", "investment types", "portfolio diversification", "wealth building", "asset allocation"]
-author: "Raja"
+author: "Finance Expert"
 ---
 
 Building wealth isn't just about saving money - it's about converting that money into assets that grow in value over time. Understanding different asset types is crucial for creating a diversified portfolio that can weather market storms and generate long-term returns.

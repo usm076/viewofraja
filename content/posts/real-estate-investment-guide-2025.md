@@ -5,7 +5,7 @@ date: 2025-01-18T10:00:00Z
 draft: false
 categories: ["investing", "real-estate"]
 tags: ["real estate", "investment", "rental property", "REITs", "passive income"]
-author: "Raja"
+author: "Finance Expert"
 ---
 
 Real estate has long been a cornerstone of wealth building, offering both passive income and long-term appreciation. In 2025, the landscape continues to evolve with new opportunities and challenges for investors.

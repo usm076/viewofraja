@@ -1,8 +1,8 @@
 ---
-title: "How Interest Works: Complete Guide to Understanding Interest Rates in 2025"
+title: "How Interest Works: APR vs APY, Compound vs Simple — Everything Explained Simply"
 date: 2025-06-19
 draft: false
-description: "Master the fundamentals of interest rates with this comprehensive guide. Learn about simple vs compound interest, APR vs APY, and how interest affects your finances."
+description: "Finally understand how interest really works. This plain-English guide explains compound vs simple interest, APR vs APY, and how interest secretly affects every financial decision you make."
 tags: ["interest rates", "compound interest", "simple interest", "APR", "APY", "personal finance"]
 categories: ["Financial Education"]
 ---

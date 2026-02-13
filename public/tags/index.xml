@@ -1,13 +1,113 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Finance with Raja</title>
+    <title>Tags on Smart Personal Finance | Expert Tips, Reviews &amp; Strategies</title>
     <link>http://localhost:1314/tags/</link>
-    <description>Recent content in Tags on Finance with Raja</description>
+    <description>Recent content in Tags on Smart Personal Finance | Expert Tips, Reviews &amp; Strategies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Finance with Raja. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Jan 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Smart Personal Finance. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 13 Feb 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bitcoin ETF</title>
+      <link>http://localhost:1314/tags/bitcoin-etf/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/bitcoin-etf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bitcoin Strategic Reserve</title>
+      <link>http://localhost:1314/tags/bitcoin-strategic-reserve/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/bitcoin-strategic-reserve/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CFTC</title>
+      <link>http://localhost:1314/tags/cftc/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/cftc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CLARITY Act</title>
+      <link>http://localhost:1314/tags/clarity-act/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/clarity-act/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Crypto Laws 2026</title>
+      <link>http://localhost:1314/tags/crypto-laws-2026/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/crypto-laws-2026/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Crypto Regulation</title>
+      <link>http://localhost:1314/tags/crypto-regulation/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/crypto-regulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GENIUS Act</title>
+      <link>http://localhost:1314/tags/genius-act/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/genius-act/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Project Crypto</title>
+      <link>http://localhost:1314/tags/project-crypto/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/project-crypto/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SEC</title>
+      <link>http://localhost:1314/tags/sec/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/sec/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Stablecoin Regulation</title>
+      <link>http://localhost:1314/tags/stablecoin-regulation/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/stablecoin-regulation/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Arctic Resources</title>
@@ -270,41 +370,11 @@
     </item>
     
     <item>
-      <title>CFTC</title>
-      <link>http://localhost:1314/tags/cftc/</link>
-      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/cftc/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Crypto Regulation</title>
-      <link>http://localhost:1314/tags/crypto-regulation/</link>
-      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/crypto-regulation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Financial Markets</title>
       <link>http://localhost:1314/tags/financial-markets/</link>
       <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/financial-markets/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>SEC</title>
-      <link>http://localhost:1314/tags/sec/</link>
-      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/sec/</guid>
       <description></description>
       
     </item>

@@ -1,8 +1,8 @@
 +++
 date = '2025-08-25T10:00:00Z'
 draft = false
-title = 'Liability Management Strategies for Financial Health 2025: Master Your Debt and Build Wealth'
-description = 'Learn comprehensive liability management strategies including good vs bad debt, debt-to-income ratios, and how to use liabilities strategically to build long-term wealth.'
+title = 'Good Debt vs Bad Debt: Liability Management Strategies to Build Wealth in 2025'
+description = 'Not all debt destroys wealth — some builds it. Learn how to use leverage strategically, optimize your debt-to-income ratio, and turn liabilities into assets with proven management strategies.'
 categories = ['Debt Management', 'Financial Planning']
 tags = ['liability management', 'debt strategy', 'financial health', 'net worth', 'debt-to-income', '2025']
 +++

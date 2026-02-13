@@ -1,8 +1,8 @@
 ---
-title: "Crypto Tax Guide 2025: Everything You Need to Know About Cryptocurrency Taxes"
+title: "Crypto Tax Guide 2025: How the IRS Taxes Bitcoin & What You Must Report"
 date: 2025-08-05T10:00:00Z
 draft: false
-description: "Complete guide to cryptocurrency taxes in 2025. Learn how crypto is taxed, reporting requirements, deductions, and strategies to minimize your crypto tax burden legally."
+description: "Don not get caught off guard by the IRS. Learn exactly how cryptocurrency is taxed, which transactions trigger taxes, how to calculate your crypto gains, and 5 legal strategies to reduce your tax bill."
 tags: ["cryptocurrency", "crypto taxes", "tax planning", "IRS", "bitcoin taxes", "tax guide"]
 categories: ["Taxes", "Cryptocurrency"]
 ---

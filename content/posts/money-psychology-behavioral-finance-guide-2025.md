@@ -1,8 +1,8 @@
 ---
-title: "Money Psychology and Behavioral Finance: Understanding Your Financial Mind in 2025"
+title: "Why Smart People Make Bad Money Decisions: A Behavioral Finance Guide"
 date: 2025-07-20
 draft: false
-description: "Master the psychology behind money decisions. Learn about spending triggers, cognitive biases, and how to build better financial habits through behavioral finance principles."
+description: "Your brain is sabotaging your finances. Learn the cognitive biases that cause overspending, panic selling, and poor investing — plus science-backed strategies to make better money decisions."
 tags: ["behavioral finance", "money psychology", "financial habits", "spending psychology", "cognitive biases", "financial mindset"]
 categories: ["Financial Psychology", "Personal Development"]
 ---

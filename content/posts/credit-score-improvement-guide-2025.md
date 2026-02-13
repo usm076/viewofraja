@@ -1,8 +1,8 @@
 ---
-title: "Complete Credit Score Improvement Guide: Boost Your Score in 2025"
+title: "How to Raise Your Credit Score 100+ Points Fast: Proven Strategies for 2025"
 date: 2025-01-05T10:00:00Z
 draft: false
-description: "Learn proven strategies to improve your credit score fast. Discover what affects your credit, common myths, and actionable steps to boost your score by 100+ points."
+description: "Boost your credit score by 100+ points with these proven strategies. Learn what actually moves your score, which myths to ignore, and the fastest ways to improve your credit in 2025."
 tags: ["credit score", "personal finance", "credit repair", "financial health"]
 categories: ["Credit"]
 ---

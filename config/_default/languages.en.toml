@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Finance with Raja"
+title = "Smart Personal Finance | Expert Tips, Reviews & Strategies"
 
 [params]
   displayName = "EN"
@@ -10,17 +10,17 @@ title = "Finance with Raja"
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
   secondaryLogo = "img/secondary-logo.png"
-  description = "Your trusted source for personal finance tips, credit card reviews, and investment strategies"
-  copyright = "© 2025 Finance with Raja. All rights reserved."
+  description = "Your trusted source for personal finance tips, credit card reviews, investment strategies, and wealth-building guides. Expert advice on budgeting, retirement planning, cryptocurrency, and more."
+  copyright = "© 2026 Smart Personal Finance. All rights reserved."
 
 [author]
-  name = "Raja"
+  name = "Finance Expert"
   image = "img/author.jpg"
   headline = "Personal Finance Expert"
   bio = "Helping you make smarter financial decisions through expert reviews, guides, and strategies."
   links = [
     { email = "mailto:hello@financewithraja.com" },
     { link = "https://financewithraja.com" },
-    { twitter = "https://twitter.com/financewithraja" },
-    { linkedin = "https://linkedin.com/in/financewithraja" },
+    { twitter = "https://twitter.com/SmartPersonalFin" },
+    { linkedin = "https://linkedin.com/in/smartpersonalfinance" },
   ]

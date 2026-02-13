@@ -1,8 +1,8 @@
 +++
 date = '2025-09-15T10:00:00Z'
 draft = false
-title = 'H1B Visa Costs 2025: Current Fees vs. Proposed $100K Fee - Complete Breakdown'
-description = 'Comprehensive analysis of current H1B visa costs versus the proposed $100,000 fee increase. Includes financial impact, employer implications, and planning strategies.'
+title = 'H1B Visa Costs 2025: Current Fees vs Proposed $100K Hike — Complete Financial Impact'
+description = 'The proposed $100,000 H1B fee would change everything. See the full cost breakdown, how it impacts employers and workers, and financial planning strategies whether the fee passes or not.'
 categories = ['Immigration', 'Financial Planning']
 tags = ['H1B visa', 'immigration costs', 'visa fees', 'financial planning', '2025']
 +++

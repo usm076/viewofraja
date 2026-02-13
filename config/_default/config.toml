@@ -2,7 +2,7 @@ baseURL = "https://financewithraja.com"
 canonifyURLs = true
 relativeURLs = false
 languageCode = "en"
-title = "Finance with Raja"
+title = "Smart Personal Finance | Expert Tips, Reviews & Strategies"
 theme = "blowfish"
 
 enableRobotsTXT = true

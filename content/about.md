@@ -1,12 +1,12 @@
 +++
 date = '2025-09-22T00:41:26+05:00'
 draft = false
-title = 'About Finance with Raja'
+title = 'About Smart Personal Finance'
 +++
 
-# About Finance with Raja
+# About Smart Personal Finance
 
-Welcome to Finance with Raja - your trusted resource for making informed financial decisions in an increasingly complex world.
+Welcome to Smart Personal Finance - your trusted resource for making informed financial decisions in an increasingly complex world.
 
 ## Our Mission
 
@@ -64,4 +64,4 @@ Have questions or suggestions? We'd love to hear from you.
 
 ---
 
-*Disclaimer: The information provided on Finance with Raja is for educational purposes only and should not be considered personalized financial advice. Always consult with qualified financial professionals before making major financial decisions.*
+*Disclaimer: The information provided on Smart Personal Finance is for educational purposes only and should not be considered personalized financial advice. Always consult with qualified financial professionals before making major financial decisions.*

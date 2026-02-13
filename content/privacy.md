@@ -10,7 +10,7 @@ description = 'Smart Finance Hub privacy policy explaining how we collect, use, 
 **Effective Date:** September 22, 2025  
 **Last Updated:** September 22, 2025
 
-At Finance with Raja, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+At Smart Personal Finance, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
 
 ## Information We Collect
 
