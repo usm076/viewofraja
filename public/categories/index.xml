@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Smart Personal Finance. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 13 Feb 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Cryptocurrency</title>
-      <link>http://localhost:1314/categories/cryptocurrency/</link>
-      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      <title>Investing</title>
+      <link>http://localhost:1314/categories/investing/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/cryptocurrency/</guid>
+      <guid>http://localhost:1314/categories/investing/</guid>
       <description></description>
       
     </item>
@@ -22,9 +22,29 @@
     <item>
       <title>Market Analysis</title>
       <link>http://localhost:1314/categories/market-analysis/</link>
-      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/market-analysis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Personal Finance</title>
+      <link>http://localhost:1314/categories/personal-finance/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/personal-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cryptocurrency</title>
+      <link>http://localhost:1314/categories/cryptocurrency/</link>
+      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/cryptocurrency/</guid>
       <description></description>
       
     </item>
@@ -65,16 +85,6 @@
       <pubDate>Tue, 18 Nov 2025 01:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/bitcoin/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Personal Finance</title>
-      <link>http://localhost:1314/categories/personal-finance/</link>
-      <pubDate>Thu, 13 Nov 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/personal-finance/</guid>
       <description></description>
       
     </item>
@@ -215,16 +225,6 @@
       <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/wealth-management/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Investing</title>
-      <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/investing/</guid>
       <description></description>
       
     </item>

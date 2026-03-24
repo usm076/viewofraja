@@ -7,7 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Smart Personal Finance. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 13 Feb 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Commodities</title>
+      <link>http://localhost:1314/tags/commodities/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/commodities/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Crude Oil</title>
+      <link>http://localhost:1314/tags/crude-oil/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/crude-oil/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Energy Stocks</title>
+      <link>http://localhost:1314/tags/energy-stocks/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/energy-stocks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Federal Reserve</title>
+      <link>http://localhost:1314/tags/federal-reserve/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/federal-reserve/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Gas Prices</title>
+      <link>http://localhost:1314/tags/gas-prices/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/gas-prices/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Inflation</title>
+      <link>http://localhost:1314/tags/inflation/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/inflation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Investment Strategy</title>
+      <link>http://localhost:1314/tags/investment-strategy/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/investment-strategy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Market Volatility</title>
+      <link>http://localhost:1314/tags/market-volatility/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/market-volatility/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Oil Prices</title>
+      <link>http://localhost:1314/tags/oil-prices/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/oil-prices/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OPEC</title>
+      <link>http://localhost:1314/tags/opec/</link>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/opec/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Bitcoin ETF</title>
@@ -175,16 +275,6 @@
       <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/kobold-metals/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Market Volatility</title>
-      <link>http://localhost:1314/tags/market-volatility/</link>
-      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/market-volatility/</guid>
       <description></description>
       
     </item>
@@ -555,16 +645,6 @@
       <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/index-funds/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Investment Strategy</title>
-      <link>http://localhost:1314/tags/investment-strategy/</link>
-      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/investment-strategy/</guid>
       <description></description>
       
     </item>
