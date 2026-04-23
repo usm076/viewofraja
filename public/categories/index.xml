@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Smart Personal Finance. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Investing</title>
       <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/investing/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>Market Analysis</title>
       <link>http://localhost:1314/categories/market-analysis/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/market-analysis/</guid>
       <description></description>
@@ -32,9 +32,19 @@
     <item>
       <title>Personal Finance</title>
       <link>http://localhost:1314/categories/personal-finance/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/personal-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Political Finance</title>
+      <link>http://localhost:1314/categories/political-finance/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/political-finance/</guid>
       <description></description>
       
     </item>
@@ -45,16 +55,6 @@
       <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/categories/cryptocurrency/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Political Finance</title>
-      <link>http://localhost:1314/categories/political-finance/</link>
-      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/political-finance/</guid>
       <description></description>
       
     </item>

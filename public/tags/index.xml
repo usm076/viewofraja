@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Smart Personal Finance. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Commodities</title>
       <link>http://localhost:1314/tags/commodities/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/commodities/</guid>
       <description></description>
@@ -22,9 +22,99 @@
     <item>
       <title>Crude Oil</title>
       <link>http://localhost:1314/tags/crude-oil/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/crude-oil/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Energy Markets</title>
+      <link>http://localhost:1314/tags/energy-markets/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/energy-markets/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Geopolitical Risk</title>
+      <link>http://localhost:1314/tags/geopolitical-risk/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/geopolitical-risk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Inflation</title>
+      <link>http://localhost:1314/tags/inflation/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/inflation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Investment Strategy</title>
+      <link>http://localhost:1314/tags/investment-strategy/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/investment-strategy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Iran</title>
+      <link>http://localhost:1314/tags/iran/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/iran/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Middle East</title>
+      <link>http://localhost:1314/tags/middle-east/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/middle-east/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Oil Prices</title>
+      <link>http://localhost:1314/tags/oil-prices/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/oil-prices/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>OPEC</title>
+      <link>http://localhost:1314/tags/opec/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/opec/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Strait of Hormuz</title>
+      <link>http://localhost:1314/tags/strait-of-hormuz/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/tags/strait-of-hormuz/</guid>
       <description></description>
       
     </item>
@@ -60,51 +150,11 @@
     </item>
     
     <item>
-      <title>Inflation</title>
-      <link>http://localhost:1314/tags/inflation/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/inflation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Investment Strategy</title>
-      <link>http://localhost:1314/tags/investment-strategy/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/investment-strategy/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Market Volatility</title>
       <link>http://localhost:1314/tags/market-volatility/</link>
       <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
       
       <guid>http://localhost:1314/tags/market-volatility/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Oil Prices</title>
-      <link>http://localhost:1314/tags/oil-prices/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/oil-prices/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>OPEC</title>
-      <link>http://localhost:1314/tags/opec/</link>
-      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/tags/opec/</guid>
       <description></description>
       
     </item>
