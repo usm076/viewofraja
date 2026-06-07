@@ -2,439 +2,449 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Smart Personal Finance | Expert Tips, Reviews &amp; Strategies</title>
-    <link>http://localhost:1314/categories/</link>
+    <link>https://financewithraja.com/categories/</link>
     <description>Recent content in Categories on Smart Personal Finance | Expert Tips, Reviews &amp; Strategies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Smart Personal Finance. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 23 Apr 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://financewithraja.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cryptocurrency</title>
+      <link>https://financewithraja.com/categories/cryptocurrency/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/cryptocurrency/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Investing</title>
-      <link>http://localhost:1314/categories/investing/</link>
-      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      <link>https://financewithraja.com/categories/investing/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/investing/</guid>
+      <guid>https://financewithraja.com/categories/investing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Market Analysis</title>
-      <link>http://localhost:1314/categories/market-analysis/</link>
-      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      <link>https://financewithraja.com/categories/market-analysis/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/market-analysis/</guid>
+      <guid>https://financewithraja.com/categories/market-analysis/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Personal Finance</title>
-      <link>http://localhost:1314/categories/personal-finance/</link>
-      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      <link>https://financewithraja.com/categories/personal-finance/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/personal-finance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Political Finance</title>
-      <link>http://localhost:1314/categories/political-finance/</link>
-      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/political-finance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cryptocurrency</title>
-      <link>http://localhost:1314/categories/cryptocurrency/</link>
-      <pubDate>Fri, 13 Feb 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/cryptocurrency/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Emerging Markets</title>
-      <link>http://localhost:1314/categories/emerging-markets/</link>
-      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/emerging-markets/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>International Investment</title>
-      <link>http://localhost:1314/categories/international-investment/</link>
-      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/international-investment/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Bitcoin</title>
-      <link>http://localhost:1314/categories/bitcoin/</link>
-      <pubDate>Tue, 18 Nov 2025 01:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/bitcoin/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Economic Policy</title>
-      <link>http://localhost:1314/categories/economic-policy/</link>
-      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/economic-policy/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Business Setup</title>
-      <link>http://localhost:1314/categories/business-setup/</link>
-      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/business-setup/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Middle East Finance</title>
-      <link>http://localhost:1314/categories/middle-east-finance/</link>
-      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/middle-east-finance/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Investment Strategies</title>
-      <link>http://localhost:1314/categories/investment-strategies/</link>
-      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/investment-strategies/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Wealth Building</title>
-      <link>http://localhost:1314/categories/wealth-building/</link>
-      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/wealth-building/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Dubai</title>
-      <link>http://localhost:1314/categories/dubai/</link>
-      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/dubai/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Middle East</title>
-      <link>http://localhost:1314/categories/middle-east/</link>
-      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/middle-east/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Real-Estate</title>
-      <link>http://localhost:1314/categories/real-estate/</link>
-      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/real-estate/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Financial-Planning</title>
-      <link>http://localhost:1314/categories/financial-planning/</link>
-      <pubDate>Mon, 22 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/financial-planning/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Savings</title>
-      <link>http://localhost:1314/categories/savings/</link>
-      <pubDate>Mon, 22 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/savings/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Immigration</title>
-      <link>http://localhost:1314/categories/immigration/</link>
-      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/immigration/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>International Investing</title>
-      <link>http://localhost:1314/categories/international-investing/</link>
-      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/international-investing/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>International Banking</title>
-      <link>http://localhost:1314/categories/international-banking/</link>
-      <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/international-banking/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Wealth Management</title>
-      <link>http://localhost:1314/categories/wealth-management/</link>
-      <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1314/categories/wealth-management/</guid>
+      <guid>https://financewithraja.com/categories/personal-finance/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Retirement Planning</title>
-      <link>http://localhost:1314/categories/retirement-planning/</link>
-      <pubDate>Sat, 30 Aug 2025 10:00:00 +0000</pubDate>
+      <link>https://financewithraja.com/categories/retirement-planning/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/retirement-planning/</guid>
+      <guid>https://financewithraja.com/categories/retirement-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Singapore Finance</title>
+      <link>https://financewithraja.com/categories/singapore-finance/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/singapore-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Political Finance</title>
+      <link>https://financewithraja.com/categories/political-finance/</link>
+      <pubDate>Thu, 23 Apr 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/political-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Emerging Markets</title>
+      <link>https://financewithraja.com/categories/emerging-markets/</link>
+      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/emerging-markets/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Investment</title>
+      <link>https://financewithraja.com/categories/international-investment/</link>
+      <pubDate>Sun, 25 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/international-investment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>https://financewithraja.com/categories/bitcoin/</link>
+      <pubDate>Tue, 18 Nov 2025 01:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/bitcoin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Economic Policy</title>
+      <link>https://financewithraja.com/categories/economic-policy/</link>
+      <pubDate>Wed, 22 Oct 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/economic-policy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Business Setup</title>
+      <link>https://financewithraja.com/categories/business-setup/</link>
+      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/business-setup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Middle East Finance</title>
+      <link>https://financewithraja.com/categories/middle-east-finance/</link>
+      <pubDate>Sun, 19 Oct 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/middle-east-finance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Investment Strategies</title>
+      <link>https://financewithraja.com/categories/investment-strategies/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/investment-strategies/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wealth Building</title>
+      <link>https://financewithraja.com/categories/wealth-building/</link>
+      <pubDate>Sat, 27 Sep 2025 14:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/wealth-building/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dubai</title>
+      <link>https://financewithraja.com/categories/dubai/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/dubai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Middle East</title>
+      <link>https://financewithraja.com/categories/middle-east/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/middle-east/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Real-Estate</title>
+      <link>https://financewithraja.com/categories/real-estate/</link>
+      <pubDate>Thu, 25 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/real-estate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Financial-Planning</title>
+      <link>https://financewithraja.com/categories/financial-planning/</link>
+      <pubDate>Mon, 22 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/financial-planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Savings</title>
+      <link>https://financewithraja.com/categories/savings/</link>
+      <pubDate>Mon, 22 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/savings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Immigration</title>
+      <link>https://financewithraja.com/categories/immigration/</link>
+      <pubDate>Mon, 15 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/immigration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Investing</title>
+      <link>https://financewithraja.com/categories/international-investing/</link>
+      <pubDate>Fri, 05 Sep 2025 10:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/international-investing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>International Banking</title>
+      <link>https://financewithraja.com/categories/international-banking/</link>
+      <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/international-banking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wealth Management</title>
+      <link>https://financewithraja.com/categories/wealth-management/</link>
+      <pubDate>Tue, 02 Sep 2025 12:00:00 +0000</pubDate>
+      
+      <guid>https://financewithraja.com/categories/wealth-management/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Debt Management</title>
-      <link>http://localhost:1314/categories/debt-management/</link>
+      <link>https://financewithraja.com/categories/debt-management/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/debt-management/</guid>
+      <guid>https://financewithraja.com/categories/debt-management/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Interest Rates</title>
-      <link>http://localhost:1314/categories/interest-rates/</link>
+      <link>https://financewithraja.com/categories/interest-rates/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/interest-rates/</guid>
+      <guid>https://financewithraja.com/categories/interest-rates/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>International Finance</title>
-      <link>http://localhost:1314/categories/international-finance/</link>
+      <link>https://financewithraja.com/categories/international-finance/</link>
       <pubDate>Tue, 19 Aug 2025 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/international-finance/</guid>
+      <guid>https://financewithraja.com/categories/international-finance/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Stocks</title>
-      <link>http://localhost:1314/categories/stocks/</link>
+      <link>https://financewithraja.com/categories/stocks/</link>
       <pubDate>Mon, 11 Aug 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/stocks/</guid>
+      <guid>https://financewithraja.com/categories/stocks/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Taxes</title>
-      <link>http://localhost:1314/categories/taxes/</link>
+      <link>https://financewithraja.com/categories/taxes/</link>
       <pubDate>Tue, 05 Aug 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/taxes/</guid>
+      <guid>https://financewithraja.com/categories/taxes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Financial Psychology</title>
-      <link>http://localhost:1314/categories/financial-psychology/</link>
+      <link>https://financewithraja.com/categories/financial-psychology/</link>
       <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/financial-psychology/</guid>
+      <guid>https://financewithraja.com/categories/financial-psychology/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Personal Development</title>
-      <link>http://localhost:1314/categories/personal-development/</link>
+      <link>https://financewithraja.com/categories/personal-development/</link>
       <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/personal-development/</guid>
+      <guid>https://financewithraja.com/categories/personal-development/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Financial Tools</title>
-      <link>http://localhost:1314/categories/financial-tools/</link>
+      <link>https://financewithraja.com/categories/financial-tools/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/financial-tools/</guid>
+      <guid>https://financewithraja.com/categories/financial-tools/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Technology</title>
-      <link>http://localhost:1314/categories/technology/</link>
+      <link>https://financewithraja.com/categories/technology/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/technology/</guid>
+      <guid>https://financewithraja.com/categories/technology/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Financial Education</title>
-      <link>http://localhost:1314/categories/financial-education/</link>
+      <link>https://financewithraja.com/categories/financial-education/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/financial-education/</guid>
+      <guid>https://financewithraja.com/categories/financial-education/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Education Finance</title>
-      <link>http://localhost:1314/categories/education-finance/</link>
+      <link>https://financewithraja.com/categories/education-finance/</link>
       <pubDate>Tue, 03 Jun 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/education-finance/</guid>
+      <guid>https://financewithraja.com/categories/education-finance/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Student Loans</title>
-      <link>http://localhost:1314/categories/student-loans/</link>
+      <link>https://financewithraja.com/categories/student-loans/</link>
       <pubDate>Tue, 03 Jun 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/student-loans/</guid>
+      <guid>https://financewithraja.com/categories/student-loans/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Budgeting</title>
-      <link>http://localhost:1314/categories/budgeting/</link>
+      <link>https://financewithraja.com/categories/budgeting/</link>
       <pubDate>Sat, 12 Apr 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/budgeting/</guid>
+      <guid>https://financewithraja.com/categories/budgeting/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Scam Prevention</title>
-      <link>http://localhost:1314/categories/scam-prevention/</link>
+      <link>https://financewithraja.com/categories/scam-prevention/</link>
       <pubDate>Sat, 29 Mar 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/scam-prevention/</guid>
+      <guid>https://financewithraja.com/categories/scam-prevention/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Banking</title>
-      <link>http://localhost:1314/categories/banking/</link>
+      <link>https://financewithraja.com/categories/banking/</link>
       <pubDate>Sat, 15 Feb 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/banking/</guid>
+      <guid>https://financewithraja.com/categories/banking/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Credit Cards</title>
-      <link>http://localhost:1314/categories/credit-cards/</link>
+      <link>https://financewithraja.com/categories/credit-cards/</link>
       <pubDate>Sat, 01 Feb 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/credit-cards/</guid>
+      <guid>https://financewithraja.com/categories/credit-cards/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Reviews</title>
-      <link>http://localhost:1314/categories/reviews/</link>
+      <link>https://financewithraja.com/categories/reviews/</link>
       <pubDate>Sat, 01 Feb 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/reviews/</guid>
+      <guid>https://financewithraja.com/categories/reviews/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Calculators</title>
-      <link>http://localhost:1314/categories/calculators/</link>
+      <link>https://financewithraja.com/categories/calculators/</link>
       <pubDate>Tue, 28 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/calculators/</guid>
+      <guid>https://financewithraja.com/categories/calculators/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Insurance</title>
-      <link>http://localhost:1314/categories/insurance/</link>
+      <link>https://financewithraja.com/categories/insurance/</link>
       <pubDate>Sat, 25 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/insurance/</guid>
+      <guid>https://financewithraja.com/categories/insurance/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Credit</title>
-      <link>http://localhost:1314/categories/credit/</link>
+      <link>https://financewithraja.com/categories/credit/</link>
       <pubDate>Sun, 05 Jan 2025 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1314/categories/credit/</guid>
+      <guid>https://financewithraja.com/categories/credit/</guid>
       <description></description>
       
     </item>

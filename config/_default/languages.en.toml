@@ -8,8 +8,8 @@ title = "Smart Personal Finance | Expert Tips, Reviews & Strategies"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/logo.png"
-  secondaryLogo = "img/secondary-logo.png"
+  logo = "img/logo.svg"
+  secondaryLogo = "img/logo.svg"
   description = "Your trusted source for personal finance tips, credit card reviews, investment strategies, and wealth-building guides. Expert advice on budgeting, retirement planning, cryptocurrency, and more."
   copyright = "© 2026 Smart Personal Finance. All rights reserved."
 

@@ -18,6 +18,11 @@ summaryLength = 30
 
 enableRobotsTXT = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [imaging]
   resampleFilter = "CatmullRom"
   quality = 75

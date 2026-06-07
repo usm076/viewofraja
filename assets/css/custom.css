@@ -1,54 +1,174 @@
-/* Custom styles for Smart Finance Hub */
-
-/* Custom color scheme for finance theme */
-:root {
-  --color-primary: #2563eb;
-  --color-secondary: #059669;
-  --color-accent: #dc2626;
+/* ===== Homepage Hero ===== */
+.hero-tagline {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 3rem;
 }
 
-/* Custom header styling */
-.header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.hero-tagline h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #3b82f6, #10b981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/* Custom card styling for blog posts */
-.article-card {
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
-
-.article-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-/* Custom button styling */
-.btn-primary {
-  background: linear-gradient(45deg, #2563eb, #059669);
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-}
-
-/* Finance-specific styling */
-.finance-highlight {
-  background: #f0f9ff;
-  border-left: 4px solid #2563eb;
-  padding: 16px;
-  margin: 20px 0;
-}
-
-/* Custom typography for readability */
-.article-content {
+.hero-tagline p {
+  font-size: 1.15rem;
+  opacity: 0.8;
   line-height: 1.7;
-  font-size: 1.1rem;
 }
 
-/* Mobile responsiveness */
+/* ===== Feature Grid ===== */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  opacity: 0.75;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.feature-card .btn,
+.feature-card a[role="button"],
+.feature-card .relative.inline-flex {
+  font-size: 0.85rem;
+  padding: 0.5rem 1.25rem;
+}
+
+/* Light mode feature cards */
+:root:not(.dark) .feature-card,
+.light .feature-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+:root:not(.dark) .feature-card:hover,
+.light .feature-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.12), 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== Blog Card Improvements ===== */
+article .rounded-md,
+.article-card,
+[class*="card"] {
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article .rounded-md:hover,
+.article-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Article Content Readability ===== */
+.prose {
+  line-height: 1.8;
+}
+
+.prose h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(59, 130, 246, 0.2);
+}
+
+.prose table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.prose blockquote {
+  border-left: 4px solid #3b82f6;
+  background: rgba(59, 130, 246, 0.05);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+}
+
+/* ===== Header: hide site title text, show only logo ===== */
+.main-menu > div > nav > a.text-base.font-medium {
+  display: none;
+}
+
+/* Make logo bigger for clarity */
+.logo svg {
+  height: 40px;
+  width: auto;
+}
+
+/* Give nav items breathing room */
+.main-menu nav.hidden.md\\:flex {
+  gap: 1.5rem;
+  white-space: nowrap;
+}
+
+/* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .article-card {
-    margin-bottom: 1rem;
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .hero-tagline {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-tagline h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-tagline p {
+    font-size: 0.95rem;
+  }
+
+  .feature-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1rem;
+  }
+
+  .feature-card p {
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
