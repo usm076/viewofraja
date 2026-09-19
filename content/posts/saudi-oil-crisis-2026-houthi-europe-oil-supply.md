@@ -1,7 +1,7 @@
 ---
 title: "Saudi Oil Crisis 2026: How It's Hitting Europe's Oil Supply"
 slug: saudi-oil-crisis-2026-houthi-europe-oil-supply
-date: 2026-09-19T14:04:00Z
+date: 2026-09-19T00:00:00Z
 description: Houthi attacks and a Saudi pipeline shutdown are cutting oil supply
   to Europe. See the price impact, inflation risk, and what investors should do.
 categories:
