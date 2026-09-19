@@ -1,11 +1,12 @@
-+++
-date = '2025-08-30T10:00:00Z'
-draft = false
-title = '401(k) Optimization 2025: 9 Strategies to Maximize Your Retirement Savings'
-description = 'Are you leaving free money on the table? These 9 expert 401(k) strategies — from employer match maximization to fund selection and fee reduction — can add hundreds of thousands to your retirement.'
-categories = ['Retirement Planning', 'Investing']
-tags = ['401k', 'retirement savings', 'employer match', 'investment funds', 'tax optimization', 'retirement planning', '2025']
-+++
+---
+title: "401(k) Optimization 2025: 9 Strategies to Maximize Your Retirement Savings"
+date: 2025-08-30T10:00:00Z
+description: "Are you leaving free money on the table? These 9 expert 401(k) strategies — from employer match maximization to fund selection and fee reduction — can add hundreds of thousands to your retirement."
+slug: "401k-optimization-strategies-2025"
+categories: ["Retirement Planning", "Investing"]
+tags: ["401k", "retirement savings", "employer match", "investment funds", "tax optimization", "retirement planning", "2025"]
+draft: false
+---
 
 # 401(k) Optimization Strategies for 2025: Maximize Your Retirement Savings
 

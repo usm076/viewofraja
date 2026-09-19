@@ -1,11 +1,12 @@
-+++
-date = '2025-03-22T10:00:00Z'
-draft = false
-title = 'Student Loan Guide 2025: Repayment Plans, Forgiveness Programs & How to Pay Off Faster'
-description = 'Navigate student loans with confidence. Compare federal vs private loans, income-driven repayment plans, forgiveness programs like PSLF, and strategies to pay off your loans years early.'
-categories = ['Student Loans', 'Education Finance']
-tags = ['student loans', 'federal loans', 'private loans', 'loan forgiveness', 'education finance', 'FAFSA', '2025']
-+++
+---
+title: "Student Loan Guide 2025: Repayment Plans, Forgiveness Programs & How to Pay Off Faster"
+date: 2025-03-22T10:00:00Z
+description: "Navigate student loans with confidence. Compare federal vs private loans, income-driven repayment plans, forgiveness programs like PSLF, and strategies to pay off your loans years early."
+slug: "student-loan-guide-2025"
+categories: ["Student Loans", "Education Finance"]
+tags: ["student loans", "federal loans", "private loans", "loan forgiveness", "education finance", "FAFSA", "2025"]
+draft: false
+---
 
 # Complete Student Loan Guide 2025: Everything You Need to Know
 

@@ -1,11 +1,12 @@
-+++
-date = '2025-02-15T10:00:00Z'
-draft = false
-title = 'Best High-Yield Savings Accounts 2025: Top 10 Accounts With 5%+ APY'
-description = 'Compare the 10 best high-yield savings accounts offering 5%+ APY in 2025. No fees, no minimums — find the best place to park your emergency fund and earn more interest.'
-categories = ['Banking', 'Savings']
-tags = ['high yield savings', 'interest rates', 'banking', 'emergency fund', 'savings accounts', '2025']
-+++
+---
+title: "Best High-Yield Savings Accounts 2025: Top 10 Accounts With 5%+ APY"
+date: 2025-02-15T10:00:00Z
+description: "Compare the 10 best high-yield savings accounts offering 5%+ APY in 2025. No fees, no minimums — find the best place to park your emergency fund and earn more interest."
+slug: "high-yield-savings-accounts-2025"
+categories: ["Banking", "Savings"]
+tags: ["high yield savings", "interest rates", "banking", "emergency fund", "savings accounts", "2025"]
+draft: false
+---
 
 # Best High-Yield Savings Accounts of 2025: Maximize Your Interest
 

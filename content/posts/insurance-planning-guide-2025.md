@@ -1,9 +1,10 @@
 ---
 title: "Complete Insurance Planning Guide 2025: Protect Your Financial Future"
 description: "Essential insurance guide for 2025 - life, health, disability, and property insurance strategies to protect your wealth and family"
+slug: "insurance-planning-guide-2025"
 date: 2025-01-25T10:00:00Z
 draft: false
-categories: ["financial-planning", "insurance"]
+categories: ["Financial Planning", "Insurance"]
 tags: ["insurance", "life insurance", "health insurance", "disability insurance", "financial protection"]
 author: "Finance Expert"
 ---

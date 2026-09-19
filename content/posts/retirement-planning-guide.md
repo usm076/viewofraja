@@ -1,11 +1,12 @@
-+++
-date = '2025-03-15T10:00:00Z'
-draft = false
-title = 'Retirement Planning Guide 2025: How Much You Need to Save by Age 30, 40, and 50'
-description = 'Are you on track for retirement? See exactly how much you should have saved by age 30, 40, and 50. Covers 401(k)s, IRAs, Social Security, and the investment strategies that actually work.'
-categories = ['Retirement Planning', 'Investing']
-tags = ['retirement', '401k', 'IRA', 'Social Security', 'retirement planning', 'financial independence', '2025']
-+++
+---
+title: "Retirement Planning Guide 2025: How Much You Need to Save by Age 30, 40, and 50"
+date: 2025-03-15T10:00:00Z
+description: "Are you on track for retirement? See exactly how much you should have saved by age 30, 40, and 50. Covers 401(k)s, IRAs, Social Security, and the investment strategies that actually work."
+slug: "retirement-planning-guide"
+categories: ["Retirement Planning", "Investing"]
+tags: ["retirement", "401k", "IRA", "Social Security", "retirement planning", "financial independence", "2025"]
+draft: false
+---
 
 # Complete Retirement Planning Guide for 2025: Secure Your Future
 

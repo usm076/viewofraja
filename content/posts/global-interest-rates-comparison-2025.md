@@ -1,11 +1,12 @@
-+++
-date = '2025-08-19T12:00:00Z'
-draft = false
-title = 'Global Interest Rates Compared 2025: Where to Earn the Highest Savings Rates Worldwide'
-description = 'Compare interest rates across 30+ countries. Discover which nations offer the highest savings rates, lowest mortgage costs, and best investment opportunities in 2025.'
-categories = ['International Finance', 'Interest Rates']
-tags = ['global interest rates', 'international investing', 'currency', 'central banks', 'savings rates', '2025']
-+++
+---
+title: "Global Interest Rates Compared 2025: Where to Earn the Highest Savings Rates Worldwide"
+date: 2025-08-19T12:00:00Z
+description: "Compare interest rates across 30+ countries. Discover which nations offer the highest savings rates, lowest mortgage costs, and best investment opportunities in 2025."
+slug: "global-interest-rates-comparison-2025"
+categories: ["International Finance", "Interest Rates"]
+tags: ["global interest rates", "international investing", "currency", "central banks", "savings rates", "2025"]
+draft: false
+---
 
 # Global Interest Rates 2025: International Comparison and Investment Opportunities
 

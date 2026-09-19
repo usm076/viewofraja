@@ -1,11 +1,12 @@
-+++
-date = '2025-02-08T10:00:00Z'
-draft = false
-title = 'Emergency Fund Guide: The 3-6 Month Rule Is Wrong — Here What You Actually Need'
-description = 'How much emergency savings do you really need? The popular advice is wrong for most people. Learn the right amount based on your situation and the best accounts to keep it in.'
-categories = ['Budgeting', 'Savings']
-tags = ['emergency fund', 'savings', 'budgeting', 'financial planning', 'high yield savings']
-+++
+---
+title: "Emergency Fund Guide: The 3-6 Month Rule Is Wrong — Here What You Actually Need"
+date: 2025-02-08T10:00:00Z
+description: "How much emergency savings do you really need? The popular advice is wrong for most people. Learn the right amount based on your situation and the best accounts to keep it in."
+slug: "emergency-fund-guide"
+categories: ["Budgeting", "Savings"]
+tags: ["emergency fund", "savings", "budgeting", "financial planning", "high yield savings"]
+draft: false
+---
 
 # Emergency Fund Guide: How Much You Need & Where to Keep It
 

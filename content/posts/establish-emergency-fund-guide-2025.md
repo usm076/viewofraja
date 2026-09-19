@@ -1,9 +1,10 @@
 ---
 title: "How to Build an Emergency Fund Fast: A Step-by-Step Plan for 2025"
 description: "Build your emergency fund faster than you think. This step-by-step plan shows you how much to save, where to keep it, and practical strategies to reach your goal even on a tight budget."
+slug: "establish-emergency-fund-guide-2025"
 date: 2025-09-22T10:00:00Z
 draft: false
-categories: ["financial-planning", "savings"]
+categories: ["Financial Planning", "Savings"]
 tags: ["emergency fund", "financial security", "savings strategy", "financial planning", "money management"]
 author: "Finance Expert"
 ---

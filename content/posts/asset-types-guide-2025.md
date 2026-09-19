@@ -1,9 +1,10 @@
 ---
 title: "Complete Guide to Asset Types in 2025: Build Wealth Through Smart Asset Allocation"
 description: "Master different asset types for wealth building. Learn about stocks, bonds, real estate, commodities, and alternative investments to diversify your portfolio."
+slug: "asset-types-guide-2025"
 date: 2025-04-19T10:00:00Z
 draft: false
-categories: ["investing", "wealth-building"]
+categories: ["Investing", "Wealth Building"]
 tags: ["assets", "investment types", "portfolio diversification", "wealth building", "asset allocation"]
 author: "Finance Expert"
 ---

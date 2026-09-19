@@ -1,11 +1,12 @@
-+++
-date = '2025-02-01T10:00:00Z'
-draft = false
-title = 'Best Credit Cards of 2025: Top 12 Cards Ranked by Rewards, Cashback & Perks'
-description = 'Expert-ranked list of the 12 best credit cards in 2025. Compare cashback rates, travel rewards, sign-up bonuses, and annual fees to find your perfect card.'
-categories = ['Credit Cards', 'Reviews']
-tags = ['credit cards', 'rewards', 'cashback', 'travel cards', '2025']
-+++
+---
+title: "Best Credit Cards of 2025: Top 12 Cards Ranked by Rewards, Cashback & Perks"
+date: 2025-02-01T10:00:00Z
+description: "Expert-ranked list of the 12 best credit cards in 2025. Compare cashback rates, travel rewards, sign-up bonuses, and annual fees to find your perfect card."
+slug: "best-credit-cards-2025"
+categories: ["Credit Cards", "Reviews"]
+tags: ["credit cards", "rewards", "cashback", "travel cards", "2025"]
+draft: false
+---
 
 # Best Credit Cards of 2025: Complete Reviews & Comparisons
 

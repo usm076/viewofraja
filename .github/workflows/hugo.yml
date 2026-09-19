@@ -7,6 +7,12 @@ on:
     branches:
       - main
 
+  # Daily rebuild so future-dated (scheduled) articles go live on their own.
+  # Hugo excludes future-dated content at build time, so without a rebuild a
+  # scheduled post would stay hidden until someone pushed a commit.
+  schedule:
+    - cron: "0 5 * * *" # 05:00 UTC daily
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 

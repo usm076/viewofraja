@@ -1,11 +1,12 @@
-+++
-date = '2025-09-02T12:00:00Z'
-draft = false
-title = 'UAE Banking for High-Net-Worth Individuals 2025: Premium Accounts, Private Banking & Investment Access'
-description = 'Access the UAE most exclusive banking and investment opportunities. Compare private banking services, minimum balance requirements, and wealth management strategies for affluent residents and expats.'
-categories = ['Middle East Finance', 'Wealth Management', 'International Banking']
-tags = ['UAE banking', 'Dubai investment', 'private banking', 'wealth management', 'offshore banking', 'UAE finance', 'expat banking', '2025']
-+++
+---
+title: "UAE Banking for High-Net-Worth Individuals 2025: Premium Accounts, Private Banking & Investment Access"
+date: 2025-09-02T12:00:00Z
+description: "Access the UAE most exclusive banking and investment opportunities. Compare private banking services, minimum balance requirements, and wealth management strategies for affluent residents and expats."
+slug: "uae-banking-investment-guide-high-net-worth-2025"
+categories: ["Middle East Finance", "Wealth Management", "International Banking"]
+tags: ["UAE banking", "Dubai investment", "private banking", "wealth management", "offshore banking", "UAE finance", "expat banking", "2025"]
+draft: false
+---
 
 # UAE Banking and Investment Guide for High-Net-Worth Individuals 2025
 

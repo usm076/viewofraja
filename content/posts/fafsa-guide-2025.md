@@ -1,9 +1,10 @@
 ---
 title: "Complete FAFSA Guide 2025: Maximize Your Financial Aid"
 description: "Master the FAFSA application process in 2025. Learn how to maximize financial aid, avoid common mistakes, and navigate the new simplified form."
+slug: "fafsa-guide-2025"
 date: 2025-06-03T10:00:00Z
 draft: false
-categories: ["education-finance", "student-loans"]
+categories: ["Education Finance", "Student Loans"]
 tags: ["FAFSA", "financial aid", "college funding", "student loans", "grants", "education"]
 author: "Finance Expert"
 ---

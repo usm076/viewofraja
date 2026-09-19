@@ -1,9 +1,10 @@
 ---
 title: "Real Estate Investment Guide 2025: Building Wealth Through Property"
 description: "Complete guide to real estate investing in 2025 - from REITs to rental properties, learn strategies to build wealth through real estate"
+slug: "real-estate-investment-guide-2025"
 date: 2025-01-18T10:00:00Z
 draft: false
-categories: ["investing", "real-estate"]
+categories: ["Investing", "Real Estate"]
 tags: ["real estate", "investment", "rental property", "REITs", "passive income"]
 author: "Finance Expert"
 ---

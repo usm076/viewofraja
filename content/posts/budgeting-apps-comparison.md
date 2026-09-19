@@ -1,11 +1,12 @@
-+++
-date = '2025-03-01T10:00:00Z'
-draft = false
-title = 'Best Budgeting Apps 2025 Compared: YNAB vs Mint vs PocketGuard (Which One Wins?)'
-description = 'We tested the top 8 budgeting apps head-to-head. See how YNAB, Mint, PocketGuard, and others compare on features, pricing, and ease of use to find your perfect money management tool.'
-categories = ['Budgeting', 'Technology']
-tags = ['budgeting apps', 'personal finance apps', 'money management', 'YNAB', 'Mint', '2025']
-+++
+---
+title: "Best Budgeting Apps 2025 Compared: YNAB vs Mint vs PocketGuard (Which One Wins?)"
+date: 2025-03-01T10:00:00Z
+description: "We tested the top 8 budgeting apps head-to-head. See how YNAB, Mint, PocketGuard, and others compare on features, pricing, and ease of use to find your perfect money management tool."
+slug: "budgeting-apps-comparison"
+categories: ["Budgeting", "Technology"]
+tags: ["budgeting apps", "personal finance apps", "money management", "YNAB", "Mint", "2025"]
+draft: false
+---
 
 # Best Budgeting Apps of 2025: Complete Comparison Guide
 

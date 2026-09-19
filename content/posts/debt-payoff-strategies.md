@@ -1,11 +1,12 @@
-+++
-date = '2025-03-08T10:00:00Z'
-draft = false
-title = '6 Proven Debt Payoff Strategies: How to Become Debt-Free in 2025'
-description = 'Compare the 6 most effective debt payoff methods — snowball, avalanche, consolidation, and more. See which strategy saves you the most money and gets you debt-free fastest.'
-categories = ['Debt Management', 'Financial Planning']
-tags = ['debt payoff', 'debt snowball', 'debt avalanche', 'financial freedom', 'budgeting', '2025']
-+++
+---
+title: "6 Proven Debt Payoff Strategies: How to Become Debt-Free in 2025"
+date: 2025-03-08T10:00:00Z
+description: "Compare the 6 most effective debt payoff methods — snowball, avalanche, consolidation, and more. See which strategy saves you the most money and gets you debt-free fastest."
+slug: "debt-payoff-strategies"
+categories: ["Debt Management", "Financial Planning"]
+tags: ["debt payoff", "debt snowball", "debt avalanche", "financial freedom", "budgeting", "2025"]
+draft: false
+---
 
 # Proven Debt Payoff Strategies for 2025: Become Debt-Free Faster
 

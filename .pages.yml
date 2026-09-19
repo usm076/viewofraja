@@ -1,0 +1,177 @@
+# Pages CMS configuration — https://pagescms.org/docs
+#
+# This file controls what the editor sees at https://app.pagescms.org.
+# It does not affect the Hugo build in any way. Changing a field's `name`
+# changes the front matter key Hugo reads, so don't rename them casually.
+
+settings:
+  content:
+    # Keep front matter keys that aren't declared below. Several older posts
+    # carry seo_title / meta_description / featured_image; without this,
+    # saving one of those posts in the CMS would silently delete them.
+    merge: true
+  commit:
+    templates:
+      create: "Add article: {filename}"
+      update: "Update article: {filename}"
+      delete: "Delete article: {filename}"
+
+media:
+  input: static/images
+  output: /images
+  categories: [image]
+
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: content/posts
+    format: yaml-frontmatter
+    filename: "{fields.slug}.md"
+    view:
+      primary: title
+      fields: [title, date, categories, draft]
+      sort: [date, title]
+      search: [title, description, tags]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Headline
+        type: string
+        required: true
+        description: >-
+          The headline readers see, and what Google shows in search results.
+          Aim for 50-60 characters so it isn't cut off.
+
+      - name: slug
+        label: Web address
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: >-
+          The end of the article's link, e.g. "best-credit-cards-2026" becomes
+          financewithraja.com/posts/best-credit-cards-2026/. Lowercase letters,
+          numbers and dashes only. Never change this after publishing — it
+          breaks the link and loses Google rankings.
+
+      - name: date
+        label: Publish date
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+        description: >-
+          A future date schedules the article — it stays hidden until that date,
+          then appears automatically on the next daily rebuild.
+
+      - name: lastmod
+        label: Last updated
+        type: date
+        default: ""
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+        description: >-
+          Optional. Set this when you meaningfully revise an older article, so
+          readers and Google see it has been refreshed.
+
+      - name: description
+        label: Search summary
+        type: text
+        required: true
+        description: >-
+          The grey text under the headline in Google results. Aim for 120-160
+          characters — Google cuts off anything longer. Write it as a reason to
+          click, not a summary. (No hard limit is enforced here, because most
+          existing articles are already longer than 160.)
+
+      - name: categories
+        label: Categories
+        type: select
+        required: true
+        options:
+          multiple: true
+          min: 1
+          max: 3
+          values:
+            - Banking
+            - Bitcoin
+            - Budgeting
+            - Business Setup
+            - Credit
+            - Credit Cards
+            - Cryptocurrency
+            - Debt Management
+            - Dubai
+            - Economic Policy
+            - Education Finance
+            - Emerging Markets
+            - Financial Education
+            - Financial Planning
+            - Financial Psychology
+            - Financial Tools
+            - Immigration
+            - Insurance
+            - Interest Rates
+            - International Banking
+            - International Finance
+            - International Investing
+            - International Investment
+            - Investing
+            - Investment Strategies
+            - Market Analysis
+            - Middle East
+            - Middle East Finance
+            - Personal Development
+            - Personal Finance
+            - Political Finance
+            - Real Estate
+            - Retirement Planning
+            - Reviews
+            - Savings
+            - Scam Prevention
+            - Singapore Finance
+            - Stocks
+            - Student Loans
+            - Taxes
+            - Technology
+            - Wealth Building
+            - Wealth Management
+        description: >-
+          Pick 1-3. This list is fixed on purpose — inventing new categories
+          creates near-empty pages that weaken the site in search.
+
+      - name: tags
+        label: Tags
+        type: string
+        list:
+          min: 1
+          max: 12
+        description: >-
+          Specific topics covered, e.g. "Bitcoin ETF", "emergency fund". Reuse
+          wording from existing articles where it fits rather than inventing
+          new variations of the same tag.
+
+      - name: author
+        label: Author
+        type: string
+        default: Finance Expert
+
+      - name: draft
+        label: Draft — hidden from the live site
+        type: boolean
+        default: true
+        description: >-
+          Leave ticked while writing. Untick it and save to publish; the site
+          updates about two minutes later.
+
+      - name: body
+        label: Article
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          path: static/images

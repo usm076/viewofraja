@@ -1,11 +1,12 @@
-+++
-date = '2025-02-22T10:00:00Z'
-draft = false
-title = 'Investing for Beginners 2025: How to Start With as Little as $50'
-description = 'Start investing with as little as $50. This beginner-friendly guide covers the best brokerages, simple portfolio strategies, and exactly how to buy your first stocks and ETFs in 2025.'
-categories = ['Investing', 'Wealth Building']
-tags = ['investing', 'beginners', 'portfolio', 'stocks', 'ETFs', 'retirement', '2025']
-+++
+---
+title: "Investing for Beginners 2025: How to Start With as Little as $50"
+date: 2025-02-22T10:00:00Z
+description: "Start investing with as little as $50. This beginner-friendly guide covers the best brokerages, simple portfolio strategies, and exactly how to buy your first stocks and ETFs in 2025."
+slug: "investing-for-beginners-2025"
+categories: ["Investing", "Wealth Building"]
+tags: ["investing", "beginners", "portfolio", "stocks", "ETFs", "retirement", "2025"]
+draft: false
+---
 
 # Investing for Beginners in 2025: Complete Guide to Building Wealth
 

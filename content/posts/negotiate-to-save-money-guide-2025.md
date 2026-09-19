@@ -1,9 +1,10 @@
 ---
 title: "How to Negotiate Anything in 2025: Scripts and Tactics That Save Thousands"
 description: "Most people leave thousands on the table every year by not negotiating. Get word-for-word scripts for lowering bills, negotiating salary, and getting better deals on everything."
+slug: "negotiate-to-save-money-guide-2025"
 date: 2025-04-12T10:00:00Z
 draft: false
-categories: ["budgeting", "financial-planning"]
+categories: ["Budgeting", "Financial Planning"]
 tags: ["negotiation", "money saving", "bill reduction", "financial tips", "consumer advocacy"]
 author: "Finance Expert"
 ---

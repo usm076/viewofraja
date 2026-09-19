@@ -1,11 +1,12 @@
-+++
-date = '2025-08-11T10:00:00Z'
-draft = false
-title = 'Stock Picking for Beginners: 7 Steps to Find Winning Stocks in 2025'
-description = 'Learn to pick individual stocks like a pro. This 7-step guide covers fundamental analysis, key valuation metrics, red flags to avoid, and how to build a stock-picking strategy that works.'
-categories = ['Investing', 'Stocks']
-tags = ['stock picking', 'individual stocks', 'fundamental analysis', 'investing', 'beginners', '2025']
-+++
+---
+title: "Stock Picking for Beginners: 7 Steps to Find Winning Stocks in 2025"
+date: 2025-08-11T10:00:00Z
+description: "Learn to pick individual stocks like a pro. This 7-step guide covers fundamental analysis, key valuation metrics, red flags to avoid, and how to build a stock-picking strategy that works."
+slug: "stock-picking-for-beginners-2025"
+categories: ["Investing", "Stocks"]
+tags: ["stock picking", "individual stocks", "fundamental analysis", "investing", "beginners", "2025"]
+draft: false
+---
 
 # Stock Picking for Beginners 2025: Complete Guide to Choosing Individual Stocks
 

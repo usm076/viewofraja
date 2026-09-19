@@ -1,11 +1,12 @@
-+++
-date = '2025-03-29T10:00:00Z'
-draft = false
-title = 'How to Spot Fake Meme Coins: 10 Red Flags That Scream Crypto Scam'
-description = 'Protect your money from crypto scams. Learn the 10 biggest red flags of fake meme coins, how rug pulls work, and the tools to verify any token before you invest.'
-categories = ['Cryptocurrency', 'Scam Prevention']
-tags = ['cryptocurrency', 'meme coins', 'crypto scams', 'investment safety', 'blockchain', '2025']
-+++
+---
+title: "How to Spot Fake Meme Coins: 10 Red Flags That Scream Crypto Scam"
+date: 2025-03-29T10:00:00Z
+description: "Protect your money from crypto scams. Learn the 10 biggest red flags of fake meme coins, how rug pulls work, and the tools to verify any token before you invest."
+slug: "avoid-fake-meme-crypto-coins"
+categories: ["Cryptocurrency", "Scam Prevention"]
+tags: ["cryptocurrency", "meme coins", "crypto scams", "investment safety", "blockchain", "2025"]
+draft: false
+---
 
 # How to Avoid Fake Meme Crypto Coins: Complete Scam Prevention Guide 2025
 

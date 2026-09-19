@@ -1,9 +1,10 @@
 ---
 title: "How to Track Your Money in 2025: The System That Finally Makes Budgeting Stick"
 description: "Tried budgeting and gave up? This money tracking system works because it focuses on awareness, not restriction. Learn to categorize expenses, spot patterns, and build lasting financial habits."
+slug: "track-your-money-guide-2025"
 date: 2025-04-05T10:00:00Z
 draft: false
-categories: ["budgeting", "financial-planning"]
+categories: ["Budgeting", "Financial Planning"]
 tags: ["expense tracking", "money management", "budgeting", "financial awareness", "spending analysis"]
 author: "Finance Expert"
 ---
