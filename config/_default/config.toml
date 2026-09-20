@@ -26,6 +26,12 @@ summaryLength = 30
   filename = 'sitemap.xml'
   priority = 0.5
 
+# Required by Blowfish for site search: the JSON output renders /index.json,
+# which assets/js/search.js fetches. Without this, the search box renders but
+# finds nothing because the index returns 404.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [related]
   threshold = 0
   includeNewer = true
