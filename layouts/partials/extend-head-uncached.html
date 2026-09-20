@@ -1,0 +1,24 @@
+{{/*
+  Per-page <head> additions.
+
+  This hook must be used instead of extend-head.html for anything that varies
+  by page: Blowfish calls extend-head.html as `partialCached ... .Site`, so the
+  context there is the Site (no .Kind) and the output is rendered once and
+  reused everywhere. This partial receives the page and is not cached.
+*/ -}}
+
+{{/*
+  Keep taxonomy archives out of the index.
+
+  Search Console reports 154 pages as "Crawled - currently not indexed", and
+  the examples are dominated by /tags/ and /categories/ URLs. A term archive
+  carries about 130 words of links; a real post carries ~1,800. Google spends
+  its crawl budget on these and indexes none of them, while 16 genuine posts
+  sit at "Discovered - currently not indexed", never fetched at all.
+
+  "follow" is deliberate: the archives stay useful for navigation and keep
+  passing link equity through to the posts they list.
+*/ -}}
+{{ if or (eq .Kind "taxonomy") (eq .Kind "term") -}}
+  <meta name="robots" content="noindex, follow">
+{{ end -}}

@@ -3,6 +3,12 @@ title: "Best Credit Cards of 2025: Top 12 Cards Ranked by Rewards, Cashback & Pe
 date: 2025-02-01T10:00:00Z
 description: "Expert-ranked list of the 12 best credit cards in 2025. Compare cashback rates, travel rewards, sign-up bonuses, and annual fees to find your perfect card."
 slug: "best-credit-cards-2025"
+# The 2024 edition was this post's highest-earning URL: 1,823 Search Console
+# impressions (23% of the whole site) before it was renamed and left to 404.
+# GitHub Pages cannot serve a 301, so Hugo generates an alias page carrying a
+# meta refresh plus rel=canonical, which Google follows as a redirect.
+aliases:
+  - /posts/best-credit-cards-2024/
 categories: ["Credit Cards", "Reviews"]
 tags: ["credit cards", "rewards", "cashback", "travel cards", "2025"]
 draft: false
