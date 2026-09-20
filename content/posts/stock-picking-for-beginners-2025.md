@@ -5,6 +5,7 @@ description: "Learn to pick individual stocks like a pro. This 7-step guide cove
 slug: "stock-picking-for-beginners-2025"
 categories: ["Investing", "Stocks"]
 tags: ["stock picking", "individual stocks", "fundamental analysis", "investing", "beginners", "2025"]
+author: "Raja"
 draft: false
 ---
 

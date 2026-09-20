@@ -6,7 +6,7 @@ description: "Bitcoin plunges 14.5% in 7 days to $90,140 as Mt. Gox moves $936M,
 slug: "bitcoin-crash-november-2025-mt-gox-analysis"
 categories: ["Cryptocurrency", "Market Analysis", "Bitcoin"]
 tags: ["Bitcoin Crash", "Mt. Gox", "Crypto Market", "Bitcoin Price", "Market Analysis", "Technical Analysis", "Crypto Trading", "Bitcoin 2025"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/bitcoin-crash-november-2025.jpg"
 seo_title: "Bitcoin Crashes to $90K: Mt. Gox, Technical Breakdown & Market Analysis 2025"

@@ -21,7 +21,7 @@ tags:
   - Petroline
   - Inflation Commodities
   - European Oil Supply
-author: Finance Expert
+author: "Raja"
 draft: false
 ---
 ## The Saudi Oil Crisis of 2026: Europe's Oil Supply Just Took a Direct Hit

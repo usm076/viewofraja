@@ -6,7 +6,7 @@ description: "Complete analysis of how the US government shutdown affects financ
 slug: "us-government-shutdown-finance-crypto-impact-2025"
 categories: ["Market Analysis", "Cryptocurrency", "Political Finance", "Economic Policy"]
 tags: ["Government Shutdown", "Market Volatility", "Crypto Regulation", "SEC", "CFTC", "Bitcoin", "Financial Markets", "Political Risk"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/government-shutdown-finance-2025.jpg"
 seo_title: "US Government Shutdown Impact on Finance & Crypto 2025: Complete Market Analysis"

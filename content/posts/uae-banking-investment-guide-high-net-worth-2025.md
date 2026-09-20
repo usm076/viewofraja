@@ -5,6 +5,7 @@ description: "Access the UAE most exclusive banking and investment opportunities
 slug: "uae-banking-investment-guide-high-net-worth-2025"
 categories: ["Middle East Finance", "Wealth Management", "International Banking"]
 tags: ["UAE banking", "Dubai investment", "private banking", "wealth management", "offshore banking", "UAE finance", "expat banking", "2025"]
+author: "Raja"
 draft: false
 ---
 

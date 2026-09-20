@@ -6,7 +6,7 @@ description: "Oil prices have surged above $100/barrel for the first time since 
 slug: "oil-prices-surge-above-100-barrel-inflation-impact-2026"
 categories: ["Market Analysis", "Investing", "Personal Finance"]
 tags: ["Oil Prices", "Crude Oil", "Inflation", "Energy Stocks", "Gas Prices", "OPEC", "Commodities", "Market Volatility", "Federal Reserve", "Investment Strategy"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/oil-prices-surge-100-barrel-2026.jpg"
 seo_title: "Oil Prices Surge Above $100/Barrel: Inflation Impact & Investment Guide 2026"

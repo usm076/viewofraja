@@ -2,7 +2,7 @@
 title: "Dubai Real Estate Investment Guide 2025: Complete Strategy for International Investors"
 date: 2025-09-25T10:00:00Z
 lastmod: 2025-09-25T10:00:00Z
-author: "Finance Expert"
+author: "Raja"
 description: "Comprehensive guide to Dubai real estate investment in 2025. Learn about property types, visa benefits, financing options, legal requirements, and ROI strategies for international investors."
 slug: "dubai-real-estate-investment-guide-2025"
 categories: ["Real Estate", "International Investment", "Dubai", "Middle East"]

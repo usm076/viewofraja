@@ -6,7 +6,7 @@ description: "Set up a tax-free business in Qatar. Complete guide to free zones,
 slug: "qatar-investment-climate-business-setup-guide-2025"
 categories: ["Middle East Finance", "International Investment", "Business Setup"]
 tags: ["Qatar Investment", "Middle East Business", "Free Zones", "Tax Planning", "International Finance", "Gulf Investment", "Qatar Economy", "Business Formation"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/qatar-investment-2025.jpg"
 seo_title: "Qatar Investment Guide 2025: Tax-Free Business Setup & Free Zone Opportunities"

@@ -1,6 +1,7 @@
 ---
 title: "Why Smart People Make Bad Money Decisions: A Behavioral Finance Guide"
 date: 2025-07-20
+author: "Raja"
 draft: false
 description: "Your brain is sabotaging your finances. Learn the cognitive biases that cause overspending, panic selling, and poor investing — plus science-backed strategies to make better money decisions."
 slug: "money-psychology-behavioral-finance-guide-2025"

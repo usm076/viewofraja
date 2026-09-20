@@ -6,7 +6,7 @@ date: 2025-01-25T10:00:00Z
 draft: false
 categories: ["Financial Planning", "Insurance"]
 tags: ["insurance", "life insurance", "health insurance", "disability insurance", "financial protection"]
-author: "Finance Expert"
+author: "Raja"
 ---
 
 Insurance is the foundation of any solid financial plan, yet it's often overlooked until it's too late. In 2025, with rising healthcare costs and economic uncertainty, having the right insurance coverage is more critical than ever.

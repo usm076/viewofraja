@@ -5,6 +5,7 @@ description: "We tested the top 8 budgeting apps head-to-head. See how YNAB, Min
 slug: "budgeting-apps-comparison"
 categories: ["Budgeting", "Technology"]
 tags: ["budgeting apps", "personal finance apps", "money management", "YNAB", "Mint", "2025"]
+author: "Raja"
 draft: false
 ---
 

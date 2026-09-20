@@ -6,7 +6,7 @@ description: "Complete guide to US cryptocurrency regulation in 2026. Understand
 slug: "us-crypto-regulation-2026-clarity-act-sec-guide"
 categories: ["Cryptocurrency", "Market Analysis", "Political Finance"]
 tags: ["Crypto Regulation", "CLARITY Act", "SEC", "CFTC", "GENIUS Act", "Bitcoin ETF", "Stablecoin Regulation", "Project Crypto", "Bitcoin Strategic Reserve", "Crypto Laws 2026"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/us-crypto-regulation-2026.jpg"
 seo_title: "US Crypto Regulation 2026: CLARITY Act, SEC Changes & Investor Guide"

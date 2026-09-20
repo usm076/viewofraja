@@ -122,3 +122,48 @@ fingerprintAlgorithm = "sha256"
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+# ---------------------------------------------------------------------------
+# Author identity.
+#
+# Every article's schema.org author field resolves to the Person entity built
+# from this block (see layouts/partials/schema.html). Before this existed, all
+# 44 posts were attributed to "Finance Expert" — a person who does not exist.
+#
+# This is YMYL (Your Money or Your Life) content, which Google reviews against
+# its strictest E-E-A-T standards. Only put verifiable facts here. An invented
+# qualification is both a spam signal to Google and a risk to the AdSense
+# approval this site already holds.
+#
+# The figures in `bio` below are true as of September 2026 and were counted
+# from content/posts: 44 articles, ~84,900 words, published since 2025-01-05.
+# ---------------------------------------------------------------------------
+[author]
+  name = "Raja"
+
+  # TODO: replace with a real role. If there is no finance job title, say what
+  # is true instead — e.g. "Independent personal finance researcher".
+  jobTitle = ""
+
+  bio = "Raja writes every article on Smart Personal Finance. Since January 2025 he has published 44 long-form guides — around 85,000 words in total — covering investing, market analysis, cryptocurrency, budgeting and everyday money decisions."
+
+  # Topics taken from the categories actually used across the 44 posts.
+  knowsAbout = [
+    "Personal finance",
+    "Investing",
+    "Market analysis",
+    "Cryptocurrency",
+    "Financial planning",
+    "Budgeting",
+    "Retirement planning",
+    "Credit cards"
+  ]
+
+  # TODO: add real profile URLs. These are the strongest E-E-A-T signal you can
+  # give Google, because they let it connect this author to a real identity.
+  # LinkedIn matters most. Remove any you do not actually have.
+  sameAs = []
+
+  # TODO: a real photograph of Raja, placed in static/img/. Not a stock image
+  # and not an illustration — Google's raters check whether authors are real.
+  image = ""

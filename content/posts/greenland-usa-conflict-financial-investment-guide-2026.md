@@ -6,7 +6,7 @@ description: "Complete financial analysis of the Greenland-USA conflict in 2026.
 slug: "greenland-usa-conflict-financial-investment-guide-2026"
 categories: ["International Investment", "Market Analysis", "Political Finance", "Emerging Markets"]
 tags: ["Greenland Investment", "Rare Earth Minerals", "Trump Tariffs", "Denmark", "Arctic Resources", "Critical Metals", "Geopolitical Investing", "CRML Stock", "KoBold Metals", "Market Volatility"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/greenland-usa-investment-2026.jpg"
 seo_title: "Greenland-USA Conflict 2026: Complete Financial & Investment Guide"

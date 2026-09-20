@@ -1,6 +1,7 @@
 ---
 title: "11 Tax Optimization Strategies for 2025 That Could Save You Thousands"
 date: 2025-01-12T10:00:00Z
+author: "Raja"
 draft: false
 description: "Stop overpaying the IRS. These 11 legal tax strategies can save you thousands in 2025 — from overlooked deductions to tax-advantaged accounts most people ignore."
 slug: "tax-optimization-strategies-2025"

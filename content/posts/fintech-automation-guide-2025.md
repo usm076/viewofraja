@@ -1,6 +1,7 @@
 ---
 title: "12 Fintech Tools That Automate Your Finances: Save Time and Money in 2025"
 date: 2025-07-01
+author: "Raja"
 draft: false
 description: "Stop managing money manually. These 12 fintech tools automate your savings, bill payments, investments, and budgeting — so you can build wealth on autopilot."
 slug: "fintech-automation-guide-2025"

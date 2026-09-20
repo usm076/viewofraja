@@ -5,6 +5,7 @@ description: "Protect your money from crypto scams. Learn the 10 biggest red fla
 slug: "avoid-fake-meme-crypto-coins"
 categories: ["Cryptocurrency", "Scam Prevention"]
 tags: ["cryptocurrency", "meme coins", "crypto scams", "investment safety", "blockchain", "2025"]
+author: "Raja"
 draft: false
 ---
 

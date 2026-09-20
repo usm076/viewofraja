@@ -6,7 +6,7 @@ description: "Complete analysis of how political tweets and social media posts i
 slug: "trump-tweets-crypto-market-volatility-guide-2025"
 categories: ["Cryptocurrency", "Market Analysis", "Political Finance"]
 tags: ["Trump Crypto", "Political Tweets", "Market Volatility", "Bitcoin Politics", "Social Media Trading", "Crypto News Trading", "Market Psychology"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/trump-crypto-volatility-2025.jpg"
 seo_title: "Trump Tweets & Crypto Market Volatility: Complete Trading Guide 2025"

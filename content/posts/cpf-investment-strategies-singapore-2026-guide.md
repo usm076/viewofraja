@@ -6,7 +6,7 @@ description: "Complete guide to CPF investment strategies in Singapore for 2026.
 slug: "cpf-investment-strategies-singapore-2026-guide"
 categories: ["Singapore Finance", "Investing", "Retirement Planning", "Personal Finance"]
 tags: ["CPF Singapore", "CPF Investment", "CPFIS", "Retirement Planning Singapore", "OA SA MA", "Singapore Savings", "CPF Top Up", "Financial Planning Singapore", "S-REITs", "CPF 2026"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/cpf-investment-strategies-singapore-2026.jpg"
 seo_title: "CPF Investment Strategies Singapore 2026: Maximize Your Returns Guide"

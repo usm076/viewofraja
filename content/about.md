@@ -1,67 +1,54 @@
 +++
 date = '2025-09-22T00:41:26+05:00'
+lastmod = '2026-09-20T00:00:00+00:00'
 draft = false
 title = 'About Smart Personal Finance'
+description = 'Who writes Smart Personal Finance, how the site is researched and funded, and what it is not.'
+author = "Raja"
 +++
 
 # About Smart Personal Finance
 
-Welcome to Smart Personal Finance - your trusted resource for making informed financial decisions in an increasingly complex world.
+## Who writes this
 
-## Our Mission
+My name is **Raja**, and I write everything on this site. There is no team and no
+rotating cast of freelancers — every article here has one author, and it is me.
 
-We believe everyone deserves access to clear, actionable financial advice. Our mission is to demystify personal finance and help you build lasting wealth through smart money management.
+Since January 2025 I have published **44 long-form guides**, around **85,000 words**
+in total, averaging roughly 1,900 words each. They cover investing, market analysis,
+cryptocurrency, budgeting, retirement planning and the ordinary money decisions most
+of us actually face.
 
-## What We Cover
+## What this site is — and what it isn't
 
-### Credit Cards & Rewards
-- Detailed credit card reviews and comparisons
-- Rewards optimization strategies
-- Sign-up bonus guides
-- Credit building tips
+I am **not a licensed financial adviser**, and nothing here is personal financial
+advice. I do not know your circumstances, your tax position or your risk tolerance,
+and no article can. What I write is research and explanation: how a product works,
+what the numbers actually say, and what the trade-offs are — so that you can make your
+own decision, or ask a professional a better question.
 
-### Personal Finance Fundamentals
-- Budgeting and expense tracking
-- Emergency fund planning
-- Debt payoff strategies
-- Financial goal setting
+If you are making a decision that materially affects your finances, speak to a
+qualified adviser who is regulated where you live.
 
-### Investing & Wealth Building
-- Investment basics for beginners
-- Retirement planning strategies
-- Portfolio diversification
-- Tax-advantaged accounts
+## How I work
 
-### Banking & Savings
-- High-yield savings account reviews
-- Banking fee optimization
-- CD and money market comparisons
-- Financial product recommendations
+Every article is written from scratch for this site. When I compare products, I
+compare the published terms as they stand on the date of writing, and I say when the
+piece was published so you can judge how current it is. Financial products change
+their rates and terms constantly — an article written in 2025 may describe an offer
+that no longer exists, and I would rather tell you that plainly than quietly imply
+everything is evergreen.
 
-## Our Approach
+Where I get something wrong, I correct it rather than delete it.
 
-**Research-Driven:** Every recommendation is backed by thorough research and real-world testing.
+## How this site makes money
 
-**Unbiased Reviews:** We provide honest assessments of financial products, highlighting both pros and cons.
+Smart Personal Finance carries advertising through Google AdSense. Those ads are
+served by Google, not chosen by me, and no advertiser has any influence over what I
+write or how a product is assessed. I do not accept payment for reviews or rankings.
 
-**Practical Advice:** Our content focuses on actionable steps you can take today to improve your financial situation.
+## Get in touch
 
-**Regular Updates:** Financial products change frequently - we keep our content current with the latest offers and terms.
-
-## Editorial Standards
-
-- We clearly disclose affiliate relationships
-- Our reviews are based on product features, not commission rates
-- We regularly update content to reflect current market conditions
-- All advice is for educational purposes - consult professionals for personalized guidance
-
-## Contact Us
-
-Have questions or suggestions? We'd love to hear from you.
-
-**Email:** info@financewithraja.com  
-**Website:** https://financewithraja.com  
-
----
-
-*Disclaimer: The information provided on Smart Personal Finance is for educational purposes only and should not be considered personalized financial advice. Always consult with qualified financial professionals before making major financial decisions.*
+Corrections, questions and disagreements are all welcome — the
+[contact page](/contact/) is the fastest way to reach me. If you think something here
+is wrong, please tell me; I would rather fix it than leave it standing.
