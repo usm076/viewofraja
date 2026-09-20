@@ -1,6 +1,7 @@
 ---
 title: "How Interest Works: APR vs APY, Compound vs Simple — Everything Explained Simply"
 date: 2025-06-19
+author: "Raja"
 draft: false
 description: "Finally understand how interest really works. This plain-English guide explains compound vs simple interest, APR vs APY, and how interest secretly affects every financial decision you make."
 slug: "how-interest-works-guide-2025"

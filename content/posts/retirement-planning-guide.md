@@ -5,6 +5,7 @@ description: "Are you on track for retirement? See exactly how much you should h
 slug: "retirement-planning-guide"
 categories: ["Retirement Planning", "Investing"]
 tags: ["retirement", "401k", "IRA", "Social Security", "retirement planning", "financial independence", "2025"]
+author: "Raja"
 draft: false
 ---
 

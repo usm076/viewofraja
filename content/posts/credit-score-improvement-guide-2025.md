@@ -1,6 +1,7 @@
 ---
 title: "How to Raise Your Credit Score 100+ Points Fast: Proven Strategies for 2025"
 date: 2025-01-05T10:00:00Z
+author: "Raja"
 draft: false
 description: "Boost your credit score by 100+ points with these proven strategies. Learn what actually moves your score, which myths to ignore, and the fastest ways to improve your credit in 2025."
 slug: "credit-score-improvement-guide-2025"

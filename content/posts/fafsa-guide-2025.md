@@ -6,7 +6,7 @@ date: 2025-06-03T10:00:00Z
 draft: false
 categories: ["Education Finance", "Student Loans"]
 tags: ["FAFSA", "financial aid", "college funding", "student loans", "grants", "education"]
-author: "Finance Expert"
+author: "Raja"
 ---
 
 The Free Application for Federal Student Aid (FAFSA) is your gateway to billions of dollars in college financial aid. Yet many families leave money on the table by making simple mistakes or not understanding how the system works.

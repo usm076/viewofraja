@@ -5,6 +5,7 @@ description: "Start investing with as little as $50. This beginner-friendly guid
 slug: "investing-for-beginners-2025"
 categories: ["Investing", "Wealth Building"]
 tags: ["investing", "beginners", "portfolio", "stocks", "ETFs", "retirement", "2025"]
+author: "Raja"
 draft: false
 ---
 

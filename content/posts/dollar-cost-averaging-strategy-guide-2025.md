@@ -6,7 +6,7 @@ description: "Complete guide to dollar-cost averaging in 2025. Learn proven DCA 
 slug: "dollar-cost-averaging-strategy-guide-2025"
 categories: ["Investment Strategies", "Personal Finance", "Wealth Building"]
 tags: ["Dollar Cost Averaging", "DCA", "Investment Strategy", "Systematic Investing", "Risk Management", "Wealth Building", "Index Funds", "ETFs"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/dollar-cost-averaging-2025.jpg"
 seo_title: "Dollar-Cost Averaging Guide 2025: Proven Investment Strategy for Wealth Building"

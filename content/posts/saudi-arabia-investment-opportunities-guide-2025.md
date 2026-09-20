@@ -6,7 +6,7 @@ description: "Invest in Saudi Arabia Vision 2030 boom. Explore NEOM mega-project
 slug: "saudi-arabia-investment-opportunities-guide-2025"
 categories: ["Middle East Finance", "International Investing", "Emerging Markets"]
 tags: ["Saudi Arabia", "Vision 2030", "NEOM", "Tadawul", "Middle East Investing", "International Finance", "Emerging Markets", "Real Estate Investment"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/saudi-arabia-investment-2025.jpg"
 seo_title: "Saudi Arabia Investment Guide 2025: Vision 2030, NEOM & Tadawul Market Access"

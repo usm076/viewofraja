@@ -6,7 +6,7 @@ description: "Bitcoin has crashed below $63,000, Ethereum fell to $1,555, and $7
 slug: "crypto-crash-june-2026-bitcoin-ethereum-analysis"
 categories: ["Cryptocurrency", "Market Analysis", "Investing"]
 tags: ["Bitcoin Crash", "Ethereum", "Solana", "Crypto Market", "Bitcoin Price", "Crypto Crash 2026", "Bitcoin ETF", "MicroStrategy", "Mt Gox", "Crypto Liquidations", "Federal Reserve"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/crypto-crash-june-2026.jpg"
 seo_title: "Crypto Crash June 2026: Bitcoin Below $63K, ETH at $1,555 — What's Next?"

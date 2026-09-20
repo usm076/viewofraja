@@ -5,6 +5,7 @@ description: "Compare interest rates across 30+ countries. Discover which nation
 slug: "global-interest-rates-comparison-2025"
 categories: ["International Finance", "Interest Rates"]
 tags: ["global interest rates", "international investing", "currency", "central banks", "savings rates", "2025"]
+author: "Raja"
 draft: false
 ---
 

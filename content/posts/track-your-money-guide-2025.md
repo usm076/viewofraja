@@ -6,7 +6,7 @@ date: 2025-04-05T10:00:00Z
 draft: false
 categories: ["Budgeting", "Financial Planning"]
 tags: ["expense tracking", "money management", "budgeting", "financial awareness", "spending analysis"]
-author: "Finance Expert"
+author: "Raja"
 ---
 
 You can't manage what you don't measure. This simple truth is why tracking your money is the foundation of every successful financial plan. Yet most people either don't track at all or give up after a few weeks.

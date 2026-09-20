@@ -6,7 +6,7 @@ description: "The Strait of Hormuz carries 20% of the world's oil supply. Rising
 slug: "strait-of-hormuz-global-oil-financial-markets-2026"
 categories: ["Market Analysis", "Investing", "Political Finance", "Personal Finance"]
 tags: ["Strait of Hormuz", "Oil Prices", "Geopolitical Risk", "Energy Markets", "Middle East", "Iran", "OPEC", "Crude Oil", "Inflation", "Investment Strategy", "Commodities"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/strait-of-hormuz-financial-impact-2026.jpg"
 seo_title: "Strait of Hormuz Crisis: Oil, Markets & Financial Impact Guide 2026"

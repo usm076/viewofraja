@@ -6,7 +6,7 @@ date: 2025-09-22T10:00:00Z
 draft: false
 categories: ["Financial Planning", "Savings"]
 tags: ["emergency fund", "financial security", "savings strategy", "financial planning", "money management"]
-author: "Finance Expert"
+author: "Raja"
 ---
 
 An emergency fund isn't just a nice-to-have - it's the foundation of financial security. Without one, a single unexpected expense can derail years of financial progress and force you into debt.

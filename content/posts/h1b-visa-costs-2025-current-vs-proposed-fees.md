@@ -5,6 +5,7 @@ description: "The proposed $100,000 H1B fee would change everything. See the ful
 slug: "h1b-visa-costs-2025-current-vs-proposed-fees"
 categories: ["Immigration", "Financial Planning"]
 tags: ["H1B visa", "immigration costs", "visa fees", "financial planning", "2025"]
+author: "Raja"
 draft: false
 ---
 

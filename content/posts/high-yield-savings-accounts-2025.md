@@ -5,6 +5,7 @@ description: "Compare the 10 best high-yield savings accounts offering 5%+ APY i
 slug: "high-yield-savings-accounts-2025"
 categories: ["Banking", "Savings"]
 tags: ["high yield savings", "interest rates", "banking", "emergency fund", "savings accounts", "2025"]
+author: "Raja"
 draft: false
 ---
 

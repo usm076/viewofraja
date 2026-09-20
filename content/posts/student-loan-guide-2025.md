@@ -5,6 +5,7 @@ description: "Navigate student loans with confidence. Compare federal vs private
 slug: "student-loan-guide-2025"
 categories: ["Student Loans", "Education Finance"]
 tags: ["student loans", "federal loans", "private loans", "loan forgiveness", "education finance", "FAFSA", "2025"]
+author: "Raja"
 draft: false
 ---
 

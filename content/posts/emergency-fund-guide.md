@@ -5,6 +5,7 @@ description: "How much emergency savings do you really need? The popular advice 
 slug: "emergency-fund-guide"
 categories: ["Budgeting", "Savings"]
 tags: ["emergency fund", "savings", "budgeting", "financial planning", "high yield savings"]
+author: "Raja"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ description: "Not all debt destroys wealth — some builds it. Learn how to use 
 slug: "liability-management-strategies-financial-health-2025"
 categories: ["Debt Management", "Financial Planning"]
 tags: ["liability management", "debt strategy", "financial health", "net worth", "debt-to-income", "2025"]
+author: "Raja"
 draft: false
 ---
 

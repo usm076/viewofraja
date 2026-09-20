@@ -1,3 +1,33 @@
+{{/*
+  Person entity for the site's author, published on /about/ so that the
+  "@id" used by every Article's author field resolves to a described,
+  real person. Every value comes from [author] in params.toml — nothing
+  about the author is hardcoded in a template.
+*/}}
+{{ if eq .RelPermalink (site.GetPage "/about").RelPermalink -}}
+  {{ with site.Params.Author -}}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "{{ (site.GetPage "/about").Permalink | safeURL }}#author",
+    "name": "{{ .name | safeJS }}",
+    "url": "{{ (site.GetPage "/about").Permalink | safeURL }}",
+    {{ with .jobTitle }}"jobTitle": "{{ . | safeJS }}",{{ end }}
+    {{ with .bio }}"description": "{{ . | safeJS }}",{{ end }}
+    {{ with .image }}"image": "{{ (printf "%s%s" site.BaseURL .) | safeURL }}",{{ end }}
+    {{ with .knowsAbout }}"knowsAbout": {{ . | jsonify | safeJS }},{{ end }}
+    {{ with .sameAs }}"sameAs": {{ . | jsonify | safeJS }},{{ end }}
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Smart Personal Finance",
+      "url": "{{ site.BaseURL }}"
+    }
+  }
+  </script>
+  {{- end }}
+{{- end }}
+
 {{ if .IsHome -}}
   <script type="application/ld+json">
   {
@@ -32,9 +62,18 @@
     {{ with .Summary }}"abstract": "{{ . | safeJS }}",{{ end }}
     {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
     "url" : "{{ .Permalink }}",
+    {{/*
+      The author must resolve to a real, described person. This @id points at
+      the Person entity published on /about/, so Google can connect every
+      article to one identity with a bio and credentials rather than to a
+      bare name string. The previous default here was "Finance Expert" — a
+      person who does not exist — on all 45 posts.
+    */}}
     "author" : {
       "@type": "Person",
-      "name": "{{ .Params.author | default "Finance Expert" | safeJS }}"
+      "@id": "{{ (site.GetPage "/about").Permalink | safeURL }}#author",
+      "name": "{{ .Params.author | default site.Params.Author.name | default "Raja" | safeJS }}",
+      "url": "{{ (site.GetPage "/about").Permalink | safeURL }}"
     },
     "publisher": {
       "@type": "Organization",

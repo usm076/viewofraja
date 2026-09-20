@@ -6,7 +6,7 @@ description: "Breaking analysis of Trump ending the US government shutdown. Disc
 slug: "us-government-shutdown-ended-financial-impact-2025"
 categories: ["Political Finance", "Market Analysis", "Personal Finance"]
 tags: ["Government Shutdown", "Trump Politics", "Stock Market", "Crypto Impact", "Federal Workers", "Economic Policy", "Market Volatility", "Political Risk"]
-author: "Finance Expert"
+author: "Raja"
 draft: false
 featured_image: "/images/government-shutdown-ended-2025.jpg"
 seo_title: "Trump Ends Government Shutdown: Financial & Crypto Market Impact 2025"

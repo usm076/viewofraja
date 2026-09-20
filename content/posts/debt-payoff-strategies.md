@@ -5,6 +5,7 @@ description: "Compare the 6 most effective debt payoff methods — snowball, ava
 slug: "debt-payoff-strategies"
 categories: ["Debt Management", "Financial Planning"]
 tags: ["debt payoff", "debt snowball", "debt avalanche", "financial freedom", "budgeting", "2025"]
+author: "Raja"
 draft: false
 ---
 
