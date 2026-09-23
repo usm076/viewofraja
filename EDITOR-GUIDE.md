@@ -130,3 +130,47 @@ site owner and it can be restored.
 Site owner: _________________________
 
 Add the email here before handover.
+
+---
+
+## If the whole site shows "404 — File not found"
+
+This happened on 23 September 2026 and took the entire site down. It is not
+caused by anything you write, and nothing you publish can break the site this
+way — so do not go looking for a bad article.
+
+**Cause.** GitHub Pages can publish a site in two different ways, and this repo
+must use one of them:
+
+- **GitHub Actions** — correct. Hugo turns the Markdown into a website and
+  publishes that.
+- **Deploy from a branch** — wrong. It publishes the raw repository, which has
+  no `index.html` at the top level, so every address returns 404.
+
+If someone opens the repository **Settings → Pages** and switches the source to
+*Deploy from a branch*, the site goes blank within a minute or two.
+
+**Fix.** In the repository, go to **Settings → Pages → Build and deployment →
+Source** and set it back to **GitHub Actions**. Then open the **Actions** tab,
+pick *Deploy Hugo site to Pages*, and click **Run workflow**. The site returns
+in one to two minutes.
+
+**So don't:** change anything under Settings → Pages. Writing and publishing
+articles through app.pagescms.org never requires touching that screen.
+
+---
+
+## The Author field
+
+New articles default to **Raja**. Leave it that way unless a different real
+person actually wrote the piece.
+
+This matters more here than on an ordinary blog. Personal finance is what
+Google calls YMYL — "Your Money or Your Life" — content, and it is judged
+against the strictest standards for who is behind the advice. Every article
+tells Google, in machine-readable form, that Raja wrote it and links to his
+page on /about/.
+
+Never put a made-up name or a job title nobody holds in this field. Google's
+reviewers check whether authors are real people, and an invented author or
+qualification puts the site's AdSense approval at risk.
