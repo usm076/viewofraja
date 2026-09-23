@@ -158,7 +158,12 @@ content:
       - name: author
         label: Author
         type: string
-        default: Finance Expert
+        # Must stay a real person. This site is YMYL (Your Money or Your Life)
+        # content, which Google reviews against its strictest E-E-A-T standards,
+        # and every article's schema.org author resolves to the Person entity on
+        # /about/. The previous default here was "Finance Expert", who does not
+        # exist, and it silently reappeared on the next article published.
+        default: Raja
 
       - name: draft
         label: Draft — hidden from the live site
