@@ -1,8 +1,8 @@
 ---
-title: Bitcoin Rallies Past $87K Despite the Fed Hike — Here's Why
+title: Bitcoin Rallies Past $87K Despite the Fed Hike, Here's Why
 slug: bitcoin-rally-fed-rate-hike-etf-inflows-2026
 date: 2026-09-25T12:00:00Z
-description: Bitcoin just did something it never did in past tightening cycles —
+description: Bitcoin just did something it never did in past tightening cycles,
   rallied through a Fed rate hike. Here's what's actually driving it, and what
   it means for your portfolio.
 categories:
@@ -42,7 +42,7 @@ This time the textbook didn't hold. A few real, structural reasons why.
 
 ## The Money That Actually Moved
 
-Numbers make this concrete. Around September 15–16, spot Bitcoin ETFs saw hundreds of millions of dollars in redemptions — traders nervous ahead of the Fed decision, presumably. Then, once the hike landed and nothing catastrophic happened, the money reversed hard: more than $2 billion flowed back into these ETFs across September 18, 21, and 22 alone. BlackRock's IBIT, Fidelity's FBTC, and ARK's ARKB led the way, with a single day on September 21 pulling in nearly $1 billion by itself.
+Numbers make this concrete. Around September 15–16, spot Bitcoin ETFs saw hundreds of millions of dollars in redemptions, traders nervous ahead of the Fed decision, presumably. Then, once the hike landed and nothing catastrophic happened, the money reversed hard: more than $2 billion flowed back into these ETFs across September 18, 21, and 22 alone. BlackRock's IBIT, Fidelity's FBTC, and ARK's ARKB led the way, with a single day on September 21 pulling in nearly $1 billion by itself.
 
 On top of that, corporate buyers kept adding Strategy Inc. (the company formerly known as MicroStrategy, still the poster child for corporate Bitcoin treasuries) picked up another 950 BTC during this stretch. And as the price climbed back above $84,000–85,000, traders who'd bet against Bitcoin got squeezed, forcing them to buy back in to cover their positions, which pushed the price up even further.
 
@@ -56,13 +56,13 @@ If you read our earlier coverage of the [June 2026 crypto crash](https://finance
 
 You don't need to be actively trading Bitcoin for this to be relevant. A few honest takeaways:
 
-**Bitcoin is behaving more like a risk asset with real institutional plumbing underneath it, and less like a pure "digital gold" hedge.** One analyst put it well: the ETF structure gives it "a structural demand floor," but that's not the same thing as independence from monetary policy — it's a cushion, not immunity. Rate hikes can still hurt; this one just didn't, for reasons specific to this moment.
+**Bitcoin is behaving more like a risk asset with real institutional plumbing underneath it, and less like a pure "digital gold" hedge.** One analyst put it well: the ETF structure gives it "a structural demand floor," but that's not the same thing as independence from monetary policy, it's a cushion, not immunity. Rate hikes can still hurt; this one just didn't, for reasons specific to this moment.
 
 **ETF flows are now a genuinely useful signal**, arguably more useful than watching the price alone. When you see large daily inflows into IBIT, FBTC, or ARKB, that's institutional money actually moving, not retail sentiment on social media. It's one of the more concrete things to watch if you're trying to understand why Bitcoin is doing what it's doing on a given week.
 
 **Volatility isn't gone it's just being driven by different things now.** The same mechanism that cushions Bitcoin on the way down (ETF rebalancing buying) can also amplify moves on the way up (which is part of what just happened). This is a market that can still swing hard in both directions; it's just swinging for somewhat different reasons than it used to.
 
-**If you're holding Bitcoin or considering it, size the position based on what it actually is for you**  a volatile, increasingly institutionally-backed risk asset — rather than assuming it now moves independently of the broader financial system. It doesn't. It's just newly connected to that system in a way that happens to be more resilient than it was three years ago.
+**If you're holding Bitcoin or considering it, size the position based on what it actually is for you**  a volatile, increasingly institutionally-backed risk asset, rather than assuming it now moves independently of the broader financial system. It doesn't. It's just newly connected to that system in a way that happens to be more resilient than it was three years ago.
 
 ## The Bottom Line
 
