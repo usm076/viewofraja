@@ -20,7 +20,7 @@ tags:
 author: Raja
 draft: false
 ---
-If you get a Social Security check, or you're helping a parent manage one, there's a number worth circling on your calendar right now: **October 14, 2026.** That's when the Social Security Administration is expected to announce the official cost of living adjustment for 2027 — the raise that shows up in your check starting in January.
+If you get a Social Security check, or you're helping a parent manage one, there's a number worth circling on your calendar right now: **October 14, 2026.** That's when the Social Security Administration is expected to announce the official cost of living adjustment for 2027  the raise that shows up in your check starting in January.
 
 Here's what we know about the estimate so far, how the number actually gets calculated, and why it matters well beyond the headline percentage.
 
@@ -36,7 +36,7 @@ Worth being clear about: these are estimates, not the final number. The official
 
 This part trips a lot of people up, so it's worth walking through plainly. The Social Security COLA isn't based on general inflation over the whole year, and it isn't set by any committee's judgment call. It's a formula, applied to a specific slice of data:
 
-The SSA compares the average **CPI W** (Consumer Price Index for Urban Wage Earners and Clerical Workers) for **July, August, and September** of the current year against the same three month average from the prior year. Whatever percentage that index rose by becomes the COLA, rounded to the nearest tenth of a percent.
+The SSA compares the average **CPI -W** (Consumer Price Index for Urban Wage Earners and Clerical Workers) for **July, August, and September** of the current year against the same three month average from the prior year. Whatever percentage that index rose by becomes the COLA, rounded to the nearest tenth of a percent.
 
 That's it — three months of data, one specific inflation index, a straightforward year over year comparison. It doesn't account for what happened in January through June, and it doesn't use the more commonly cited CPIU (the index most news headlines reference for "inflation"). CPIW tends to weight things like transportation and food a bit differently, which is part of why the COLA number can feel disconnected from your own sense of how prices have moved that year.
 
