@@ -1,7 +1,7 @@
 ---
 title: "2027 Social Security COLA: When & How It's Calculated"
 slug: 2027-social-security-cola-announcement-calculation
-date: 2026-09-26T16:19:00Z
+date: 2026-09-26T00:00:00Z
 description: The 2027 Social Security COLA is expected to be the biggest since
   2023. Here's the current estimate, the exact announcement date, and how the
   number gets calculated.
@@ -18,7 +18,7 @@ tags:
   - Household Budget
   - Retirement
 author: Raja
-draft: true
+draft: false
 ---
 If you get a Social Security check, or you're helping a parent manage one, there's a number worth circling on your calendar right now: **October 14, 2026.** That's when the Social Security Administration is expected to announce the official cost of living adjustment for 2027 — the raise that shows up in your check starting in January.
 
