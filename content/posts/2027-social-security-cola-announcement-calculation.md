@@ -28,7 +28,7 @@ Here's what we know about the estimate so far, how the number actually gets calc
 
 Two of the most closely watched independent forecasters have landed close together. AARP is projecting a **3.6% increase**, while the Senior Citizens League estimates **3.5%**. Either number would mark the largest COLA since 2023, and a meaningful jump from the smaller adjustments retirees have seen the past couple of years.
 
-In dollar terms, a 3.6% bump would take the average retired worker's monthly benefit from roughly $2,071 up to about $2,146 — an increase of around $75 a month, or close to $900 over the year. Not enormous, but not nothing either, especially for anyone living primarily on that check.
+In dollar terms, a 3.6% bump would take the average retired worker's monthly benefit from roughly $2,071 up to about $2,146  an increase of around $75 a month, or close to $900 over the year. Not enormous, but not nothing either, especially for anyone living primarily on that check.
 
 Worth being clear about: these are estimates, not the final number. The official figure isn't locked in until the Bureau of Labor Statistics releases September's inflation data, which is what triggers the SSA's formal announcement.
 
