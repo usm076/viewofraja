@@ -38,7 +38,7 @@ This part trips a lot of people up, so it's worth walking through plainly. The S
 
 The SSA compares the average **CPI -W** (Consumer Price Index for Urban Wage Earners and Clerical Workers) for **July, August, and September** of the current year against the same three month average from the prior year. Whatever percentage that index rose by becomes the COLA, rounded to the nearest tenth of a percent.
 
-That's it — three months of data, one specific inflation index, a straightforward year over year comparison. It doesn't account for what happened in January through June, and it doesn't use the more commonly cited CPIU (the index most news headlines reference for "inflation"). CPIW tends to weight things like transportation and food a bit differently, which is part of why the COLA number can feel disconnected from your own sense of how prices have moved that year.
+That's it three months of data, one specific inflation index, a straightforward year over year comparison. It doesn't account for what happened in January through June, and it doesn't use the more commonly cited CPIU (the index most news headlines reference for "inflation"). CPIW tends to weight things like transportation and food a bit differently, which is part of why the COLA number can feel disconnected from your own sense of how prices have moved that year.
 
 This is also why the estimates firm up as the year goes on  by August, two of the three required months of data are already in, which is how AARP and the Senior Citizens League can publish increasingly confident projections before the SSA's official announcement in October.
 
