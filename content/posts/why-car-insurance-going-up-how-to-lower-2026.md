@@ -16,7 +16,7 @@ tags:
   - Money Saving Tips
   - Consumer Prices
 author: Raja
-draft: true
+draft: false
 ---
 If your renewal notice just landed and the number made you do a double take, you're not imagining it and you're not alone. Car insurance premiums are climbing again in more than half the country the national average for full coverage is sitting around **$2,237 a year**, and in some states the increases have been sharp: Connecticut drivers are looking at roughly **15% higher premiums**, Kentucky and West Virginia around **8%**, Illinois and Nevada near **6%**.
 
