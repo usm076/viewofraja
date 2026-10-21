@@ -1,0 +1,39 @@
+{{- /*
+  Article teaser — the one component used for every article link on the site.
+
+  Usage:
+    partial "story/teaser.html" (dict
+      "page"    $page
+      "variant" "lead" | "feature" | "compact" | "row" | ""   (default "")
+      "level"   2–4 heading level                            (default 3)
+      "dek"     show the summary                             (default true, false for compact)
+      "kicker"  show the category                            (default true)
+      "meta"    show date and reading time                   (default true)
+    )
+*/ -}}
+{{- $p := .page -}}
+{{- $variant := .variant | default "" -}}
+{{- $level := .level | default 3 -}}
+{{- $showDek := .dek | default (ne $variant "compact") -}}
+{{- if eq .dek false }}{{ $showDek = false }}{{ end -}}
+{{- $showKicker := true }}{{ if eq .kicker false }}{{ $showKicker = false }}{{ end -}}
+{{- $showMeta := true }}{{ if eq .meta false }}{{ $showMeta = false }}{{ end -}}
+<article class="story{{ with $variant }} story--{{ . }}{{ end }}">
+  {{- if eq $variant "row" }}
+  <time class="story__date" datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "2 Jan 2006" }}</time>
+  <div>
+  {{- end }}
+  {{- if $showKicker }}{{ with $p.GetTerms "categories" }}
+  <p class="kicker"><a href="{{ (index . 0).Permalink }}">{{ (index . 0).LinkTitle }}</a></p>
+  {{- end }}{{ end }}
+  <h{{ $level }} class="story__title"><a class="story__link" href="{{ $p.Permalink }}">{{ $p.Title }}</a></h{{ $level }}>
+  {{- if $showDek }}{{ with $p.Description | default $p.Summary }}
+  <p class="story__dek">{{ . | plainify | truncate 220 }}</p>
+  {{- end }}{{ end }}
+  {{- if $showMeta }}
+  {{ partial "story/meta.html" (dict "page" $p "date" (ne $variant "row") "author" (eq $variant "lead")) }}
+  {{- end }}
+  {{- if eq $variant "row" }}
+  </div>
+  {{- end }}
+</article>

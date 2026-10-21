@@ -1,0 +1,27 @@
+{{- /*
+  Tables scroll inside their own focusable region, so a wide comparison never
+  forces the page to scroll sideways on a phone. Column alignment from the
+  Markdown (|---:|) is kept.
+*/ -}}
+<div class="table-wrap" role="region" tabindex="0" aria-label="Table {{ .Ordinal | add 1 }} (scrolls horizontally)">
+  <table{{ range $k, $v := .Attributes }} {{ $k }}="{{ $v }}"{{ end }}>
+    <thead>
+      {{- range .THead }}
+      <tr>
+        {{- range . }}
+        <th scope="col"{{ with .Alignment }} align="{{ . }}"{{ end }}>{{ .Text }}</th>
+        {{- end }}
+      </tr>
+      {{- end }}
+    </thead>
+    <tbody>
+      {{- range .TBody }}
+      <tr>
+        {{- range . }}
+        <td{{ with .Alignment }} align="{{ . }}"{{ end }}>{{ .Text }}</td>
+        {{- end }}
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>

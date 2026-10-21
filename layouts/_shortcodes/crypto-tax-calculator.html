@@ -1,0 +1,64 @@
+{{- /* Crypto capital gains tax estimate. Logic: assets/js/calculators.js (crypto). */ -}}
+{{- /* Pass id="…" if the same calculator appears twice on one page. */ -}}
+{{- $id := .Get "id" | default "crypto-tax-calculator" -}}
+<section class="calculator" id="{{ $id }}" aria-labelledby="{{ $id }}-title" itemscope itemtype="https://schema.org/WebApplication">
+  <div class="calculator__head">{{ partial "icon.html" "coin" }}<h3 class="calculator__title" id="{{ $id }}-title" itemprop="name">Crypto Tax Calculator</h3></div>
+  <meta itemprop="description" content="Calculate cryptocurrency capital gains tax, short-term vs long-term rates, and tax liability for Bitcoin and crypto trading">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  <form class="calculator__form" data-calc="crypto" novalidate>
+    <div class="calculator__fields">
+      <div class="field">
+        <label for="{{ $id }}-buy">Purchase price</label>
+        <div class="input-affix"><span>$</span><input class="input" id="{{ $id }}-buy" name="purchasePrice" type="number" inputmode="decimal" min="0" step="0.01" placeholder="30000"></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-sell">Sale price</label>
+        <div class="input-affix"><span>$</span><input class="input" id="{{ $id }}-sell" name="salePrice" type="number" inputmode="decimal" min="0" step="0.01" placeholder="45000"></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-holding">Holding period</label>
+        <select class="input" id="{{ $id }}-holding" name="holdingPeriod">
+          <option value="short">Short-term (≤ 1 year)</option>
+          <option value="long">Long-term (&gt; 1 year)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-bracket">Income tax bracket</label>
+        <select class="input" id="{{ $id }}-bracket" name="taxBracket">
+          <option value="10">10% ($0 – $11,000)</option>
+          <option value="12">12% ($11,001 – $44,725)</option>
+          <option value="22" selected>22% ($44,726 – $95,375)</option>
+          <option value="24">24% ($95,376 – $182,050)</option>
+          <option value="32">32% ($182,051 – $231,250)</option>
+          <option value="35">35% ($231,251 – $578,125)</option>
+          <option value="37">37% ($578,126+)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-status">Filing status</label>
+        <select class="input" id="{{ $id }}-status" name="filingStatus">
+          <option value="single" selected>Single</option>
+          <option value="married">Married Filing Jointly</option>
+          <option value="head">Head of Household</option>
+        </select>
+      </div>
+    </div>
+    <div class="calculator__actions">
+      <button class="button" type="submit">Calculate tax</button>
+      <p class="calculator__error" data-error role="alert"></p>
+    </div>
+  </form>
+  <div class="calculator__results" data-results hidden tabindex="-1" aria-live="polite">
+    <h4 class="calculator__results-title">Estimate</h4>
+    <dl class="figures">
+      <div><dt>Capital gain / loss</dt><dd data-out="capitalGain"></dd></div>
+      <div><dt>Tax rate applied</dt><dd data-out="taxRate"></dd></div>
+      <div class="figures__key"><dt>Tax owed</dt><dd data-out="taxOwed"></dd></div>
+      <div><dt>After-tax proceeds</dt><dd data-out="afterTaxProceeds"></dd></div>
+    </dl>
+    <aside class="callout callout--warning calculator__note">
+      {{ partial "icon.html" "alert" }}
+      <div><span class="callout__title">Note</span><p>This is a simplified calculation. Consult a tax professional for complex situations involving multiple transactions, staking, DeFi, or other crypto activities.</p></div>
+    </aside>
+  </div>
+</section>

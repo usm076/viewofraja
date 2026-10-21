@@ -1,0 +1,10 @@
+{{- /*
+  Google AdSense Auto ads, site-wide. Google chooses ad placement; there are no
+  manual ad slots in the templates (see AD-CHANGES-LOG.md). ads.txt in static/
+  must list the same publisher ID.
+*/ -}}
+{{- with site.Params.adsenseClient }}
+<meta name="google-adsense-account" content="{{ . }}">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"{{ . }}",enable_page_level_ads:true});</script>
+{{- end }}

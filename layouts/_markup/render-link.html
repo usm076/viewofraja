@@ -1,0 +1,9 @@
+{{- /*
+  Links in Markdown content. External links open in a new tab (as before) with
+  rel="noopener"; the destination is never rewritten.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $external := or (strings.HasPrefix $dest "http://") (strings.HasPrefix $dest "https://") -}}
+{{- if and $external (strings.Contains $dest "financewithraja.com") }}{{ $external = false }}{{ end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* Trim EOF */ -}}

@@ -1,0 +1,136 @@
+{{ define "main" }}
+{{- /*
+  Article. Three columns on wide screens — contents rail, reading column,
+  breathing room (wide tables extend into it) — and a single column below
+  1200px with the contents folded into a disclosure.
+*/ -}}
+{{- $h2s := findRE `(?m)^##\s` .RawContent -}}
+{{- $showToc := and (ne .Params.toc false) (or .Params.toc (ge (len $h2s) (site.Params.article.tocMinHeadings | default 3))) -}}
+{{- /* Hugo wraps the contents in <nav id="TableOfContents">; it is rendered
+       twice (rail and mobile disclosure) inside our own <nav>, so unwrap it
+       to avoid a duplicate id and nested landmarks. */ -}}
+{{- $toc := .TableOfContents | replaceRE `^\s*<nav id="TableOfContents">` "" | replaceRE `</nav>\s*$` "" | safeHTML -}}
+{{- if not (findRE `<li>` $toc 1) }}{{ $showToc = false }}{{ end -}}
+{{- $cats := .GetTerms "categories" -}}
+
+<article class="article" {{ if $showToc }}data-toc{{ end }}>
+  <div class="container article-grid">
+    <header class="article-header">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol role="list">
+          <li><a href="{{ site.Home.Permalink }}">Home</a></li>
+          <li><a href="{{ (site.GetPage "/posts").Permalink }}">Articles</a></li>
+          {{- with $cats }}<li><a href="{{ (index . 0).Permalink }}">{{ (index . 0).LinkTitle }}</a></li>{{ end }}
+        </ol>
+      </nav>
+
+      {{- with $cats }}
+      <p class="kicker">
+        {{- range first 3 . }}<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end -}}
+      </p>
+      {{- end }}
+
+      <h1 class="article-header__title">{{ .Title }}</h1>
+
+      {{- with .Description }}
+      <p class="article-header__dek">{{ . | plainify }}</p>
+      {{- end }}
+
+      <div class="article-header__byline">
+        {{- with .Params.author | default site.Params.author.name }}
+        <div class="byline-author">
+          <span class="author-card__avatar" aria-hidden="true">{{ substr . 0 1 }}</span>
+          <span>By <a href="{{ (site.GetPage "/about").Permalink }}" rel="author">{{ . }}</a></span>
+        </div>
+        {{- end }}
+        <p class="meta">
+          <span>Published <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2 January 2006" }}</time></span>
+          {{- if gt (.Lastmod.Sub .Date).Hours 24 }}
+          <span class="updated">Updated <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "2 January 2006" }}</time></span>
+          {{- end }}
+          <span>{{ .ReadingTime }} min read</span>
+        </p>
+      </div>
+
+      {{- partial "article/hero.html" . }}
+    </header>
+
+    {{- if $showToc }}
+    <aside class="article-rail" aria-label="Contents">
+      <nav class="toc" aria-labelledby="toc-rail-title">
+        <h2 class="toc__title" id="toc-rail-title">In this article</h2>
+        {{ $toc }}
+      </nav>
+    </aside>
+    {{- end }}
+
+    <div class="article-body">
+      {{- if $showToc }}
+      <details class="toc-box">
+        <summary>In this article {{ partial "icon.html" "chevron-down" }}</summary>
+        <nav class="toc" aria-label="In this article">{{ $toc }}</nav>
+      </details>
+      {{- end }}
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+
+    <footer class="article-end">
+      {{- with .GetTerms "tags" }}
+      <div>
+        <h2 class="article-end__topics-label">Topics in this article</h2>
+        <ul class="topics" role="list">
+          {{- range . }}<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>{{ end }}
+        </ul>
+      </div>
+      {{- end }}
+
+      <aside class="callout callout--disclosure" aria-label="Disclaimer">
+        {{ partial "icon.html" "info" }}
+        <div>
+          <span class="callout__title">Not financial advice</span>
+          <p>This article is general information for educational purposes, written on the date shown above. It doesn't account for your circumstances, and rates, prices and rules may have changed since. Check current terms with the provider and consider speaking to a regulated financial adviser before acting. <a href="{{ (site.GetPage "/about").Permalink }}">How this site works</a>.</p>
+        </div>
+      </aside>
+
+      <div class="article-end__block">
+        {{ partial "share.html" . }}
+      </div>
+
+      <div class="article-end__block">
+        {{ partial "author-card.html" (dict "label" "Written by" "level" 2) }}
+      </div>
+
+      {{- if or .PrevInSection .NextInSection }}
+      <nav class="article-end__block" aria-label="More articles">
+        <ul class="pager" role="list">
+          {{- /* PrevInSection is the older article in Hugo's date-descending order. */}}
+          {{- with .PrevInSection }}
+          <li><a href="{{ .Permalink }}" rel="prev"><span class="pager__dir">{{ partial "icon.html" "arrow-left" }} Older</span><span class="pager__title">{{ .Title }}</span></a></li>
+          {{- end }}
+          {{- with .NextInSection }}
+          <li class="pager__next"><a href="{{ .Permalink }}" rel="next"><span class="pager__dir">Newer {{ partial "icon.html" "arrow-right" }}</span><span class="pager__title">{{ .Title }}</span></a></li>
+          {{- end }}
+        </ul>
+      </nav>
+      {{- end }}
+    </footer>
+  </div>
+</article>
+
+{{- $related := site.RegularPages.Related . | first (site.Params.article.relatedLimit | default 3) }}
+{{- with $related }}
+<section class="container section related-section" aria-labelledby="related-title">
+  <div class="section-head">
+    <h2 class="section-head__title" id="related-title">Related reading</h2>
+    <a class="section-head__more" href="{{ (site.GetPage "/posts").Permalink }}">All articles {{ partial "icon.html" "arrow-right" }}</a>
+  </div>
+  <ul class="related" role="list">
+    {{- range . }}
+    <li>{{ partial "story/teaser.html" (dict "page" . "level" 3) }}</li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{ end }}

@@ -1,0 +1,32 @@
+{{- /*
+  Images in Markdown content. Images uploaded through Pages CMS live in
+  static/images and are mounted into assets (see hugo.toml), so they can be
+  resized here: responsive WebP sources, explicit dimensions (no layout
+  shift) and lazy loading. Remote or unprocessable images render as-is.
+  A Markdown title becomes the caption: ![alt](/images/x.jpg "Caption")
+*/ -}}
+{{- $src := .Destination -}}
+{{- $alt := .Text | plainify -}}
+{{- $res := false -}}
+{{- if not (findRE `^(https?:|data:)` $src) -}}
+  {{- with .Page.Resources.Get $src }}{{ $res = . }}{{ else }}{{ with resources.Get (strings.TrimPrefix "/" $src) }}{{ $res = . }}{{ end }}{{ end -}}
+{{- end -}}
+<figure>
+{{- if and $res (in (slice "jpeg" "png" "webp") $res.MediaType.SubType) -}}
+  {{- $srcset := slice -}}
+  {{- range slice 480 800 1200 1600 -}}
+    {{- if le . $res.Width }}{{ $srcset = $srcset | append (printf "%s %dw" ($res.Process (printf "resize %dx webp q78" .)).RelPermalink .) }}{{ end -}}
+  {{- end -}}
+  {{- $img := $res.Process "webp q78" -}}
+  {{- if gt $res.Width 1200 }}{{ $img = $res.Process "resize 1200x webp q78" }}{{ end }}
+  <img src="{{ $img.RelPermalink }}"{{ with $srcset }} srcset="{{ delimit . ", " }}" sizes="(min-width: 48em) 42.5rem, 100vw"{{ end }} width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{- else if $res }}
+  <img src="{{ $res.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{- else }}
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{- end }}
+{{- with .Title }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+{{- end }}
+</figure>
+{{- /* Trim EOF */ -}}

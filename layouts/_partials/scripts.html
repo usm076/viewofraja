@@ -1,0 +1,12 @@
+{{- /*
+  The site's only first-party JavaScript: theme toggle, mobile menu, search,
+  contents highlighting and copy-link. Bundled and minified by Hugo (esbuild);
+  no npm install needed. Calculator code loads only on pages that use one.
+*/ -}}
+{{- $opts := dict "minify" hugo.IsProduction "target" "es2019" -}}
+{{- $main := resources.Get "js/main.js" | js.Build $opts | fingerprint "sha256" }}
+<script src="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" defer></script>
+{{- if or (.HasShortcode "loan-calculator") (.HasShortcode "savings-calculator") (.HasShortcode "credit-card-rewards") (.HasShortcode "crypto-tax-calculator") }}
+{{- $calc := resources.Get "js/calculators.js" | js.Build $opts | fingerprint "sha256" }}
+<script src="{{ $calc.RelPermalink }}" integrity="{{ $calc.Data.Integrity }}" defer></script>
+{{- end }}

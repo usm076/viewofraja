@@ -1,127 +1,89 @@
-colorScheme = "custom"
-defaultAppearance = "dark"
-autoSwitchAppearance = true
+# ---------------------------------------------------------------------------
+# Site parameters read by the templates in layouts/.
+# ---------------------------------------------------------------------------
 
-enableSearch = true
-enableCodeCopy = true
-enableImageOptimization = true
+# The publication's visible name (masthead, footer, social cards). The SEO
+# site name — the <title> suffix and schema.org Organization — is still
+# "Smart Personal Finance" and is set by `title` in hugo.toml and in
+# layouts/_partials/seo/. Change those separately and deliberately.
+brand = "Finance with Raja"
+tagline = "Personal finance, explained"
 
-# robots = ""
-fingerprintAlgorithm = "sha256"
+# Shown as og:image for pages without their own card. Articles get a card
+# generated at build time from their headline (layouts/_partials/seo/card.html).
+images = ["img/social-card.png"]
 
-[header]
-  layout = "basic"
-  disableTextInHeader = true
+# Contact address used in the footer. Taken from content/contact.md.
+email = "info@financewithraja.com"
 
-[homepage]
-  layout = "page"
-  homepageImage = ""
-  showRecent = true
-  showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "/posts"
-  cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = false
-
-[article]
-  showDate = true
-  showViews = false
-  showLikes = false
-  showDateUpdated = true
-  showAuthor = true
-  showHero = true
-  heroStyle = "background"
-  layoutBackgroundBlur = true
-  layoutBackgroundHeaderSpace = true
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = false
-  editURL = "https://github.com/username/repo/"
-  editAppendPath = true
-  seriesOpened = false
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true
-  showRelatedContent = true
-  relatedContentLimit = 3
-  showTaxonomies = true
-  showAuthorsBadges = false
-  showWordCount = true
-  showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
-
-[list]
-  showHero = false
-  heroStyle = "background"
-  layoutBackgroundBlur = true
-  layoutBackgroundHeaderSpace = true
-  showBreadcrumbs = false
-  showSummary = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = false
-  showCards = true
-  groupByYear = true
-  cardView = true
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
+# AdSense publisher ID. Auto ads are loaded site-wide from
+# layouts/_partials/head/ads.html; ads.txt in static/ must match it.
+adsenseClient = "ca-pub-6151244736221984"
 
 [sitemap]
+  # Tag and category archives carry noindex (see layouts/_partials/seo/robots.html)
+  # and are kept out of the sitemap too.
   excludedKinds = ["taxonomy", "term"]
 
-[taxonomy]
-  showTermCount = true
-  showHero = false
-  heroStyle = "background"
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  cardView = false
+[article]
+  # Show the "In this article" contents box when an article has at least this
+  # many second-level headings. Front matter `toc: false` hides it per article.
+  tocMinHeadings = 3
+  relatedLimit = 3
+  sharing = ["linkedin", "x", "reddit", "facebook", "whatsapp", "telegram", "pinterest", "email"]
 
-[term]
-  showHero = false
-  heroStyle = "background"
-  showBreadcrumbs = false
-  showViews = false
-  showLikes = false
-  showTableOfContents = true
-  groupByYear = false
-  cardView = true
-  cardViewScreenWidth = false
+# ---------------------------------------------------------------------------
+# Homepage composition.
+#
+# The lead story and the "Latest" column are always the newest articles. The
+# sections below are curated from categories that already exist — a desk is
+# just a set of category names, never a new taxonomy. `link` is the category
+# archive a desk's "More" link points at. Articles shown higher up the page are
+# not repeated lower down.
+# ---------------------------------------------------------------------------
+[home]
+  latestCount = 5
 
-[firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  # "Start here": evergreen guides for readers new to the subject, by file name
+  # in content/posts/ (without .md). Order is the reading order shown.
+  essentials = [
+    "establish-emergency-fund-guide-2025",
+    "track-your-money-guide-2025",
+    "debt-payoff-strategies",
+    "credit-score-improvement-guide-2025",
+    "high-yield-savings-accounts-2025",
+    "how-interest-works-guide-2025",
+    "investing-for-beginners-2025",
+    "retirement-planning-guide",
+  ]
 
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
+  [home.markets]
+    title = "Markets & the news"
+    description = "What the week's economic and political headlines mean for your money."
+    categories = ["Market Analysis", "Political Finance", "Economic Policy"]
+    link = "/categories/market-analysis/"
 
-[buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
+  [[home.desks]]
+    title = "Investing"
+    categories = ["Investing", "Investment Strategies", "Wealth Building", "Stocks", "Real Estate"]
+    link = "/categories/investing/"
+  [[home.desks]]
+    title = "Crypto"
+    categories = ["Cryptocurrency", "Bitcoin", "Scam Prevention"]
+    link = "/categories/cryptocurrency/"
+  [[home.desks]]
+    title = "Everyday money"
+    categories = ["Budgeting", "Savings", "Debt Management", "Credit", "Credit Cards", "Banking", "Insurance", "Student Loans", "Education Finance"]
+    link = "/categories/personal-finance/"
+  [[home.desks]]
+    title = "Retirement & tax"
+    categories = ["Retirement Planning", "Financial Planning", "Taxes"]
+    link = "/categories/retirement-planning/"
 
-[footer]
-  showThemeAttribution = false
-  showCopyright = true
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
+  [home.regional]
+    title = "Middle East & Asia"
+    description = "Banking, property and investment rules for the Gulf states and Singapore."
+    categories = ["Middle East Finance", "Middle East", "Dubai", "Singapore Finance", "International Investment", "International Investing", "Emerging Markets", "International Banking", "Business Setup"]
 
 # ---------------------------------------------------------------------------
 # Author identity.
@@ -135,8 +97,9 @@ fingerprintAlgorithm = "sha256"
 # qualification is both a spam signal to Google and a risk to the AdSense
 # approval this site already holds.
 #
-# The figures in `bio` below are true as of September 2026 and were counted
-# from content/posts: 44 articles, ~84,900 words, published since 2025-01-05.
+# The figures in `bio` below are true as of October 2026 and were counted
+# from content/posts with Hugo's .WordCount: 53 articles, ~84,500 words,
+# published since 2025-01-05. Update them as the archive grows.
 # ---------------------------------------------------------------------------
 [author]
   name = "Raja"
@@ -145,7 +108,7 @@ fingerprintAlgorithm = "sha256"
   # is true instead — e.g. "Independent personal finance researcher".
   jobTitle = ""
 
-  bio = "Raja writes every article on Smart Personal Finance. Since January 2025 he has published 44 long-form guides — around 85,000 words in total — covering investing, market analysis, cryptocurrency, budgeting and everyday money decisions."
+  bio = "Raja writes every article on Smart Personal Finance. Since January 2025 he has published 53 long-form guides — around 85,000 words in total — covering investing, market analysis, cryptocurrency, budgeting and everyday money decisions."
 
   # Topics taken from the categories actually used across the 44 posts.
   knowsAbout = [

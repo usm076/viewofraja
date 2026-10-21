@@ -34,6 +34,8 @@ you need from here on.
 | **Categories** | Pick 1–3 from the list. |
 | **Tags** | The specific topics covered, e.g. `Bitcoin ETF`, `emergency fund`. Add one per box. |
 | **Author** | Leave as is. |
+| **Header image** | Optional. Only a photo or chart that is genuinely about the article — never a generic stock photo. Leave empty and the site makes a title card for sharing automatically. |
+| **Header image description** | If you add a header image, describe what it shows in a sentence. |
 | **Draft** | Leave ticked while you are still writing. |
 | **Article** | The article itself. |
 
@@ -51,9 +53,30 @@ Look at any existing article for the pattern. In short:
 - Use bullet lists and bold for figures and key numbers — readers skim.
 - Close with a short summary or a "what to do next" section.
 
-Headings are not decoration: they build the contents box that appears on every
-article, and Google reads them. Use them in order — don't jump from Heading 2
-to Heading 4.
+Headings are not decoration: they build the "In this article" contents box
+(shown once an article has three or more Heading 2s), and Google reads them.
+Use them in order — don't jump from Heading 2 to Heading 4. You don't need to
+repeat the headline as a heading at the top; the page already shows it.
+
+### Highlighted notes and warnings
+
+To make a boxed note, start a quote with one of these markers on its own line:
+
+```
+> [!NOTE]
+> Rates in this table were checked on 20 October 2026.
+
+> [!WARNING]
+> This offer ends on 31 December.
+```
+
+The markers are `[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]` and
+`[!CAUTION]`. A plain quote (without a marker) is shown as a pull quote.
+
+### Worked calculations
+
+A block of text between two lines of three backticks (```` ``` ````) is shown
+as a "Calculation" box with figures lined up — use it for step-by-step sums.
 
 ---
 

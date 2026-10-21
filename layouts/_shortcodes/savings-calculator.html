@@ -1,0 +1,42 @@
+{{- /* Savings & retirement calculator. Logic: assets/js/calculators.js (savings). */ -}}
+{{- /* Pass id="…" if the same calculator appears twice on one page. */ -}}
+{{- $id := .Get "id" | default "savings-calculator" -}}
+<section class="calculator" id="{{ $id }}" aria-labelledby="{{ $id }}-title" itemscope itemtype="https://schema.org/WebApplication">
+  <div class="calculator__head">{{ partial "icon.html" "growth" }}<h3 class="calculator__title" id="{{ $id }}-title" itemprop="name">Savings &amp; Retirement Calculator</h3></div>
+  <meta itemprop="description" content="Calculate compound interest growth, retirement savings projections, and investment returns with monthly contributions">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  <form class="calculator__form" data-calc="savings" novalidate>
+    <div class="calculator__fields">
+      <div class="field">
+        <label for="{{ $id }}-initial">Initial investment</label>
+        <div class="input-affix"><span>$</span><input class="input" id="{{ $id }}-initial" name="initialAmount" type="number" inputmode="decimal" min="0" placeholder="10000"></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-monthly">Monthly contribution</label>
+        <div class="input-affix"><span>$</span><input class="input" id="{{ $id }}-monthly" name="monthlyContribution" type="number" inputmode="decimal" min="0" placeholder="500"></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-return">Expected annual return</label>
+        <div class="input-affix"><input class="input" id="{{ $id }}-return" name="annualReturn" type="number" inputmode="decimal" min="0" step="0.1" placeholder="7"><span>%</span></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-years">Time horizon</label>
+        <div class="input-affix"><input class="input" id="{{ $id }}-years" name="timeHorizon" type="number" inputmode="numeric" min="0" placeholder="30"><span>yrs</span></div>
+      </div>
+    </div>
+    <div class="calculator__actions">
+      <button class="button" type="submit">Calculate growth</button>
+      <p class="calculator__error" data-error role="alert"></p>
+    </div>
+  </form>
+  <div class="calculator__results" data-results hidden tabindex="-1" aria-live="polite">
+    <h4 class="calculator__results-title">Projection</h4>
+    <dl class="figures">
+      <div class="figures__key"><dt>Final balance</dt><dd data-out="finalBalance"></dd></div>
+      <div><dt>Total contributions</dt><dd data-out="totalContributions"></dd></div>
+      <div><dt>Investment gains</dt><dd data-out="investmentGains"></dd></div>
+      <div><dt>Monthly income at 4% withdrawal</dt><dd data-out="monthlyIncome"></dd></div>
+    </dl>
+    <p class="calculator__note">An illustration, not a forecast: it assumes the same return every year, compounded monthly, before tax, fees and inflation. Real returns vary and can be negative.</p>
+  </div>
+</section>

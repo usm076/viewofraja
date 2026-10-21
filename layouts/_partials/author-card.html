@@ -1,0 +1,20 @@
+{{- /*
+  Author card. Name, photo and bio come from [author] in params.toml. Until a
+  real photo is added there, the monogram stands in — never a stock image.
+  dict "label" "Written by" "level" 3
+*/ -}}
+{{- $a := site.Params.author -}}
+{{- $about := site.GetPage "/about" -}}
+{{- $level := .level | default 3 -}}
+<div class="author-card">
+  <div class="author-card__avatar" aria-hidden="true">
+    {{- with $a.image }}<img src="{{ . | absURL }}" alt="" width="56" height="56" loading="lazy">{{ else }}{{ substr $a.name 0 1 }}{{ end -}}
+  </div>
+  <div>
+    <p class="author-card__label">{{ .label | default "Written by" }}</p>
+    <h{{ $level }} class="author-card__name"><a href="{{ $about.Permalink }}">{{ $a.name }}</a></h{{ $level }}>
+    {{- with $a.jobTitle }}<p class="meta">{{ . }}</p>{{ end }}
+    {{- with $a.bio }}<p class="author-card__bio">{{ . }}</p>{{ end }}
+    <a class="text-link" href="{{ $about.Permalink }}">About {{ $a.name }} and this site {{ partial "icon.html" "arrow-right" }}</a>
+  </div>
+</div>

@@ -1,39 +1,66 @@
+# Primary navigation. Every desk points at an existing category archive —
+# don't add an entry for a category that has no articles.
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Investing"
+  url = "/categories/investing/"
   weight = 10
-
+[[main]]
+  name = "Markets"
+  url = "/categories/market-analysis/"
+  weight = 20
+[[main]]
+  name = "Crypto"
+  url = "/categories/cryptocurrency/"
+  weight = 30
+[[main]]
+  name = "Personal Finance"
+  url = "/categories/personal-finance/"
+  weight = 40
+[[main]]
+  name = "Retirement"
+  url = "/categories/retirement-planning/"
+  weight = 50
 [[main]]
   name = "Calculators"
-  pageRef = "calculators"
-  weight = 15
-
+  pageRef = "/calculators"
+  weight = 60
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+  name = "All articles"
+  pageRef = "/posts"
+  weight = 70
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
-[[main]]
+# Footer: "The site" column.
+[[footer]]
   name = "About"
-  pageRef = "about"
-  weight = 40
-
-[[footer]]
-  name = "Privacy Policy"
-  url = "/privacy/"
+  pageRef = "/about"
   weight = 10
-
-[[footer]]
-  name = "Terms of Service"
-  url = "/terms/"
-  weight = 20
-
 [[footer]]
   name = "Contact"
-  url = "/contact/"
+  pageRef = "/contact"
+  weight = 20
+[[footer]]
+  name = "All articles"
+  pageRef = "/posts"
   weight = 30
+[[footer]]
+  name = "Categories"
+  pageRef = "/categories"
+  weight = 40
+[[footer]]
+  name = "Topics A–Z"
+  pageRef = "/tags"
+  weight = 50
+[[footer]]
+  name = "RSS feed"
+  url = "/index.xml"
+  weight = 60
+
+# Footer: legal column.
+[[legal]]
+  name = "Privacy Policy"
+  pageRef = "/privacy"
+  weight = 10
+[[legal]]
+  name = "Terms of Service"
+  pageRef = "/terms"
+  weight = 20

@@ -1,5 +1,7 @@
 # Ad Changes Log - Auto Ads Migration
 
+> **Update (October 2026 redesign):** the commented-out manual ad partials and the sidebar of placeholder offers were deleted — none of them rendered. The `ad-break` shortcode remains (`layouts/_shortcodes/ad-break.html`) and still renders its product recommendation and comparison options; a recommendation with a `#` placeholder link now shows no button. Auto ads are unchanged.
+
 ## Summary
 All manual ad placements have been commented out to use Google AdSense Auto Ads instead.
 

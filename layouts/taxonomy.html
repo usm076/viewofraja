@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{- /*
+  Taxonomy indexes. /categories/ is a directory ordered by size with each
+  category's description; /tags/ is an A–Z index. Any other taxonomy (series,
+  authors) gets the directory, or an empty state when it has no terms.
+*/ -}}
+{{- $plural := .Data.Plural -}}
+{{- $terms := .Data.Terms -}}
+{{- $titles := dict "categories" "Categories" "tags" "Topics A–Z" -}}
+{{- $intros := dict
+  "categories" "Every section of the site, largest first. Each collects the guides and analysis filed under it."
+  "tags" "Every specific subject covered on the site, from 401(k)s to yields. Pick one to see every article that discusses it."
+-}}
+<div class="container">
+  <header class="page-header">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="{{ site.Home.Permalink }}">Home</a></li>
+        <li aria-current="page">{{ index $titles $plural | default .Title }}</li>
+      </ol>
+    </nav>
+    <h1 class="page-header__title">{{ index $titles $plural | default .Title }}</h1>
+    {{- with index $intros $plural }}<p class="page-header__intro">{{ . }}</p>{{ end }}
+    {{- with $terms }}<p class="page-header__meta">{{ len . }} {{ if eq $plural "tags" }}topics{{ else }}{{ lower $.Title }}{{ end }}</p>{{ end }}
+  </header>
+
+  {{- if not $terms }}
+  {{ partial "empty.html" (dict "title" "Nothing here yet" "text" "No articles have been filed this way so far." "link" (site.GetPage "/posts").Permalink "linkText" "Browse all articles") }}
+
+  {{- else if eq $plural "tags" }}
+  {{- $groups := dict -}}
+  {{- range $terms.Alphabetical }}
+    {{- $first := upper (substr (strings.TrimSpace .Page.Title) 0 1) -}}
+    {{- if not (findRE `[A-Z]` $first) }}{{ $first = "#" }}{{ end -}}
+    {{- $groups = merge $groups (dict $first ((index $groups $first | default slice) | append .)) -}}
+  {{- end }}
+  {{- $keys := slice }}{{ range $k, $_ := $groups }}{{ $keys = $keys | append $k }}{{ end }}
+  <nav aria-label="Jump to letter">
+    <ul class="az-index" role="list">
+      {{- range $keys }}<li><a href="#letter-{{ if eq . "#" }}num{{ else }}{{ lower . }}{{ end }}">{{ . }}</a></li>{{ end }}
+    </ul>
+  </nav>
+  {{- range $keys }}
+  <section class="az-group" id="letter-{{ if eq . "#" }}num{{ else }}{{ lower . }}{{ end }}" aria-label="{{ . }}">
+    <h2 aria-hidden="true">{{ . }}</h2>
+    <ul class="topics" role="list">
+      {{- range index $groups . }}
+      <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <span class="count">{{ .Count }}</span></a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- else }}
+  <ul class="term-directory" role="list">
+    {{- range $terms.ByCount }}
+    {{- $slug := path.Base .Page.RelPermalink }}
+    <li><a href="{{ .Page.Permalink }}">
+      <span class="term-directory__name">{{ .Page.Title }}</span>
+      <span class="term-directory__count">{{ .Count }}</span>
+      {{- if eq $plural "categories" }}{{ with index site.Data.categories $slug }}<span class="term-directory__desc">{{ . }}</span>{{ end }}{{ end }}
+    </a></li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</div>
+{{ end }}

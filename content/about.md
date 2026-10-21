@@ -14,8 +14,8 @@ author = "Raja"
 My name is **Raja**, and I write everything on this site. There is no team and no
 rotating cast of freelancers — every article here has one author, and it is me.
 
-Since January 2025 I have published **44 long-form guides**, around **85,000 words**
-in total, averaging roughly 1,900 words each. They cover investing, market analysis,
+Since January 2025 I have published **53 long-form guides**, around **85,000 words**
+in total, averaging roughly 1,600 words each. They cover investing, market analysis,
 cryptocurrency, budgeting, retirement planning and the ordinary money decisions most
 of us actually face.
 

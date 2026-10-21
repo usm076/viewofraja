@@ -1,0 +1,165 @@
+/* ==========================================================================
+   Design tokens
+   Every colour, size and space used on the site is defined here. Components
+   reference these semantic names, never raw values. Contrast for every text
+   token was checked against --paper, --paper-raised and --paper-sunk in both
+   themes (WCAG AA, ≥ 4.5:1).
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --paper: #F6F2E9;          /* page: warm ivory */
+  --paper-raised: #FCFAF5;   /* inputs, popovers, table headers */
+  --paper-sunk: #EDE7DA;     /* bands, callouts, code */
+
+  /* Text */
+  --ink: #15171C;            /* headlines, body */
+  --ink-2: #3B3E46;          /* secondary text, summaries */
+  --ink-3: #5E6058;          /* metadata, captions */
+
+  /* Lines */
+  --rule: #D6CDBB;           /* hairlines between items */
+  --rule-strong: var(--ink); /* section rules, the "totals" double rule */
+  --line-input: #8A8474;     /* form control borders (≥ 3:1) */
+
+  /* Brand */
+  --brand: #1D5442;          /* ledger green: links, kickers, accents */
+  --brand-strong: #143D30;   /* hover / pressed */
+  --brand-tint: #E2EAE2;     /* subtle highlight behind brand content */
+  --on-brand: #F6F2E9;
+  --accent: #8F5418;         /* brass: numerals and small details only */
+
+  /* Financial values and notices */
+  --positive: #1E6B47;
+  --negative: #A3372A;
+  --info: #2B5878;
+  --info-tint: #E3EAF0;
+  --warning: #7A5100;
+  --warning-tint: #F3E8CF;
+  --success-tint: #E2EDE4;
+  --danger-tint: #F5E1DC;
+
+  --focus: #1D5442;
+  --selection: #CFE0D3;
+  --shadow-pop: 0 1px 2px rgb(21 23 28 / 0.06), 0 12px 32px -8px rgb(21 23 28 / 0.22);
+
+  /* Typography */
+  --font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* Type scale — fluid between 360px and 1440px viewports */
+  --text-2xs: 0.75rem;                                      /* 12  labels */
+  --text-xs: 0.8125rem;                                     /* 13  metadata */
+  --text-sm: 0.9375rem;                                     /* 15  UI, captions */
+  --text-base: clamp(1.0625rem, 1.02rem + 0.19vw, 1.1875rem); /* 17→19 body */
+  --text-lg: clamp(1.1875rem, 1.1rem + 0.37vw, 1.375rem);   /* 19→22 dek */
+  --text-xl: clamp(1.3125rem, 1.18rem + 0.56vw, 1.625rem);  /* 21→26 h3 serif, story */
+  --text-2xl: clamp(1.5rem, 1.28rem + 0.93vw, 2.125rem);    /* 24→34 h2 */
+  --text-3xl: clamp(1.875rem, 1.45rem + 1.85vw, 3rem);      /* 30→48 page titles */
+  --text-4xl: clamp(2.125rem, 1.45rem + 2.96vw, 3.875rem);  /* 34→62 article h1 */
+  --text-5xl: clamp(2.375rem, 1.3rem + 4.63vw, 5rem);       /* 38→80 front-page lead */
+
+  --leading-tight: 1.08;
+  --leading-snug: 1.25;
+  --leading-body: 1.65;
+  --tracking-label: 0.09em;
+
+  /* Space — 4px base */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --section-gap: clamp(3rem, 2rem + 4vw, 6rem);
+
+  /* Layout */
+  --page-max: 80rem;                       /* 1280 */
+  --measure: 42.5rem;                      /* ~68 characters of body text */
+  --measure-wide: 56rem;                   /* headers, tables that need room */
+  --gutter: clamp(1rem, 0.6rem + 1.9vw, 2.5rem);
+  --grid-gap: clamp(1.25rem, 0.8rem + 1.6vw, 2.5rem);
+  --header-h: 4rem;
+  --rail: 14rem;                           /* article side rails */
+
+  /* Lines and corners — editorial, nearly square */
+  --border-hair: 1px;
+  --border-strong: 3px;
+  --radius-s: 2px;
+  --radius-m: 4px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+
+  /* Breakpoints (reference only — custom properties can't be used in media
+     queries): 40em 640 · 48em 768 · 64em 1024 · 75em 1200 */
+}
+
+/* Dark theme: follows the OS unless the reader has chosen light explicitly. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #111412;
+    --paper-raised: #181C19;
+    --paper-sunk: #0C0E0D;
+    --ink: #ECE7DC;
+    --ink-2: #C9C3B6;
+    --ink-3: #A29D91;
+    --rule: #2C322E;
+    --rule-strong: #ECE7DC;
+    --line-input: #6E746F;
+    --brand: #86C9A8;
+    --brand-strong: #A6DBC0;
+    --brand-tint: #18261F;
+    --on-brand: #0C0E0D;
+    --accent: #E0A86C;
+    --positive: #86C9A8;
+    --negative: #F0907F;
+    --info: #8EBBD9;
+    --info-tint: #142029;
+    --warning: #E4B45A;
+    --warning-tint: #251D0E;
+    --success-tint: #14231B;
+    --danger-tint: #2A1714;
+    --focus: #86C9A8;
+    --selection: #24443A;
+    --shadow-pop: 0 1px 2px rgb(0 0 0 / 0.4), 0 16px 40px -8px rgb(0 0 0 / 0.6);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #111412;
+  --paper-raised: #181C19;
+  --paper-sunk: #0C0E0D;
+  --ink: #ECE7DC;
+  --ink-2: #C9C3B6;
+  --ink-3: #A29D91;
+  --rule: #2C322E;
+  --rule-strong: #ECE7DC;
+  --line-input: #6E746F;
+  --brand: #86C9A8;
+  --brand-strong: #A6DBC0;
+  --brand-tint: #18261F;
+  --on-brand: #0C0E0D;
+  --accent: #E0A86C;
+  --positive: #86C9A8;
+  --negative: #F0907F;
+  --info: #8EBBD9;
+  --info-tint: #142029;
+  --warning: #E4B45A;
+  --warning-tint: #251D0E;
+  --success-tint: #14231B;
+  --danger-tint: #2A1714;
+  --focus: #86C9A8;
+  --selection: #24443A;
+  --shadow-pop: 0 1px 2px rgb(0 0 0 / 0.4), 0 16px 40px -8px rgb(0 0 0 / 0.6);
+}

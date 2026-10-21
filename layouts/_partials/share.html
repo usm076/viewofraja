@@ -1,0 +1,23 @@
+{{- /* Share links — plain URLs, no third-party scripts. Copy link needs JS and is hidden without it. */ -}}
+{{- $url := .Permalink | urlquery -}}
+{{- $title := .Title | plainify | urlquery -}}
+{{- $networks := dict
+  "linkedin" (dict "label" "LinkedIn" "icon" "s-linkedin" "href" (printf "https://www.linkedin.com/sharing/share-offsite/?url=%s" $url))
+  "x" (dict "label" "X" "icon" "s-x" "href" (printf "https://x.com/intent/post?url=%s&text=%s" $url $title))
+  "reddit" (dict "label" "Reddit" "icon" "s-reddit" "href" (printf "https://www.reddit.com/submit?url=%s&title=%s" $url $title))
+  "facebook" (dict "label" "Facebook" "icon" "s-facebook" "href" (printf "https://www.facebook.com/sharer/sharer.php?u=%s" $url))
+  "whatsapp" (dict "label" "WhatsApp" "icon" "s-whatsapp" "href" (printf "https://api.whatsapp.com/send?text=%s%%20%s" $title $url))
+  "telegram" (dict "label" "Telegram" "icon" "s-telegram" "href" (printf "https://t.me/share/url?url=%s&text=%s" $url $title))
+  "pinterest" (dict "label" "Pinterest" "icon" "s-pinterest" "href" (printf "https://pinterest.com/pin/create/bookmarklet/?url=%s&description=%s" $url $title))
+  "email" (dict "label" "Email" "icon" "mail" "href" (printf "mailto:?subject=%s&body=%s" $title $url))
+-}}
+<div class="share">
+  <h2 class="share__label">Share</h2>
+  <ul role="list">
+    {{- range site.Params.article.sharing }}{{ with index $networks . }}
+    <li><a href="{{ .href | safeURL }}" target="_blank" rel="noopener noreferrer" aria-label="Share on {{ .label }}" title="{{ .label }}">{{ partial "icon.html" .icon }}</a></li>
+    {{- end }}{{ end }}
+    <li hidden data-copy-wrap><button type="button" data-copy-link="{{ .Permalink }}" aria-label="Copy link to this article" title="Copy link">{{ partial "icon.html" "link" }}</button></li>
+  </ul>
+  <span class="share__status" role="status" aria-live="polite"></span>
+</div>

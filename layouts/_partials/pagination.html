@@ -1,0 +1,26 @@
+{{- /*
+  Pagination. URLs are Hugo's standard /page/N/ paths, unchanged. Shows the
+  first, last and two pages either side of the current one.
+*/ -}}
+{{- $p := . -}}
+{{- if gt $p.TotalPages 1 }}
+<nav class="pagination" aria-label="Pagination">
+  {{- if $p.HasPrev }}
+  <a class="pagination__step" href="{{ $p.Prev.URL | absURL }}" rel="prev">{{ partial "icon.html" "arrow-left" }} Newer</a>
+  {{- else }}
+  <span class="pagination__step" aria-disabled="true">{{ partial "icon.html" "arrow-left" }} Newer</span>
+  {{- end }}
+  <ol class="pagination__pages" role="list">
+    {{- range $p.Pagers }}
+    {{- if or (eq .PageNumber 1) (eq .PageNumber $p.TotalPages) (and (ge .PageNumber (sub $p.PageNumber 2)) (le .PageNumber (add $p.PageNumber 2))) }}
+    <li>{{ if eq .PageNumber $p.PageNumber }}<span aria-current="page"><span class="visually-hidden">Page </span>{{ .PageNumber }}</span>{{ else }}<a href="{{ .URL | absURL }}"><span class="visually-hidden">Page </span>{{ .PageNumber }}</a>{{ end }}</li>
+    {{- end }}
+    {{- end }}
+  </ol>
+  {{- if $p.HasNext }}
+  <a class="pagination__step" href="{{ $p.Next.URL | absURL }}" rel="next">Older {{ partial "icon.html" "arrow-right" }}</a>
+  {{- else }}
+  <span class="pagination__step" aria-disabled="true">Older {{ partial "icon.html" "arrow-right" }}</span>
+  {{- end }}
+</nav>
+{{- end }}

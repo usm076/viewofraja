@@ -1,0 +1,5 @@
+{{- /* The wordmark: ledger-rule monogram + "Finance with Raja" set live in Newsreader. */ -}}
+<a class="wordmark" href="{{ site.Home.Permalink }}"{{ if .home }} aria-current="page"{{ end }}>
+  <span class="wordmark__mark">{{ (resources.Get "img/mark.svg").Content | safeHTML }}</span>
+  <span>Finance <i>with</i> Raja</span>
+</a>

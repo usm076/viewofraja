@@ -1,0 +1,95 @@
+# Site configuration. Everything lives in config/_default/ — there is no
+# root hugo.toml. Templates are project-owned in layouts/; there is no theme.
+baseURL = "https://financewithraja.com"
+languageCode = "en"
+title = "Smart Personal Finance | Expert Tips, Reviews & Strategies"
+
+# canonifyURLs keeps every internal link absolute, as it has been since launch.
+canonifyURLs = true
+relativeURLs = false
+
+enableRobotsTXT = true
+summaryLength = 30
+
+[pagination]
+  pagerSize = 20
+
+[markup]
+  [markup.goldmark.renderer]
+    # Several pages embed raw HTML and JSON-LD directly in Markdown.
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 78
+  anchor = "Smart"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# /index.json is the search index fetched by assets/js/search.js.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 0
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+    name = "tags"
+    weight = 100
+    [[related.indices]]
+    name = "categories"
+    weight = 100
+    [[related.indices]]
+    name = "series"
+    weight = 50
+    [[related.indices]]
+    name = "authors"
+    weight = 20
+    [[related.indices]]
+    name = "date"
+    weight = 10
+    pattern = "2006"
+
+# Images uploaded through Pages CMS land in static/images and are linked as
+# /images/<file>. Mounting that folder into assets as well lets templates
+# resize them (responsive srcset, social cards) while the original URLs keep
+# working. Declaring any mount replaces Hugo's defaults, so all are listed.
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"

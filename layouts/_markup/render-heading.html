@@ -1,0 +1,20 @@
+{{- /*
+  Headings in Markdown content.
+
+  - IDs are Hugo's generated anchors, unchanged from the previous theme, so
+    existing #links keep working. The id now sits on the heading itself.
+  - Level 1 inside an article body becomes an h2: the article header already
+    carries the page's h1, and several older posts repeat the headline as the
+    first line of the body. On standalone pages (About, Contact…) the content's
+    own h1 is the page title, so it stays an h1 (see layouts/page.html).
+  - A leading emoji is dropped from the displayed heading; the site uses its
+    own icon set rather than emoji as decoration.
+*/ -}}
+{{- $text := .Text | replaceRE `^(?:[\x{1F000}-\x{1FAFF}\x{2600}-\x{27BF}\x{2B00}-\x{2BFF}\x{FE0F}\x{200D}]+\s*)+` "" | safeHTML -}}
+{{- $level := .Level -}}
+{{- $class := "" -}}
+{{- if eq .Level 1 -}}
+  {{- if eq .Page.Section "posts" }}{{ $level = 2 }}{{ $class = "content-title" }}{{ else }}{{ $class = "page-title" }}{{ end -}}
+{{- end -}}
+<h{{ $level }} id="{{ .Anchor }}"{{ with $class }} class="{{ . }}"{{ end }}>{{ $text }}{{ if and (ge .Level 2) (le .Level 3) }} <a class="heading-anchor" href="#{{ .Anchor }}" aria-label="Link to this section">#</a>{{ end }}</h{{ $level }}>
+{{- /* Trim EOF */ -}}

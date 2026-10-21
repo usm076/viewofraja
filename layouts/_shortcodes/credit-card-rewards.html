@@ -1,0 +1,32 @@
+{{- /* Credit card rewards comparison. Logic and card data: assets/js/calculators.js (rewards). */ -}}
+{{- /* Pass id="…" if the same calculator appears twice on one page. */ -}}
+{{- $id := .Get "id" | default "credit-card-rewards" -}}
+<section class="calculator" id="{{ $id }}" aria-labelledby="{{ $id }}-title" itemscope itemtype="https://schema.org/WebApplication">
+  <div class="calculator__head">{{ partial "icon.html" "card" }}<h3 class="calculator__title" id="{{ $id }}-title" itemprop="name">Credit Card Rewards Calculator</h3></div>
+  <meta itemprop="description" content="Compare credit card rewards and cashback based on your spending patterns. Find the best credit card for maximum rewards">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  <form class="calculator__form" data-calc="rewards" novalidate>
+    <div class="calculator__fields">
+      {{- range slice
+        (dict "name" "diningSpend" "label" "Monthly dining" "ph" "300")
+        (dict "name" "travelSpend" "label" "Monthly travel" "ph" "200")
+        (dict "name" "grocerySpend" "label" "Monthly groceries" "ph" "400")
+        (dict "name" "gasSpend" "label" "Monthly gas" "ph" "150")
+        (dict "name" "otherSpend" "label" "Other monthly spending" "ph" "500") }}
+      <div class="field">
+        <label for="{{ $id }}-{{ .name }}">{{ .label }}</label>
+        <div class="input-affix"><span>$</span><input class="input" id="{{ $id }}-{{ .name }}" name="{{ .name }}" type="number" inputmode="decimal" min="0" placeholder="{{ .ph }}"></div>
+      </div>
+      {{- end }}
+    </div>
+    <div class="calculator__actions">
+      <button class="button" type="submit">Compare cards</button>
+      <p class="calculator__error" data-error role="alert"></p>
+    </div>
+  </form>
+  <div class="calculator__results" data-results hidden tabindex="-1" aria-live="polite">
+    <h4 class="calculator__results-title">Estimated annual value, best first</h4>
+    <ol class="card-compare" role="list" data-out="cards"></ol>
+    <p class="calculator__note">Uses fixed earn rates per category and a $300 annual travel credit for Venture X; ignores sign-up bonuses, caps and point valuations. Card terms change — check the issuer's current terms before applying.</p>
+  </div>
+</section>

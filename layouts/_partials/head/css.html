@@ -1,0 +1,12 @@
+{{- /*
+  One stylesheet for the whole site, concatenated in cascade order, minified
+  and fingerprinted. Order matters: tokens → base → layout → components →
+  page-level styles.
+*/ -}}
+{{- $files := slice "tokens" "base" "layout" "components" "article" "home" "pages" -}}
+{{- $css := slice -}}
+{{- range $files -}}
+  {{- $css = $css | append (resources.Get (printf "css/%s.css" .)) -}}
+{{- end -}}
+{{- $bundle := $css | resources.Concat "css/site.css" | minify | fingerprint "sha256" -}}
+<link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}">
