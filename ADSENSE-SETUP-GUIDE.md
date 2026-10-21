@@ -1,5 +1,7 @@
 # 🎯 Google AdSense Setup Guide for Finance with Raja
 
+> **Out of date (October 2026).** AdSense is already set up and approved. The publisher ID lives in `config/_default/params.toml` (`adsenseClient`) and must match `static/ads.txt`; the script is loaded by `layouts/_partials/head/ads.html`. Kept for history.
+
 ## 📋 **Pre-Application Checklist (You're Ready!)**
 
 ✅ **Content Requirements Met:**

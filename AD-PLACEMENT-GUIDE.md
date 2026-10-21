@@ -1,5 +1,7 @@
 # 💰 Ad Placement Guide for Finance with Raja
 
+> **Out of date (October 2026).** The site uses Google AdSense **Auto ads** only. The manual ad partials this guide describes (`layouts/partials/ads/*`) were removed in the redesign; ads are loaded from `layouts/_partials/head/ads.html`. Kept for history.
+
 ## 🎯 **Strategic Ad Placements for Maximum Revenue**
 
 Your Hugo site now has 4 powerful ad placement zones designed specifically for personal finance content:

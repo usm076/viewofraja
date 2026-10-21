@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- /*
+  The article archive (/posts/, /posts/page/N/): every article, newest first,
+  grouped by year. The <title> stays "Posts" as before; the visible heading
+  says what the page is.
+*/ -}}
+{{- $pager := .Paginate .Pages.ByDate.Reverse -}}
+{{- $all := .Pages -}}
+<div class="container">
+  <header class="page-header">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="{{ site.Home.Permalink }}">Home</a></li>
+        <li aria-current="page">Articles</li>
+      </ol>
+    </nav>
+    <p class="kicker">Archive</p>
+    <h1 class="page-header__title">All articles</h1>
+    <p class="page-header__intro">Every guide and analysis on the site, newest first{{ with index $all.ByDate 0 }} — published since {{ .Date.Format "January 2006" }}{{ end }}.</p>
+    <p class="page-header__meta">{{ len $all }} articles{{ if gt $pager.TotalPages 1 }} · Page {{ $pager.PageNumber }} of {{ $pager.TotalPages }}{{ end }}</p>
+  </header>
+
+  {{- if eq $pager.PageNumber 1 }}
+  <div class="archive-filters">
+    <p class="archive-filters__label">Browse by topic</p>
+    <ul class="topics" role="list">
+      {{- range site.Taxonomies.categories.ByCount | first 12 }}
+      <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <span class="count">{{ .Count }}</span></a></li>
+      {{- end }}
+      <li><a href="{{ (site.GetPage "/categories").Permalink }}">All categories</a></li>
+    </ul>
+  </div>
+  {{- end }}
+
+  {{- range $pager.Pages.GroupByDate "2006" }}
+  <div class="archive-year">
+    <h2>{{ .Key }}</h2>
+  </div>
+  <ul class="story-rows" role="list">
+    {{- range .Pages }}
+    <li>{{ partial "story/teaser.html" (dict "page" . "variant" "row" "level" 3) }}</li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  {{ partial "empty.html" (dict "title" "No articles yet" "text" "Nothing has been published here yet.") }}
+  {{- end }}
+
+  {{ partial "pagination.html" $pager }}
+</div>
+{{ end }}

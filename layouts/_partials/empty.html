@@ -1,0 +1,6 @@
+{{- /* Empty state. dict "title" "…" "text" "…" ["link" url "linkText" "…"] */ -}}
+<div class="empty" role="status">
+  <p class="empty__title">{{ .title }}</p>
+  {{- with .text }}<p>{{ . }}</p>{{ end }}
+  <a class="button button--quiet" href="{{ .link | default site.Home.Permalink }}">{{ .linkText | default "Back to the front page" }}</a>
+</div>

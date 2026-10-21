@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{- /*
+  A single category or tag archive. Categories lead with their most recent
+  article; tags are a plain list. Descriptions come from data/categories.yaml.
+  These archives are noindexed (seo/robots.html) but are the site's main
+  navigation, so they are designed as collections, not raw lists.
+*/ -}}
+{{- $isCategory := eq .Data.Plural "categories" -}}
+{{- $slug := path.Base .RelPermalink -}}
+{{- $desc := .Description -}}
+{{- if and $isCategory (not $desc) }}{{ $desc = index site.Data.categories $slug }}{{ end -}}
+{{- $pages := .Pages.ByDate.Reverse -}}
+{{- $pager := .Paginate $pages -}}
+{{- $showLead := and $isCategory (eq $pager.PageNumber 1) (ge (len $pages) 4) -}}
+<div class="container">
+  <header class="page-header">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="{{ site.Home.Permalink }}">Home</a></li>
+        <li><a href="{{ .Parent.Permalink }}">{{ if $isCategory }}Categories{{ else }}Topics{{ end }}</a></li>
+        <li aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+    <p class="kicker">{{ if $isCategory }}Category{{ else }}Topic{{ end }}</p>
+    <h1 class="page-header__title">{{ .Title }}</h1>
+    {{- with $desc }}<p class="page-header__intro">{{ . }}</p>{{ end }}
+    <p class="page-header__meta">{{ len $pages }} {{ cond (eq (len $pages) 1) "article" "articles" }}{{ with index $pages 0 }} · Latest {{ .Date.Format "2 January 2006" }}{{ end }}</p>
+  </header>
+
+  {{- $rest := $pager.Pages -}}
+  {{- if $showLead }}
+  <div class="archive-lead">
+    {{ partial "story/teaser.html" (dict "page" (index $pages 0) "variant" "feature" "level" 2 "kicker" false) }}
+    <div class="archive-lead__aside">
+      {{- range $pages | after 1 | first 2 }}
+      {{ partial "story/teaser.html" (dict "page" . "variant" "compact" "level" 2 "kicker" false) }}
+      {{- end }}
+    </div>
+  </div>
+  {{- $rest = $pager.Pages | after 3 }}
+  {{- end }}
+
+  {{- with $rest }}
+  <ul class="story-rows" role="list">
+    {{- range . }}
+    <li>{{ partial "story/teaser.html" (dict "page" . "variant" "row" "level" 2 "kicker" (not $isCategory)) }}</li>
+    {{- end }}
+  </ul>
+  {{- else }}{{ if not $showLead }}
+  {{ partial "empty.html" (dict "title" "Nothing filed here yet" "text" "No published articles use this label at the moment.") }}
+  {{- end }}{{ end }}
+
+  {{ partial "pagination.html" $pager }}
+
+  {{- /* Neighbouring topics help readers who landed on a thin archive. */}}
+  {{- if $isCategory }}
+  <section class="section" aria-labelledby="other-cats">
+    <div class="section-head">
+      <h2 class="section-head__title" id="other-cats">Other categories</h2>
+      <a class="section-head__more" href="{{ .Parent.Permalink }}">All categories {{ partial "icon.html" "arrow-right" }}</a>
+    </div>
+    <ul class="topics" role="list">
+      {{- $self := .RelPermalink }}
+      {{- range site.Taxonomies.categories.ByCount | first 14 }}{{ if ne .Page.RelPermalink $self }}
+      <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <span class="count">{{ .Count }}</span></a></li>
+      {{- end }}{{ end }}
+    </ul>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

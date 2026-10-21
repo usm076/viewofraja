@@ -165,6 +165,22 @@ content:
         # exist, and it silently reappeared on the next article published.
         default: Raja
 
+      - name: featured_image
+        label: Header image (optional)
+        type: image
+        description: >-
+          Optional. A photo or chart directly relevant to the article, shown
+          under the headline and used when the article is shared. Landscape,
+          at least 1600 pixels wide. Leave empty and the site uses a title card.
+
+      - name: featured_image_alt
+        label: Header image description
+        type: string
+        description: >-
+          Describe what the header image shows, for screen-reader users, e.g.
+          "Chart of Bitcoin's price falling in June 2026". Required whenever a
+          header image is set.
+
       - name: draft
         label: Draft — hidden from the live site
         type: boolean

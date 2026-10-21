@@ -1,0 +1,38 @@
+{{- /* Loan & EMI calculator. Logic: assets/js/calculators.js (loan). */ -}}
+{{- /* Pass id="…" if the same calculator appears twice on one page. */ -}}
+{{- $id := .Get "id" | default "loan-calculator" -}}
+<section class="calculator" id="{{ $id }}" aria-labelledby="{{ $id }}-title" itemscope itemtype="https://schema.org/WebApplication">
+  <div class="calculator__head">{{ partial "icon.html" "loan" }}<h3 class="calculator__title" id="{{ $id }}-title" itemprop="name">Loan &amp; EMI Calculator</h3></div>
+  <meta itemprop="description" content="Calculate monthly loan payments, total interest, and amortization schedule for mortgages, auto loans, and personal loans">
+  <meta itemprop="applicationCategory" content="FinanceApplication">
+  <form class="calculator__form" data-calc="loan" novalidate>
+    <div class="calculator__fields">
+      <div class="field">
+        <label for="{{ $id }}-amount">Loan amount</label>
+        <div class="input-affix"><span>$</span><input class="input" id="{{ $id }}-amount" name="loanAmount" type="number" inputmode="decimal" min="0" placeholder="250000"></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-rate">Annual interest rate</label>
+        <div class="input-affix"><input class="input" id="{{ $id }}-rate" name="interestRate" type="number" inputmode="decimal" min="0" step="0.1" placeholder="6.5"><span>%</span></div>
+      </div>
+      <div class="field">
+        <label for="{{ $id }}-term">Loan term</label>
+        <div class="input-affix"><input class="input" id="{{ $id }}-term" name="loanTerm" type="number" inputmode="numeric" min="0" placeholder="30"><span>yrs</span></div>
+      </div>
+    </div>
+    <div class="calculator__actions">
+      <button class="button" type="submit">Calculate EMI</button>
+      <p class="calculator__error" data-error role="alert"></p>
+    </div>
+  </form>
+  <div class="calculator__results" data-results hidden tabindex="-1" aria-live="polite">
+    <h4 class="calculator__results-title">Results</h4>
+    <dl class="figures">
+      <div class="figures__key"><dt>Monthly EMI</dt><dd data-out="monthlyEMI"></dd></div>
+      <div><dt>Total amount payable</dt><dd data-out="totalAmount"></dd></div>
+      <div><dt>Total interest</dt><dd data-out="totalInterest"></dd></div>
+      <div><dt>Principal</dt><dd data-out="principalAmount"></dd></div>
+    </dl>
+    <p class="calculator__note">Assumes a fixed rate and equal monthly payments. Fees, insurance and taxes are not included.</p>
+  </div>
+</section>

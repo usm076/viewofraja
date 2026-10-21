@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{- /*
+  Standalone pages: About, Contact, Calculators, Privacy, Terms. These pages
+  open with their own "# Title" in Markdown, which renders as the page's h1
+  (render-heading.html); when a page has no such heading, the template adds
+  one from the front matter title.
+*/ -}}
+{{- $hasH1 := findRE `(?m)^#\s` .RawContent 1 -}}
+<div class="container container--measure">
+  <header class="page-header{{ if $hasH1 }} page-header--crumbs{{ end }}">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="{{ site.Home.Permalink }}">Home</a></li>
+        <li aria-current="page">{{ .LinkTitle }}</li>
+      </ol>
+    </nav>
+    {{- if not $hasH1 }}
+    <h1 class="page-header__title">{{ .Title }}</h1>
+    {{- with .Description }}<p class="page-header__intro">{{ . }}</p>{{ end }}
+    {{- end }}
+  </header>
+
+  <div class="page-body">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    {{- if gt (.Lastmod.Sub .Date).Hours 24 }}
+    <p class="meta page-body__updated">Last updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 January 2006" }}</time></p>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

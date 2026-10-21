@@ -1,0 +1,260 @@
+/* ==========================================================================
+   Homepage compositions
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Front: statement, lead story, secondary stories, latest column
+   -------------------------------------------------------------------------- */
+
+.front { padding-top: var(--space-6); }
+
+.front__banner {
+  display: grid;
+  gap: var(--space-3) var(--grid-gap);
+  align-items: end;
+  padding-bottom: var(--space-5);
+  margin-bottom: var(--space-6);
+  border-bottom: var(--border-hair) solid var(--rule);
+}
+.front__statement {
+  max-width: 44rem;
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  line-height: 1.3;
+  font-weight: 400;
+  color: var(--ink-2);
+}
+.front__statement em { font-style: italic; color: var(--brand); }
+.front__dateline {
+  font-size: var(--text-xs);
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.front__dateline a { color: var(--ink-2); font-weight: 500; }
+.front__dateline a:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 0.2em; }
+
+.front__grid { display: grid; gap: var(--space-7) var(--grid-gap); }
+
+.front__secondary {
+  display: grid;
+  gap: var(--space-5) var(--grid-gap);
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: var(--border-hair) solid var(--rule);
+}
+
+.front__latest .section-head { margin-bottom: var(--space-4); }
+.front__latest .story-list--numbered > li::before { font-size: 1.5rem; }
+
+@media (min-width: 48em) {
+  .front__secondary { grid-template-columns: 1fr 1fr; }
+  .front__secondary .story + .story { padding-left: var(--grid-gap); border-left: var(--border-hair) solid var(--rule); }
+  .front__secondary { column-gap: 0; }
+  .front__secondary .story:first-child { padding-right: var(--grid-gap); }
+}
+
+@media (min-width: 64em) {
+  .front__banner { grid-template-columns: minmax(0, 1fr) auto; }
+  .front__dateline { text-align: right; }
+  .front__grid { grid-template-columns: minmax(0, 2.1fr) minmax(0, 1fr); column-gap: 0; }
+  .front__lead { padding-right: var(--grid-gap); }
+  .front__latest { padding-left: var(--grid-gap); border-left: var(--border-hair) solid var(--rule); }
+}
+
+/* --------------------------------------------------------------------------
+   Start here — evergreen fundamentals, numbered in reading order
+   -------------------------------------------------------------------------- */
+
+.essentials {
+  margin-top: var(--section-gap);
+  padding-block: var(--space-8);
+  background: var(--paper-sunk);
+  border-block: var(--border-hair) solid var(--rule);
+}
+.essentials__head { display: grid; gap: var(--space-3); margin-bottom: var(--space-7); }
+.essentials__title {
+  font-family: var(--font-serif);
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  line-height: var(--leading-tight);
+  letter-spacing: -0.015em;
+}
+.essentials__title em { color: var(--brand); }
+.essentials__intro { max-width: 34rem; color: var(--ink-2); font-size: var(--text-sm); }
+
+.essentials__list {
+  display: grid;
+  gap: 0 var(--grid-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.essentials__list > li {
+  counter-increment: step;
+  padding-block: var(--space-5);
+  border-top: var(--border-hair) solid var(--rule-strong);
+}
+.essentials__list .story::before {
+  content: counter(step, decimal-leading-zero);
+  display: block;
+  margin-bottom: var(--space-3);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 2.25rem;
+  line-height: 1;
+  color: var(--accent);
+  font-variant-numeric: lining-nums;
+}
+.essentials__list .story__title { font-size: 1.25rem; line-height: 1.28; }
+.essentials__list .story__dek {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 40em) { .essentials__list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 64em) {
+  .essentials__head { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: end; }
+  .essentials__list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* --------------------------------------------------------------------------
+   Markets desk — one large story, two features, a row of headlines
+   -------------------------------------------------------------------------- */
+
+.desk-markets__top { display: grid; gap: var(--space-6) var(--grid-gap); }
+.desk-markets__top .story--feature:first-child .story__title { font-size: var(--text-3xl); line-height: 1.08; letter-spacing: -0.018em; }
+.desk-markets__top .story--feature:first-child .story__dek { font-size: var(--text-base); }
+.desk-markets__top .story--feature + .story--feature .story__title { font-size: var(--text-xl); line-height: 1.22; }
+.desk-markets__more {
+  display: grid;
+  gap: 0 var(--grid-gap);
+  margin: var(--space-6) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.desk-markets__more > li { padding-block: var(--space-4); border-top: var(--border-hair) solid var(--rule); }
+
+@media (min-width: 48em) {
+  .desk-markets__top { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .desk-markets__top .story:first-child { grid-column: 1 / -1; }
+  .desk-markets__more { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 64em) {
+  .desk-markets__top { grid-template-columns: 2fr 1fr 1fr; column-gap: 0; }
+  .desk-markets__top .story:first-child { grid-column: auto; padding-right: var(--grid-gap); }
+  .desk-markets__top .story + .story { padding-left: var(--grid-gap); border-left: var(--border-hair) solid var(--rule); }
+  .desk-markets__top .story:nth-child(2) { padding-right: var(--grid-gap); }
+  .desk-markets__more { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* --------------------------------------------------------------------------
+   Desks — four topic columns of headlines
+   -------------------------------------------------------------------------- */
+
+.desks { display: grid; gap: var(--space-7) var(--grid-gap); }
+.desk .section-head { margin-bottom: var(--space-3); }
+.desk .section-head__count { font-size: var(--text-2xs); color: var(--ink-3); font-weight: 500; letter-spacing: 0; text-transform: none; }
+.desk .story-list > li:first-child .story__title { font-size: 1.375rem; }
+
+@media (min-width: 40em) { .desks { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 75em) { .desks { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+/* --------------------------------------------------------------------------
+   Tools — calculators
+   -------------------------------------------------------------------------- */
+
+.tools-list {
+  display: grid;
+  gap: 0 var(--grid-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tools-list a {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: var(--space-1) var(--space-4);
+  padding-block: var(--space-5);
+  border-bottom: var(--border-hair) solid var(--rule);
+}
+.tools-list__icon {
+  grid-row: span 2;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: var(--border-hair) solid var(--rule-strong);
+  color: var(--brand);
+  transition: background-color var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease);
+}
+.tools-list__icon .icon { width: 1.35rem; height: 1.35rem; }
+.tools-list__name { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 500; line-height: 1.25; }
+.tools-list__desc { font-size: var(--text-xs); color: var(--ink-2); }
+.tools-list a:hover .tools-list__icon { background: var(--brand); color: var(--on-brand); border-color: var(--brand); }
+.tools-list a:hover .tools-list__name { color: var(--brand); }
+
+@media (min-width: 48em) { .tools-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 75em) {
+  .tools-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .tools-list a { grid-template-columns: minmax(0, 1fr); border-bottom: 0; padding-block: var(--space-2); }
+  .tools-list__icon { grid-row: auto; margin-bottom: var(--space-3); }
+}
+
+/* --------------------------------------------------------------------------
+   Regional — two columns of stories with summaries
+   -------------------------------------------------------------------------- */
+
+.regional-list {
+  display: grid;
+  gap: 0 var(--grid-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.regional-list > li { padding-block: var(--space-5); border-top: var(--border-hair) solid var(--rule); }
+.regional-list > li:nth-child(-n + 1) { border-top: 0; padding-top: 0; }
+@media (min-width: 48em) {
+  .regional-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .regional-list > li:nth-child(-n + 2) { border-top: 0; padding-top: 0; }
+}
+@media (min-width: 75em) {
+  .regional-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .regional-list > li:nth-child(-n + 3) { border-top: 0; padding-top: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   Colophon — who writes the site and how it is funded
+   -------------------------------------------------------------------------- */
+
+.colophon {
+  display: grid;
+  gap: var(--space-6) var(--grid-gap);
+  padding-top: var(--space-6);
+  border-top: var(--border-strong) solid var(--rule-strong);
+  position: relative;
+}
+.colophon::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 3px;
+  border-top: var(--border-hair) solid var(--rule-strong);
+}
+.colophon__principles { display: grid; gap: var(--space-5); margin: 0; padding: 0; list-style: none; }
+.colophon__principles h3 {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.colophon__principles p { margin-top: var(--space-1); font-size: var(--text-sm); color: var(--ink-2); }
+.colophon__principles a { color: var(--brand); font-weight: 500; }
+.colophon__principles a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+
+@media (min-width: 48em) { .colophon__principles { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 75em) {
+  .colophon { grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); column-gap: var(--space-8); }
+}

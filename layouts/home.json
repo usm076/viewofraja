@@ -1,0 +1,23 @@
+{{- /*
+  Search index (/index.json), fetched by assets/js/search.js when search is
+  first opened. Articles and standalone pages only — tag and category archives
+  are left out, as they only repeat article titles. Field names are those the
+  previous theme used.
+*/ -}}
+{{- $index := slice -}}
+{{- range where site.RegularPages "Params.robots" "!=" "noindex" -}}
+  {{- $cat := "" -}}
+  {{- with .GetTerms "categories" }}{{ $cat = (index . 0).LinkTitle }}{{ end -}}
+  {{- $index = $index | append (dict
+    "title" (.Title | plainify)
+    "section" (cond (eq .Section "posts") "Articles" "Pages")
+    "category" $cat
+    "tags" (.Params.tags | default slice)
+    "summary" (.Description | default .Summary | plainify)
+    "content" (.Plain | truncate 6000 "")
+    "permalink" .RelPermalink
+    "date" (cond (eq .Section "posts") (.Date.Format "2 Jan 2006") "")
+    "type" .Type
+  ) -}}
+{{- end -}}
+{{- $index | jsonify -}}

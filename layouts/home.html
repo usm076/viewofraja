@@ -1,0 +1,190 @@
+{{ define "main" }}
+{{- /*
+  Front page. Everything is drawn from real articles: the lead and the
+  "Latest" column are simply the newest posts; the other sections are filtered
+  by the categories configured under [home] in params.toml. An article shown
+  higher up the page is never repeated further down.
+*/ -}}
+{{- $cfg := site.Params.home -}}
+{{- $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse -}}
+{{- $lead := index $posts 0 -}}
+{{- $secondary := $posts | after 1 | first 2 -}}
+{{- $latest := $posts | after 3 | first ($cfg.latestCount | default 5) -}}
+{{- $used := $posts | first (add 3 ($cfg.latestCount | default 5)) -}}
+
+{{- $essentials := slice -}}
+{{- range $cfg.essentials }}{{ with site.GetPage (printf "/posts/%s" .) }}{{ $essentials = $essentials | append . }}{{ end }}{{ end -}}
+{{- $used = $used | union $essentials -}}
+{{- $first := index $posts.Reverse 0 -}}
+
+<div class="container front">
+  <div class="front__banner">
+    <h1 class="front__statement">{{ with .Params.statement }}{{ . | markdownify }}{{ else }}Plain-English guides to money, markets and the decisions <em>in between</em>.{{ end }}</h1>
+    <p class="front__dateline">{{ len $posts }} articles since {{ $first.Date.Format "January 2006" }} · Written by <a href="{{ (site.GetPage "/about").Permalink }}">{{ site.Params.author.name }}</a></p>
+  </div>
+
+  <div class="front__grid">
+    <div class="front__lead">
+      {{ partial "story/teaser.html" (dict "page" $lead "variant" "lead" "level" 2) }}
+      {{- with $secondary }}
+      <div class="front__secondary">
+        {{- range . }}
+        {{ partial "story/teaser.html" (dict "page" . "variant" "feature" "level" 2) }}
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+
+    <aside class="front__latest" aria-labelledby="latest-title">
+      <div class="section-head">
+        <h2 class="section-head__title" id="latest-title">Latest</h2>
+        <a class="section-head__more" href="{{ (site.GetPage "/posts").Permalink }}">All articles {{ partial "icon.html" "arrow-right" }}</a>
+      </div>
+      <ol class="story-list story-list--numbered" role="list">
+        {{- range $latest }}
+        <li>{{ partial "story/teaser.html" (dict "page" . "variant" "compact" "level" 3) }}</li>
+        {{- end }}
+      </ol>
+    </aside>
+  </div>
+</div>
+
+{{- with $essentials }}
+<section class="essentials" aria-labelledby="essentials-title">
+  <div class="container">
+    <div class="essentials__head">
+      <div>
+        <p class="kicker">Start here</p>
+        <h2 class="essentials__title" id="essentials-title">The fundamentals, <em>in reading order</em></h2>
+      </div>
+      <p class="essentials__intro">New to managing money, or rebuilding the basics? These guides cover the foundations everything else depends on — read them in sequence, or jump to the one you need.</p>
+    </div>
+    <ol class="essentials__list" role="list">
+      {{- range . }}
+      <li>{{ partial "story/teaser.html" (dict "page" . "level" 3 "kicker" false) }}</li>
+      {{- end }}
+    </ol>
+  </div>
+</section>
+{{- end }}
+
+<div class="container">
+  {{- with $cfg.markets }}
+  {{- $pool := where ($posts | complement $used) "Params.categories" "intersect" .categories -}}
+  {{- $top := $pool | first 3 -}}
+  {{- $more := $pool | after 3 | first 4 -}}
+  {{- $used = $used | union ($top | union $more) -}}
+  {{- if $top }}
+  <section class="section desk-markets" aria-labelledby="markets-title">
+    <div class="section-head">
+      <h2 class="section-head__title" id="markets-title"><a href="{{ .link | absURL }}">{{ .title }}</a></h2>
+      <a class="section-head__more" href="{{ .link | absURL }}">More analysis {{ partial "icon.html" "arrow-right" }}</a>
+    </div>
+    {{- with .description }}<p class="section-intro">{{ . }}</p>{{ end }}
+    <div class="desk-markets__top">
+      {{- range $top }}
+      {{ partial "story/teaser.html" (dict "page" . "variant" "feature" "level" 3) }}
+      {{- end }}
+    </div>
+    {{- with $more }}
+    <ul class="desk-markets__more" role="list">
+      {{- range . }}
+      <li>{{ partial "story/teaser.html" (dict "page" . "variant" "compact" "level" 3) }}</li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </section>
+  {{- end }}
+  {{- end }}
+
+  {{- with $cfg.desks }}
+  <section class="section" aria-labelledby="desks-title">
+    <h2 class="visually-hidden" id="desks-title">By topic</h2>
+    <div class="desks">
+      {{- range . }}
+      {{- $desk := . -}}
+      {{- $all := where $posts "Params.categories" "intersect" .categories -}}
+      {{- $pick := where ($posts | complement $used) "Params.categories" "intersect" .categories | first 4 -}}
+      {{- $used = $used | union $pick -}}
+      {{- if $pick }}
+      <section class="desk" aria-labelledby="desk-{{ anchorize .title }}">
+        <div class="section-head">
+          <h3 class="section-head__title" id="desk-{{ anchorize .title }}"><a href="{{ .link | absURL }}">{{ .title }}</a></h3>
+          <span class="section-head__count">{{ len $all }} articles</span>
+        </div>
+        <ul class="story-list" role="list">
+          {{- range $i, $p := $pick }}
+          <li>{{ partial "story/teaser.html" (dict "page" $p "variant" "compact" "level" 4 "kicker" false) }}</li>
+          {{- end }}
+        </ul>
+        <a class="text-link" href="{{ .link | absURL }}">More in {{ .title }} {{ partial "icon.html" "arrow-right" }}</a>
+      </section>
+      {{- end }}
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- with site.GetPage "/calculators" }}
+  <section class="section" aria-labelledby="tools-title">
+    <div class="section-head">
+      <h2 class="section-head__title" id="tools-title"><a href="{{ .Permalink }}">Calculators</a></h2>
+      <a class="section-head__more" href="{{ .Permalink }}">All calculators {{ partial "icon.html" "arrow-right" }}</a>
+    </div>
+    <ul class="tools-list" role="list">
+      {{- $tools := slice
+        (dict "id" "loan-calculator" "icon" "loan" "name" "Loan & EMI" "desc" "Monthly payment, total interest and total cost of a mortgage, car or personal loan.")
+        (dict "id" "savings-calculator" "icon" "growth" "name" "Savings & retirement" "desc" "How a lump sum and monthly contributions could grow at a return you choose.")
+        (dict "id" "credit-card-rewards" "icon" "card" "name" "Credit card rewards" "desc" "Estimated yearly rewards from four popular cards, based on your spending.")
+        (dict "id" "crypto-tax-calculator" "icon" "coin" "name" "Crypto tax" "desc" "A simplified US capital gains estimate for a single crypto sale.")
+      }}
+      {{- range $tools }}
+      <li><a href="{{ (site.GetPage "/calculators").Permalink }}#{{ .id }}">
+        <span class="tools-list__icon">{{ partial "icon.html" .icon }}</span>
+        <span class="tools-list__name">{{ .name }}</span>
+        <span class="tools-list__desc">{{ .desc }}</span>
+      </a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with $cfg.regional }}
+  {{- $pick := where ($posts | complement $used) "Params.categories" "intersect" .categories | first 6 -}}
+  {{- if $pick }}
+  <section class="section" aria-labelledby="regional-title">
+    <div class="section-head">
+      <h2 class="section-head__title" id="regional-title">{{ .title }}</h2>
+    </div>
+    {{- with .description }}<p class="section-intro">{{ . }}</p>{{ end }}
+    <ul class="regional-list" role="list">
+      {{- range $pick }}
+      <li>{{ partial "story/teaser.html" (dict "page" . "level" 3) }}</li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+  {{- end }}
+
+  <section class="section colophon" aria-labelledby="colophon-title">
+    <div>
+      <h2 class="visually-hidden" id="colophon-title">About this site</h2>
+      {{ partial "author-card.html" (dict "label" "Who writes this") }}
+    </div>
+    <ul class="colophon__principles" role="list">
+      <li>
+        <h3>Explanation, not advice</h3>
+        <p>Articles explain how products and markets work. None of it is personal financial advice — for decisions that matter, speak to a regulated adviser.</p>
+      </li>
+      <li>
+        <h3>Dated and corrected</h3>
+        <p>Every article shows when it was published and last updated, because rates and rules change. Mistakes are corrected, not deleted.</p>
+      </li>
+      <li>
+        <h3>Funded by advertising</h3>
+        <p>Google AdSense pays for the site. Advertisers don't choose topics or influence assessments. <a href="{{ (site.GetPage "/about").Permalink }}">More about the site</a></p>
+      </li>
+    </ul>
+  </section>
+</div>
+{{ end }}

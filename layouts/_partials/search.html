@@ -1,0 +1,29 @@
+{{- /*
+  Search. A native <dialog>; the index (/index.json) is fetched only the first
+  time search opens, so it costs nothing on pages where nobody searches.
+  Open with the masthead button, "/" or Ctrl/⌘-K.
+*/ -}}
+<dialog class="search-dialog" id="search-dialog" aria-labelledby="search-label" data-index="{{ "index.json" | absURL }}">
+  <form class="search-dialog__head" role="search" method="dialog">
+    {{ partial "icon.html" "search" }}
+    <label class="visually-hidden" for="search-input" id="search-label">Search articles</label>
+    <input class="search-dialog__input" id="search-input" type="search" placeholder="Search articles…" autocomplete="off" spellcheck="false"
+      role="combobox" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+    <button class="tool search-dialog__close" type="button" data-search-close aria-label="Close search">Esc</button>
+  </form>
+  <div class="search-dialog__body">
+    <p class="search-dialog__status" role="status" aria-live="polite" data-search-status></p>
+    <ul class="search-results" id="search-results" role="listbox" aria-label="Search results"></ul>
+    <div class="search-dialog__hint" data-search-hint>
+      <p>Search every article by title, topic or the words inside it. Popular topics:</p>
+      <ul class="topics" role="list">
+        {{- range site.Taxonomies.categories.ByCount | first 6 }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+  <div class="search-dialog__foot" aria-hidden="true">
+    <span><kbd>↑</kbd> <kbd>↓</kbd> to move</span><span><kbd>Enter</kbd> to open</span><span><kbd>Esc</kbd> to close</span>
+  </div>
+</dialog>

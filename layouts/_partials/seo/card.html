@@ -1,0 +1,53 @@
+{{- /*
+  Returns the page's social image as a dict (url, width, height, alt), or
+  false when there is none.
+
+  1. An article's own featured image (front matter `featured_image`, uploaded
+     through Pages CMS into static/images), cropped to 1200×630.
+  2. Otherwise, for articles, a card generated at build time: the headline set
+     in Newsreader on the brand template (assets/img/og-base.png).
+  3. Otherwise the site's default card (params `images`).
+
+  Text is drawn on a narrower blank panel first and then laid onto the
+  template, because images.Text wraps at the full width of the image it draws
+  on — drawing on the panel gives the headline proper margins.
+*/ -}}
+{{- $card := false -}}
+{{- $isArticle := and .IsPage (eq .Section "posts") -}}
+
+{{- with .Params.featured_image -}}
+  {{- with resources.Get (strings.TrimPrefix "/" .) -}}
+    {{- if in (slice "jpeg" "png" "webp") .MediaType.SubType -}}
+      {{- $img := .Fill "1200x630 Smart q80 jpg" -}}
+      {{- $card = dict "url" $img.Permalink "width" 1200 "height" 630 "alt" $.Title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (not $card) $isArticle -}}
+  {{- $title := .Title | plainify | htmlUnescape -}}
+  {{- $len := len $title -}}
+  {{- $size := 70 -}}
+  {{- if gt $len 90 }}{{ $size = 52 }}{{ else if gt $len 64 }}{{ $size = 60 }}{{ end -}}
+  {{- $kicker := "" -}}
+  {{- with .Params.categories }}{{ $kicker = index . 0 | upper }}{{ end -}}
+  {{- $serif := resources.Get "fonts/newsreader-display-500.ttf" -}}
+  {{- $sans := resources.Get "fonts/plex-sans-500.ttf" -}}
+  {{- $panel := resources.Get "img/og-panel.png" -}}
+  {{- $filters := slice -}}
+  {{- with $kicker -}}
+    {{- $filters = $filters | append (images.Text . (dict "font" $sans "size" 20 "x" 0 "y" 0 "color" "#1D5442")) -}}
+  {{- end -}}
+  {{- $filters = $filters | append (images.Text $title (dict "font" $serif "size" $size "x" 0 "y" 44 "color" "#15171C" "linespacing" (div $size 5))) -}}
+  {{- $panel = $panel.Filter $filters -}}
+  {{- $img := (resources.Get "img/og-base.png").Filter (images.Overlay $panel 80 152) -}}
+  {{- $card = dict "url" $img.Permalink "width" 1200 "height" 630 "alt" $title -}}
+{{- end -}}
+
+{{- if not $card -}}
+  {{- with site.Params.images -}}
+    {{- $card = dict "url" (index . 0 | absURL) "width" 1200 "height" 630 "alt" site.Params.brand -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $card -}}

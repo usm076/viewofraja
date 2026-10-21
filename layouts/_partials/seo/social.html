@@ -1,0 +1,48 @@
+{{- /*
+  Open Graph and Twitter card tags. Mirrors the tags Hugo's embedded
+  opengraph/twitter_cards templates produced for this site, adding the social
+  image from seo/card.html (and its size and alt text).
+*/ -}}
+{{- $desc := or .Description .Summary site.Params.description | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- $title := or .Title site.Title | plainify -}}
+{{- $card := partial "seo/card.html" . }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title | plainify }}">
+<meta property="og:title" content="{{ $title }}">
+{{- with $desc }}
+<meta property="og:description" content="{{ . }}">
+{{- end }}
+<meta property="og:locale" content="{{ replace site.Language.LanguageCode "-" "_" }}">
+{{- if .IsPage }}
+<meta property="og:type" content="article">
+{{- with .Section }}
+<meta property="article:section" content="{{ . }}">
+{{- end }}
+{{- $iso := "2006-01-02T15:04:05-07:00" }}
+{{- with .PublishDate }}
+<meta property="article:published_time" {{ .Format $iso | printf "content=%q" | safeHTMLAttr }}>
+{{- end }}
+{{- with .Lastmod }}
+<meta property="article:modified_time" {{ .Format $iso | printf "content=%q" | safeHTMLAttr }}>
+{{- end }}
+{{- range .GetTerms "tags" | first 6 }}
+<meta property="article:tag" content="{{ .Page.Title | plainify }}">
+{{- end }}
+{{- else }}
+<meta property="og:type" content="website">
+{{- end }}
+{{- with $card }}
+<meta property="og:image" content="{{ .url }}">
+<meta property="og:image:width" content="{{ .width }}">
+<meta property="og:image:height" content="{{ .height }}">
+<meta property="og:image:alt" content="{{ .alt }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ .url }}">
+<meta name="twitter:image:alt" content="{{ .alt }}">
+{{- else }}
+<meta name="twitter:card" content="summary">
+{{- end }}
+<meta name="twitter:title" content="{{ $title }}">
+{{- with $desc }}
+<meta name="twitter:description" content="{{ . }}">
+{{- end }}

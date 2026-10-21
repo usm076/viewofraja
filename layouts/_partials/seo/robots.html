@@ -1,0 +1,19 @@
+{{- /*
+  Robots directives.
+
+  Taxonomy archives stay out of the index. Search Console reported 154 pages
+  as "Crawled - currently not indexed", dominated by /tags/ and /categories/
+  URLs: a term archive carries a few hundred words of links against ~1,800 for
+  a real article, and Google was spending crawl budget on archives while
+  genuine posts sat at "Discovered - currently not indexed".
+
+  "follow" is deliberate: the archives stay useful for navigation and keep
+  passing link equity through to the posts they list.
+
+  A page can also set `robots` in front matter.
+*/ -}}
+{{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+<meta name="robots" content="noindex, follow">
+{{- else }}{{ with .Params.robots }}
+<meta name="robots" content="{{ . }}">
+{{- end }}{{ end }}

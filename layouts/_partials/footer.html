@@ -1,0 +1,56 @@
+{{- /*
+  Footer: brand and purpose, the largest categories, site pages, legal pages,
+  and the standing disclaimer. Category counts are live.
+*/ -}}
+{{- $cats := site.Taxonomies.categories.ByCount | first 8 -}}
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        {{ partial "wordmark.html" (dict "home" false) }}
+        <p>Plainly written guides to personal finance, investing and the economic news that reaches your wallet. Researched and written by {{ site.Params.author.name }}.</p>
+      </div>
+
+      <nav aria-labelledby="footer-topics">
+        <h2 id="footer-topics">Topics</h2>
+        <ul role="list">
+          {{- range $cats }}
+          <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <span class="count">{{ .Count }}</span></a></li>
+          {{- end }}
+        </ul>
+      </nav>
+
+      <nav aria-labelledby="footer-site">
+        <h2 id="footer-site">The site</h2>
+        <ul role="list">
+          {{- range site.Menus.footer }}
+          <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{- end }}
+          {{- with site.GetPage "/calculators" }}
+          <li><a href="{{ .Permalink }}">Calculators</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+
+      <div>
+        <h2 id="footer-legal">Legal &amp; contact</h2>
+        <ul role="list" aria-labelledby="footer-legal">
+          {{- range site.Menus.legal }}
+          <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{- end }}
+          {{- with site.Params.email }}
+          <li><a href="mailto:{{ . }}">{{ . }}</a></li>
+          {{- end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__disclaimer">
+      <p><strong>Educational content, not financial advice.</strong> Articles explain how products and markets work; they can't account for your circumstances. Figures, rates and rules are correct as of each article's date and change often — check the date shown and confirm details with the provider or a regulated adviser before you act. <a href="{{ (site.GetPage "/about").Permalink }}">How this site works</a>.</p>
+      <div class="site-footer__legal">
+        <span>{{ replace (site.Params.copyright | default "© { year }") "{ year }" (now.Format "2006") }}</span>
+        <span>Supported by advertising from Google AdSense. No paid reviews.</span>
+      </div>
+    </div>
+  </div>
+</footer>

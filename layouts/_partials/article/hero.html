@@ -1,0 +1,25 @@
+{{- /*
+  Featured image, when the article has one that actually exists. Older posts
+  reference /images/*.jpg files that were never uploaded; those are skipped
+  rather than rendered as broken images. This is the page's likely LCP
+  element, so it loads eagerly at high priority with responsive sizes.
+*/ -}}
+{{- $page := . -}}
+{{- with .Params.featured_image -}}
+  {{- with resources.Get (strings.TrimPrefix "/" .) -}}
+    {{- $img := . -}}
+    {{- if in (slice "jpeg" "png" "webp") $img.MediaType.SubType -}}
+      {{- $srcset := slice -}}
+      {{- range slice 640 960 1280 1600 -}}
+        {{- if le . $img.Width -}}
+          {{- $srcset = $srcset | append (printf "%s %dw" ($img.Process (printf "resize %dx webp q78" .)).RelPermalink .) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $fallback := $img.Process "webp q78" -}}
+      {{- if gt $img.Width 1280 }}{{ $fallback = $img.Process "resize 1280x webp q78" }}{{ end -}}
+<figure class="article-hero">
+  <img src="{{ $fallback.RelPermalink }}"{{ with $srcset }} srcset="{{ delimit . ", " }}"{{ end }} sizes="(min-width: 75em) 56rem, 100vw" width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ $page.Params.featured_image_alt | default "" }}" fetchpriority="high" decoding="async">
+</figure>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,45 @@
+{{- /*
+  Ad break. In-content ads are now placed by AdSense Auto ads, so this no
+  longer inserts an ad slot (see AD-CHANGES-LOG.md). It still renders the
+  optional product recommendation and quick comparison:
+
+    {{< ad-break product="Name" description="…" features="A,B,C" link="https://…" cta="…" >}}
+    {{< ad-break compare="Label:Value|Label:Value" >}}
+
+  A recommendation's button is only shown when it has a real link — a "#"
+  placeholder renders the text without a dead button.
+*/ -}}
+{{- $link := .Get "link" -}}
+{{- $hasLink := and $link (ne $link "#") -}}
+{{- if or (.Get "product") (.Get "compare") }}
+<div class="content-ad-break">
+  {{- with .Get "product" }}
+  <aside class="recommendation" aria-label="Recommendation">
+    <span class="recommendation__label">Recommended</span>
+    <h4 class="recommendation__title">{{ . }}</h4>
+    {{- with $.Get "description" }}<p>{{ . }}</p>{{ end }}
+    {{- with $.Get "features" }}
+    <ul role="list">{{ range split . "," }}<li>{{ trim . " " }}</li>{{ end }}</ul>
+    {{- end }}
+    {{- if $hasLink }}
+    <div class="calculator__actions">
+      <a class="button" href="{{ $link }}" target="_blank" rel="nofollow sponsored noopener">{{ $.Get "cta" | default "Learn More" }}</a>
+      {{- with $.Get "secondary-link" }}{{ if ne . "#" }}
+      <a class="button button--quiet" href="{{ . }}" target="_blank" rel="nofollow noopener">{{ $.Get "secondary-cta" | default "Compare Options" }}</a>
+      {{- end }}{{ end }}
+    </div>
+    {{- end }}
+  </aside>
+  {{- end }}
+  {{- with .Get "compare" }}
+  <div class="quick-compare">
+    <p class="quick-compare__title">Quick comparison</p>
+    <dl class="figures">
+      {{- range split . "|" }}{{ $item := split . ":" }}
+      <div><dt>{{ index $item 0 }}</dt><dd>{{ index $item 1 }}</dd></div>
+      {{- end }}
+    </dl>
+  </div>
+  {{- end }}
+</div>
+{{- end }}

@@ -1,0 +1,2 @@
+{{- /* Usage: partial "icon.html" "search" — decorative; label the control instead. */ -}}
+<svg class="icon icon-{{ . }}" aria-hidden="true" focusable="false"><use href="#{{ if hasPrefix . "s-" }}{{ . }}{{ else }}i-{{ . }}{{ end }}"/></svg>

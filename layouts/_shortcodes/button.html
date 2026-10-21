@@ -1,0 +1,7 @@
+{{- /*
+  Button link — kept from the previous theme so existing content keeps working.
+  {{< button href="/calculators/" target="_self" >}}Label{{< /button >}}
+*/ -}}
+{{- $href := .Get "href" -}}
+{{- $target := .Get "target" -}}
+<a class="button" href="{{ $href }}"{{ with $target }} target="{{ . }}"{{ if eq . "_blank" }} rel="noopener"{{ end }}{{ end }}>{{ .Inner | strings.TrimSpace }}</a>

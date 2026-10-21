@@ -1,0 +1,13 @@
+{{- /*
+  Fenced code blocks. In these articles a fence without a language is always
+  a worked calculation or formula, so it is set as a "Calculation" slip.
+  Fences with a language render as normal code.
+*/ -}}
+{{- if .Type -}}
+<pre><code class="language-{{ .Type }}">{{ .Inner }}</code></pre>
+{{- else -}}
+<figure class="calc">
+  <figcaption class="calc__label">Calculation</figcaption>
+  <pre><code>{{ .Inner }}</code></pre>
+</figure>
+{{- end -}}

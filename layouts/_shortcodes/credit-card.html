@@ -1,0 +1,21 @@
+{{- /*
+  Credit card review box.
+  {{< credit-card name="…" rating="4" fee="$95" rewards="…" bonus="…" >}}Review text{{< /credit-card >}}
+*/ -}}
+{{- $rating := int (.Get "rating" | default 0) -}}
+<aside class="card-review">
+  <div class="card-review__head">
+    <h3 class="card-review__name">{{ .Get "name" }}</h3>
+    {{- if gt $rating 0 }}
+    <span class="card-review__rating" role="img" aria-label="Rated {{ $rating }} out of 5">
+      {{- range seq 5 }}{{ if le . $rating }}{{ partial "icon.html" "star" }}{{ else }}{{ partial "icon.html" "star-empty" }}{{ end }}{{ end -}}
+    </span>
+    {{- end }}
+  </div>
+  <dl class="figures">
+    <div><dt>Annual fee</dt><dd>{{ .Get "fee" }}</dd></div>
+    <div><dt>Rewards</dt><dd>{{ .Get "rewards" }}</dd></div>
+    <div><dt>Sign-up bonus</dt><dd>{{ .Get "bonus" }}</dd></div>
+  </dl>
+  {{- with .Inner }}<div class="card-review__body">{{ . | $.Page.RenderString (dict "display" "block") }}</div>{{ end }}
+</aside>
