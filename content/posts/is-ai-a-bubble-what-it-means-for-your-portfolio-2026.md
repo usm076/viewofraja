@@ -18,7 +18,7 @@ tags:
   - Risk Management
   - Retirement Planning
 author: Raja
-draft: true
+draft: false
 ---
 Two things happened this week that tell you most of what you need to know about where AI stands as an investment.
 
