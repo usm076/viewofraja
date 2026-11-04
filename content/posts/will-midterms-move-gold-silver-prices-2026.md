@@ -1,5 +1,5 @@
 ---
-title: Will the Midterms Move Gold and Silver Prices? What to Know
+title: Will the Midterms US Elections Move Gold and Silver Prices? What to Know
 slug: will-midterms-move-gold-silver-prices-2026
 date: 2026-11-04T00:00:00Z
 description: Do midterm elections move gold and silver prices? Here's how the
